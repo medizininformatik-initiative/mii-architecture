@@ -1,0 +1,2464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Tool3lgmFile version='3.10' metamodel='TLGMServiceMetaModel@2388259974838049670' category='REGULAR'-->
+<modell_3lgm_2>
+  <header>
+    <title>MII-Architektur.3lgm</title>
+    <description></description>
+    <version>10_sippe_1669886034900</version>
+  </header>
+  <userFieldDefinitions>
+    <userFieldFormat hash="USERFIELD_1497433330877_1">
+      <userFieldFormatString>d2 u%</userFieldFormatString>
+    </userFieldFormat>
+    <userFieldFormat hash="USERFIELD_1497433362070_2">
+      <userFieldFormatString>d0 uh / Jahr</userFieldFormatString>
+    </userFieldFormat>
+    <userFieldFormat hash="USERFIELD_1497434059112_14">
+      <userFieldFormatString>d1 uGB</userFieldFormatString>
+    </userFieldFormat>
+    <userFieldFormat hash="USERFIELD_1497434089887_15">
+      <userFieldFormatString>d0 uMB</userFieldFormatString>
+    </userFieldFormat>
+    <userFieldFormat hash="USERFIELD_1497434962331_19">
+      <userFieldFormatString>d0 uh / year</userFieldFormatString>
+    </userFieldFormat>
+    <userFieldDef hash="USERFIELD_1618563118424_1773">
+      <userFieldName>User-defined property fields</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>TAB</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef hash="USERFIELD_1600172338298_21512">
+      <userFieldName>Link im SharePoint</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>HYPERLINK</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884870745_32050">
+      <userFieldName>MII KDS</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>SUBTYPE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884904331_32051">
+      <userFieldName>MII KDS</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>TAB</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884915184_32052">
+      <userFieldName>MII Dokumentation</userFieldName>
+      <userFieldDescription>Link zu weiterführenden Informationen</userFieldDescription>
+      <userFieldStyle>HYPERLINK</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+  </userFieldDefinitions>
+  <objects>
+    <model></model>
+    <element class="ObjectType" hash="OTY_1669884639978_32025" subtype="USERFIELD_1669884870745_32050">
+      <field name="name">Condition</field>
+      <userField hash="USERFIELD_1669884915184_32052">https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Diagnose/IGMIIKDSModulDiagnose.html</userField>
+    </element>
+    <element class="ObjectType" hash="OTY_1669884648857_32026" subtype="USERFIELD_1669884870745_32050">
+      <field name="name">Consent</field>
+      <userField hash="USERFIELD_1669884915184_32052">https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Consent/IGMIIKDSModulConsent.html</userField>
+    </element>
+    <element class="ObjectType" hash="OTY_1669884599019_32022" subtype="USERFIELD_1669884870745_32050">
+      <field name="name">Encounter</field>
+      <userField hash="USERFIELD_1669884915184_32052">https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Fall/IGMIIKDSModulFall.html</userField>
+    </element>
+    <element class="ObjectType" hash="OTY_1669884659771_32027" subtype="USERFIELD_1669884870745_32050">
+      <field name="name">Medication Administration</field>
+      <userField hash="USERFIELD_1669884915184_32052">https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Medikation/IGMIIKDSModulMedikation.html</userField>
+    </element>
+    <element class="ObjectType" hash="OTY_1669884677199_32039" subtype="USERFIELD_1669884870745_32050">
+      <field name="name">Medication Statement</field>
+      <userField hash="USERFIELD_1669884915184_32052">https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Medikation/IGMIIKDSModulMedikation.html</userField>
+    </element>
+    <element class="ObjectType" hash="OTY_1669884573092_32020" subtype="USERFIELD_1669884870745_32050">
+      <field name="name">MII KDS</field>
+      <userField hash="USERFIELD_1669884915184_32052">https://www.medizininformatik-initiative.de/de/der-kerndatensatz-der-medizininformatik-initiative</userField>
+    </element>
+    <element class="ObjectType" hash="OTY_1669884610780_32023" subtype="USERFIELD_1669884870745_32050">
+      <field name="name">Observation</field>
+      <userField hash="USERFIELD_1669884915184_32052">https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Laborbefund/IGMIIKDSModulLabor.html</userField>
+    </element>
+    <element class="ObjectType" hash="OTY_1669884584754_32021" subtype="USERFIELD_1669884870745_32050">
+      <field name="name">Patient</field>
+      <userField hash="USERFIELD_1669884915184_32052">https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Person/IGMIIKDSModulPerson.html</userField>
+    </element>
+    <element class="ObjectType" hash="OTY_1669884622952_32024" subtype="USERFIELD_1669884870745_32050">
+      <field name="name">Procedures</field>
+      <userField hash="USERFIELD_1669884915184_32052">https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Prozeduren/IGMIIKDSModulProzedur.html</userField>
+    </element>
+    <element class="ObjectType" hash="OTY_1669884692021_32040" subtype="USERFIELD_1669884870745_32050">
+      <field name="name">Specimen</field>
+      <userField hash="USERFIELD_1669884915184_32052">https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Biobank/IGMIIKDSModulBiobank.html</userField>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1669884429790_31982">
+      <field name="name">(DSF) FHIR Mailbox</field>
+    </element>
+    <element class="Textfield" hash="TEX_1646143248541_24769">
+      <field name="name">5.1</field>
+    </element>
+    <element class="Textfield" hash="TEX_1646143279335_25772">
+      <field name="name">5.2</field>
+    </element>
+    <element class="Textfield" hash="TEX_1646143289909_25935">
+      <field name="name">5.3</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1669884403712_31980">
+      <field name="name">AKTIN Client</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1669885834036_32115">
+      <field name="name">Biobank Management System</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1669884193206_31945">
+      <field name="name">Business Process Engine DIZ</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1669885862004_32118">
+      <field name="name">Clinical Source Systems</field>
+    </element>
+    <element class="ApplicationSystem" hash="RAN_1634046309496_182925">
+      <field name="name">CODEX RDP</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1669885532573_32095">
+      <field name="name">Consent Management</field>
+    </element>
+    <element class="ApplicationSystem" hash="RAN_1634046153365_175130">
+      <field name="name">Data management unit</field>
+    </element>
+    <element class="Group" hash="GRO_1669883901897_27205">
+      <field name="name">Data Selection &amp; Extraction</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1669884259524_31946">
+      <field name="name">Data Selektion &amp; Extraction Prozess (zentral / dezentral)</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1669883277942_17692">
+      <field name="name">DataSHIELD</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1669883481276_22445">
+      <field name="name">DataSHIELD</field>
+    </element>
+    <element class="Group" hash="GRO_1669881119643_17671">
+      <field name="name">Datenmanagementstelle</field>
+    </element>
+    <element class="ApplicationSystem" hash="RAN_1646133286852_36093">
+      <field name="name">Digital Hub</field>
+    </element>
+    <element class="Group" hash="GRO_1669883421830_22427">
+      <field name="name">Distributed Analysis - Methodenplattform</field>
+    </element>
+    <element class="Group" hash="GRO_1669881132182_17672">
+      <field name="name">DIZ</field>
+    </element>
+    <element class="ApplicationSystem" hash="RAN_1646133010281_34615">
+      <field name="name">DS</field>
+    </element>
+    <element class="Textfield" hash="TEX_1646141789921_9403">
+      <field name="name">DS - Data Sharing (Ref.-Impl. Data Sharing Framework, DSF)</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1669885817618_32114">
+      <field name="name">ETL Engine</field>
+    </element>
+    <element class="Group" hash="GRO_1669881109300_17659">
+      <field name="name">FDPG</field>
+    </element>
+    <element class="ApplicationSystem" hash="RAN_1641903905415_15807">
+      <field name="name">FDPG</field>
+    </element>
+    <element class="Group" hash="GRO_1669884326814_31963">
+      <field name="name">Feasibility</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1669884302898_31961">
+      <field name="name">Feasibility Prozess</field>
+    </element>
+    <element class="ApplicationSystem" hash="RAN_1634046481221_193101">
+      <field name="name">federated trust unit</field>
+    </element>
+    <element class="Textfield" hash="TEX_1646141578099_8931">
+      <field name="name">FHIR:
+- Feasibility
+- MDAT
+- Tasks (+BPMN!)</field>
+    </element>
+    <element class="Textfield" hash="TEX_1669881025823_17646">
+      <field name="name">FIND
+SELECT and EXTRACT
+ANALYSE - BUILD MODEL
+PUBLISH - DEPLOY MODEL</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1669884380661_31977">
+      <field name="name">Flare</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1669883986745_31943">
+      <field name="name">Flare</field>
+    </element>
+    <element class="Textfield" hash="TEX_1646132735719_32079">
+      <field name="name">Frage: Benennung der Benutzerschnittstellen (GUI)?</field>
+    </element>
+    <element class="Textfield" hash="TEX_1646133444983_37121">
+      <field name="name">Fragen:
+- Schnittstelle Digihub / DIZ?
+- Benutzerschnittstellen (GUI)?</field>
+    </element>
+    <element class="Textfield" hash="TEX_1646133625447_38757">
+      <field name="name">Fragen:
+- Schnittstelle NUM-DIC?
+- Schnittstelle NUM-FDPG?
+- Schnittstelle NUM-Datenamangementstelle?
+- Schnittstelle Gecco Transfer Hub - CODEX RDP?
+- Benutzerschnittstellen (GUI)?</field>
+    </element>
+    <element class="ApplicationSystem" hash="RAN_1634046362137_185504">
+      <field name="name">GECCO Transfer Hub</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1669885494726_32071">
+      <field name="name">ID Management</field>
+    </element>
+    <element class="Textfield" hash="NME_1562667011915_38996">
+      <field name="name">Interface-type A: communication is etablished through an IHE integration profile, e.g. XDS, PIX, PDQ.</field>
+    </element>
+    <element class="Textfield" hash="NME_1562667011915_38994">
+      <field name="name">Interface-type B: communication is etablished through an existing communication standard, e.g. HL7v2, FHIR, DICOM. But no IHE integration profile for this comminication is available or used.</field>
+    </element>
+    <element class="Textfield" hash="NME_1562667011915_38995">
+      <field name="name">Interface-type C: proprietary communication</field>
+    </element>
+    <element class="Textfield" hash="TEX_1646746240977_70479">
+      <field name="name">Interface-type D: communication is unknown or not specified yet.</field>
+    </element>
+    <element class="Textfield" hash="TEX_1646143774372_42335">
+      <field name="name">Legend:</field>
+    </element>
+    <element class="Group" hash="GRO_1669885448205_32070">
+      <field name="name">Local Trust Unit</field>
+    </element>
+    <element class="Group" hash="Gro_1669881097726_17647">
+      <field name="name">Methodenplattform</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1669883301042_17694">
+      <field name="name">Methodenplattform Middleware</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1669883362151_17709">
+      <field name="name">Methodenplattform Middleware</field>
+    </element>
+    <element class="Group" hash="GRO_1669881163549_17673">
+      <field name="name">Middleware Prozesse</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1669884539642_32017">
+      <field name="name">MII FHIR Server</field>
+    </element>
+    <element class="RepresentationForm" hash="RFO_1669885358166_32057">
+      <field name="name">MII KDS FHIR</field>
+    </element>
+    <element class="ApplicationSystem" hash="RAN_1646129683082_9990">
+      <field name="name">MII Middleware</field>
+    </element>
+    <element class="ApplicationSystem" hash="RAN_1646129980074_18645">
+      <field name="name">MII Middleware</field>
+    </element>
+    <element class="ApplicationSystem" hash="RAN_1646130969071_26453">
+      <field name="name">MII Middleware</field>
+    </element>
+    <element class="ApplicationSystem" hash="RAN_1646134049773_42112">
+      <field name="name">MII Middleware</field>
+    </element>
+    <element class="ApplicationSystem" hash="RAN_1646141935996_11375">
+      <field name="name">MII Middleware</field>
+    </element>
+    <element class="Textfield" hash="TEX_1646131712038_28977">
+      <field name="name">offen: Integration FDPG und DSF</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1669883257529_17690">
+      <field name="name">Personal Health Train</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1669883481275_22444">
+      <field name="name">Personal Health Train</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1669884506222_32016">
+      <field name="name">PSD Service (Pseudonymisation)</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1669885508958_32083">
+      <field name="name">Pseudonymization Service</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1669885588757_32112">
+      <field name="name">TU FHIR Interface</field>
+    </element>
+    <element class="ApplicationSystem" hash="RAN_1646132278071_30692">
+      <field name="name">Zone: Data Management</field>
+      <field name="description">Zone Datenmanagementstelle</field>
+    </element>
+    <element class="ApplicationSystem" hash="RAN_1646132823022_32593">
+      <field name="name">Zone: DIC</field>
+    </element>
+    <element class="ApplicationSystem" hash="RAN_1646129914395_18224">
+      <field name="name">Zone: DIC (n)</field>
+    </element>
+    <element class="ApplicationSystem" hash="RAN_1646132874091_32881">
+      <field name="name">Zone: Digitale Fortschrittshubs (n)</field>
+    </element>
+    <element class="ApplicationSystem" hash="RAN_1646131277192_26489">
+      <field name="name">Zone: FDPG</field>
+      <field name="description">Zone FDPG</field>
+    </element>
+    <element class="ApplicationSystem" hash="RAN_1646133596761_38418">
+      <field name="name">Zone: NUM RDP</field>
+    </element>
+    <element class="ApplicationSystem" hash="RAN_1646134016164_41896">
+      <field name="name">Zone: weitere Projekte (n)</field>
+    </element>
+    <element class="ObjectType_HasPartEdge" hash="DLK_1669884783364_32041">
+      <field name="name">Hat-Teil-Beziehung 1</field>
+      <field name="start">OTY_1669884573092_32020</field>
+      <field name="end">OTY_1669884610780_32023</field>
+    </element>
+    <element class="ObjectType_HasPartEdge" hash="DLK_1669884783371_32042">
+      <field name="name">Hat-Teil-Beziehung 2</field>
+      <field name="start">OTY_1669884573092_32020</field>
+      <field name="end">OTY_1669884599019_32022</field>
+    </element>
+    <element class="ObjectType_HasPartEdge" hash="DLK_1669884783375_32043">
+      <field name="name">Hat-Teil-Beziehung 3</field>
+      <field name="start">OTY_1669884573092_32020</field>
+      <field name="end">OTY_1669884692021_32040</field>
+    </element>
+    <element class="ObjectType_HasPartEdge" hash="DLK_1669884783378_32044">
+      <field name="name">Hat-Teil-Beziehung 4</field>
+      <field name="start">OTY_1669884573092_32020</field>
+      <field name="end">OTY_1669884639978_32025</field>
+    </element>
+    <element class="ObjectType_HasPartEdge" hash="DLK_1669884783380_32045">
+      <field name="name">Hat-Teil-Beziehung 5</field>
+      <field name="start">OTY_1669884573092_32020</field>
+      <field name="end">OTY_1669884648857_32026</field>
+    </element>
+    <element class="ObjectType_HasPartEdge" hash="DLK_1669884783381_32046">
+      <field name="name">Hat-Teil-Beziehung 6</field>
+      <field name="start">OTY_1669884573092_32020</field>
+      <field name="end">OTY_1669884677199_32039</field>
+    </element>
+    <element class="ObjectType_HasPartEdge" hash="DLK_1669884783382_32047">
+      <field name="name">Hat-Teil-Beziehung 7</field>
+      <field name="start">OTY_1669884573092_32020</field>
+      <field name="end">OTY_1669884584754_32021</field>
+    </element>
+    <element class="ObjectType_HasPartEdge" hash="DLK_1669884783383_32048">
+      <field name="name">Hat-Teil-Beziehung 8</field>
+      <field name="start">OTY_1669884573092_32020</field>
+      <field name="end">OTY_1669884622952_32024</field>
+    </element>
+    <element class="ObjectType_HasPartEdge" hash="DLK_1669884783384_32049">
+      <field name="name">Hat-Teil-Beziehung 9</field>
+      <field name="start">OTY_1669884573092_32020</field>
+      <field name="end">OTY_1669884659771_32027</field>
+    </element>
+    <element class="ObjectType_RepresentationForm_Edge" hash="DLK_1669885408228_32069">
+      <field name="name">Beziehung 1</field>
+      <field name="start">OTY_1669884573092_32020</field>
+      <field name="end">RFO_1669885358166_32057</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669883273637_17691">
+      <field name="name">Hat-Teil-Beziehung 1</field>
+      <field name="start">Gro_1669881097726_17647</field>
+      <field name="end">ASY_1669883257529_17690</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669883292506_17693">
+      <field name="name">Hat-Teil-Beziehung 2</field>
+      <field name="start">Gro_1669881097726_17647</field>
+      <field name="end">ASY_1669883277942_17692</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669883326512_17695">
+      <field name="name">Hat-Teil-Beziehung 3</field>
+      <field name="start">Gro_1669881097726_17647</field>
+      <field name="end">ASY_1669883301042_17694</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669883365137_17711">
+      <field name="name">Hat-Teil-Beziehung 4</field>
+      <field name="start">GRO_1669881132182_17672</field>
+      <field name="end">ASY_1669883362151_17709</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669883489257_22448">
+      <field name="name">Hat-Teil-Beziehung 5</field>
+      <field name="start">GRO_1669883421830_22427</field>
+      <field name="end">ASY_1669883481275_22444</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669883491946_22450">
+      <field name="name">Hat-Teil-Beziehung 6</field>
+      <field name="start">GRO_1669883421830_22427</field>
+      <field name="end">ASY_1669883481276_22445</field>
+    </element>
+    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1646130186902_20082">
+      <field name="name">Has-Part-Relation 113</field>
+      <field name="start">RAN_1646129914395_18224</field>
+      <field name="end">RAN_1646129980074_18645</field>
+    </element>
+    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1646131612879_28445">
+      <field name="name">Has-Part-Relation 112</field>
+      <field name="start">RAN_1641903905415_15807</field>
+      <field name="end">RAN_1646129683082_9990</field>
+    </element>
+    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1646130973846_26457">
+      <field name="name">Has-Part-Relation 114</field>
+      <field name="start">RAN_1634046153365_175130</field>
+      <field name="end">RAN_1646130969071_26453</field>
+    </element>
+    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1646131303943_26846">
+      <field name="name">Has-Part-Relation 115</field>
+      <field name="start">RAN_1646131277192_26489</field>
+      <field name="end">RAN_1641903905415_15807</field>
+    </element>
+    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1646133681745_39197">
+      <field name="name">Has-Part-Relation 119</field>
+      <field name="start">RAN_1646133596761_38418</field>
+      <field name="end">RAN_1634046362137_185504</field>
+    </element>
+    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1646133681783_39198">
+      <field name="name">Has-Part-Relation 120</field>
+      <field name="start">RAN_1646133596761_38418</field>
+      <field name="end">RAN_1634046309496_182925</field>
+    </element>
+    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1646133681693_39196">
+      <field name="name">Has-Part-Relation 118</field>
+      <field name="start">RAN_1646133596761_38418</field>
+      <field name="end">RAN_1634046481221_193101</field>
+    </element>
+    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1646134283997_45514">
+      <field name="name">Has-Part-Relation 122</field>
+      <field name="start">RAN_1646132278071_30692</field>
+      <field name="end">RAN_1634046153365_175130</field>
+    </element>
+    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1646141948242_11551">
+      <field name="name">Has-Part-Relation 123</field>
+      <field name="start">RAN_1634046362137_185504</field>
+      <field name="end">RAN_1646141935996_11375</field>
+    </element>
+    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1646133381688_36856">
+      <field name="name">Has-Part-Relation 117</field>
+      <field name="start">RAN_1646133286852_36093</field>
+      <field name="end">RAN_1646133010281_34615</field>
+    </element>
+    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1646133726344_39584">
+      <field name="name">Has-Part-Relation 121</field>
+      <field name="start">RAN_1646132874091_32881</field>
+      <field name="end">RAN_1646133286852_36093</field>
+    </element>
+    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1646134059243_42198">
+      <field name="name">Has-Part-Relation 116</field>
+      <field name="start">RAN_1646134016164_41896</field>
+      <field name="end">RAN_1646134049773_42112</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669884002607_31944">
+      <field name="name">Hat-Teil-Beziehung 7</field>
+      <field name="start">GRO_1669883901897_27205</field>
+      <field name="end">ASY_1669883986745_31943</field>
+    </element>
+    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1669884291990_31947">
+      <field name="name">Hat-Teil-Beziehung 1</field>
+      <field name="start">ASY_1669884193206_31945</field>
+      <field name="end">ASY_1669884259524_31946</field>
+    </element>
+    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1669884302899_31962">
+      <field name="name">Hat-Teil-Beziehung 1</field>
+      <field name="start">ASY_1669884193206_31945</field>
+      <field name="end">ASY_1669884302898_31961</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669884387347_31979">
+      <field name="name">Hat-Teil-Beziehung 8</field>
+      <field name="start">GRO_1669884326814_31963</field>
+      <field name="end">ASY_1669884380661_31977</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669884416858_31981">
+      <field name="name">Hat-Teil-Beziehung 9</field>
+      <field name="start">GRO_1669884326814_31963</field>
+      <field name="end">ASY_1669884403712_31980</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669884447107_31983">
+      <field name="name">Hat-Teil-Beziehung 10</field>
+      <field name="start">GRO_1669881132182_17672</field>
+      <field name="end">ASY_1669884429790_31982</field>
+    </element>
+    <element class="ApplicationComponent_RepresentationForm_Edge" hash="DLK_1669885369437_32058">
+      <field name="name">Speicherung 1</field>
+      <field name="start">ASY_1669884539642_32017</field>
+      <field name="end">RFO_1669885358166_32057</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669885563953_32096">
+      <field name="name">Hat-Teil-Beziehung 11</field>
+      <field name="start">GRO_1669885448205_32070</field>
+      <field name="end">ASY_1669885532573_32095</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669885563961_32097">
+      <field name="name">Hat-Teil-Beziehung 12</field>
+      <field name="start">GRO_1669885448205_32070</field>
+      <field name="end">ASY_1669885494726_32071</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669885563965_32098">
+      <field name="name">Hat-Teil-Beziehung 13</field>
+      <field name="start">GRO_1669885448205_32070</field>
+      <field name="end">ASY_1669885508958_32083</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669885588758_32113">
+      <field name="name">Hat-Teil-Beziehung 13</field>
+      <field name="start">GRO_1669885448205_32070</field>
+      <field name="end">ASY_1669885588757_32112</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669885855907_32116">
+      <field name="name">Hat-Teil-Beziehung 14</field>
+      <field name="start">GRO_1669881132182_17672</field>
+      <field name="end">ASY_1669885834036_32115</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669885855918_32117">
+      <field name="name">Hat-Teil-Beziehung 15</field>
+      <field name="start">GRO_1669881132182_17672</field>
+      <field name="end">ASY_1669885817618_32114</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669885876952_32119">
+      <field name="name">Hat-Teil-Beziehung 16</field>
+      <field name="start">GRO_1669881132182_17672</field>
+      <field name="end">ASY_1669885862004_32118</field>
+    </element>
+  </objects>
+  <szenario hash="SZN_1669881258721_5" titel="MII Architecture (detailed-Overview)">
+    <description></description>
+    <view>
+      <selected>true</selected>
+      <x>0</x>
+      <y>0</y>
+      <zoom>0.3</zoom>
+      <degree>65</degree>
+      <shift>200</shift>
+      <pageSizeFactor>2.7565104166666665</pageSizeFactor>
+      <activeLayer>2</activeLayer>
+      <multiView>false</multiView>
+    </view>
+    <mapping>
+      <layout class="Bendpoint">
+        <color name="bg_color">
+          <red>255</red>
+          <green>100</green>
+          <blue>100</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>0</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>10</width>
+        <height>10</height>
+      </layout>
+      <layout class="Group">
+        <color name="bg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+          <alpha>0</alpha>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>0</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="Textfield">
+        <color name="bg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+          <alpha>0</alpha>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>0</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="ApplicationSystem">
+        <color name="bg_color">
+          <red>255</red>
+          <green>153</green>
+          <blue>102</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>3</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="Function">
+        <color name="bg_color">
+          <red>255</red>
+          <green>100</green>
+          <blue>100</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>0</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="IheActorInstance">
+        <color name="bg_color">
+          <red>0</red>
+          <green>204</green>
+          <blue>255</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>0</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="IheActorInstanceInvokingInterface">
+        <color name="bg_color">
+          <red>255</red>
+          <green>100</green>
+          <blue>100</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>1</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>16</width>
+        <height>16</height>
+      </layout>
+      <layout class="IheActorInstanceProvidingInterface">
+        <color name="bg_color">
+          <red>192</red>
+          <green>192</green>
+          <blue>192</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>2</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>16</width>
+        <height>16</height>
+      </layout>
+      <layout class="InvokingInterface">
+        <color name="bg_color">
+          <red>204</red>
+          <green>255</green>
+          <blue>204</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>1</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>16</width>
+        <height>16</height>
+      </layout>
+      <layout class="ObjectType">
+        <color name="bg_color">
+          <red>100</red>
+          <green>100</green>
+          <blue>255</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>1</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="OrganisationSystem">
+        <color name="bg_color">
+          <red>100</red>
+          <green>100</green>
+          <blue>255</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>3</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="PhysicalDataProcessingComponent">
+        <color name="bg_color">
+          <red>255</red>
+          <green>200</green>
+          <blue>0</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>0</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="ProvidingInterface">
+        <color name="bg_color">
+          <red>255</red>
+          <green>200</green>
+          <blue>0</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>2</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>16</width>
+        <height>16</height>
+      </layout>
+    </mapping>
+    <layer number="0">
+      <layout>
+        <color name="bg_color">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+        </color>
+      </layout>
+    </layer>
+    <layer number="1">
+      <layout>
+        <color name="bg_color">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+        </color>
+      </layout>
+    </layer>
+    <layer number="2">
+      <layout>
+        <color name="bg_color">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+        </color>
+      </layout>
+      <container hash="TEX_1669881025823_17646">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </color>
+          <x>-1215</x>
+          <y>-879</y>
+          <width>210</width>
+          <height>132</height>
+          <htmlalign>LEFT</htmlalign>
+        </layout>
+      </container>
+      <container hash="Gro_1669881097726_17647">
+        <layout>
+          <x>0</x>
+          <y>-756</y>
+          <width>400</width>
+          <height>149</height>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="GRO_1669881109300_17659">
+        <layout>
+          <x>638</x>
+          <y>-338</y>
+          <width>227</width>
+          <height>75</height>
+        </layout>
+      </container>
+      <container hash="GRO_1669881119643_17671">
+        <layout>
+          <x>-12</x>
+          <y>377</y>
+          <width>227</width>
+          <height>75</height>
+        </layout>
+      </container>
+      <container hash="GRO_1669881132182_17672">
+        <layout>
+          <x>-845</x>
+          <y>-185</y>
+          <width>1020</width>
+          <height>800</height>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="GRO_1669881163549_17673">
+        <layout>
+          <x>-12</x>
+          <y>-338</y>
+          <width>227</width>
+          <height>75</height>
+        </layout>
+      </container>
+      <container hash="ASY_1669883257529_17690">
+        <layout>
+          <x>-5</x>
+          <y>-751</y>
+        </layout>
+      </container>
+      <container hash="ASY_1669883277942_17692">
+        <layout>
+          <x>125</x>
+          <y>-751</y>
+        </layout>
+      </container>
+      <container hash="ASY_1669883301042_17694">
+        <layout>
+          <x>-159</x>
+          <y>-681</y>
+          <width>122</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="ASY_1669883362151_17709">
+        <layout>
+          <x>-372</x>
+          <y>-570</y>
+          <width>122</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="GRO_1669883421830_22427">
+        <layout>
+          <x>-468</x>
+          <y>-475</y>
+          <width>225</width>
+          <height>110</height>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="ASY_1669883481275_22444">
+        <layout>
+          <x>-515</x>
+          <y>-460</y>
+        </layout>
+      </container>
+      <container hash="ASY_1669883481276_22445">
+        <layout>
+          <x>-410</x>
+          <y>-460</y>
+        </layout>
+      </container>
+      <container hash="GRO_1669883901897_27205">
+        <layout>
+          <x>-548</x>
+          <y>-333</y>
+          <width>385</width>
+          <height>135</height>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="ASY_1669883986745_31943">
+        <layout>
+          <x>-675</x>
+          <y>-300</y>
+        </layout>
+      </container>
+      <container hash="GRO_1669884326814_31963">
+        <layout>
+          <x>-548</x>
+          <y>-55</y>
+          <width>385</width>
+          <height>200</height>
+          <valign>BOTTOM</valign>
+        </layout>
+      </container>
+      <container hash="ASY_1669884193206_31945">
+        <layout>
+          <x>-460</x>
+          <y>-183</y>
+          <width>170</width>
+          <height>265</height>
+        </layout>
+      </container>
+      <container hash="ASY_1669884259524_31946">
+        <layout>
+          <x>-458</x>
+          <y>-275</y>
+          <width>135</width>
+          <height>60</height>
+        </layout>
+      </container>
+      <container hash="ASY_1669884302898_31961">
+        <layout>
+          <x>-458</x>
+          <y>-95</y>
+          <width>135</width>
+          <height>60</height>
+        </layout>
+      </container>
+      <container hash="ASY_1669884380661_31977">
+        <layout>
+          <x>-660</x>
+          <y>-65</y>
+        </layout>
+      </container>
+      <container hash="ASY_1669884403712_31980">
+        <layout>
+          <x>-425</x>
+          <y>0</y>
+        </layout>
+      </container>
+      <container hash="ASY_1669884429790_31982">
+        <layout>
+          <x>-310</x>
+          <y>-205</y>
+        </layout>
+      </container>
+      <container hash="ASY_1669884506222_32016">
+        <layout>
+          <x>-860</x>
+          <y>-380</y>
+          <width>131</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="ASY_1669884539642_32017">
+        <layout>
+          <x>-860</x>
+          <y>-125</y>
+          <width>131</width>
+          <height>410</height>
+        </layout>
+      </container>
+      <container hash="GRO_1669885448205_32070">
+        <layout>
+          <x>-1133</x>
+          <y>-480</y>
+          <width>345</width>
+          <height>150</height>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="ASY_1669885494726_32071">
+        <layout>
+          <x>-1019</x>
+          <y>-485</y>
+          <width>92</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="ASY_1669885508958_32083">
+        <layout>
+          <x>-1133</x>
+          <y>-485</y>
+          <width>115</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="ASY_1669885532573_32095">
+        <layout>
+          <x>-1249</x>
+          <y>-485</y>
+          <width>92</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="ASY_1669885588757_32112">
+        <layout>
+          <x>-1133</x>
+          <y>-427</y>
+          <width>325</width>
+          <height>25</height>
+        </layout>
+      </container>
+      <container hash="ASY_1669885817618_32114">
+        <layout>
+          <x>-1025</x>
+          <y>-145</y>
+        </layout>
+      </container>
+      <container hash="ASY_1669885834036_32115">
+        <layout>
+          <x>-1244</x>
+          <y>-244</y>
+          <width>92</width>
+          <height>62</height>
+        </layout>
+      </container>
+      <container hash="ASY_1669885862004_32118">
+        <layout>
+          <x>-1245</x>
+          <y>-150</y>
+        </layout>
+      </container>
+      <container hash="DLK_1669883273637_17691"></container>
+      <container hash="DLK_1669883292506_17693"></container>
+      <container hash="DLK_1669883326512_17695"></container>
+      <container hash="DLK_1669883365137_17711"></container>
+      <container hash="DLK_1669883489257_22448"></container>
+      <container hash="DLK_1669883491946_22450"></container>
+      <container hash="DLK_1669884002607_31944"></container>
+      <container hash="DLK_1669884291990_31947"></container>
+      <container hash="DLK_1669884302899_31962"></container>
+      <container hash="DLK_1669884387347_31979"></container>
+      <container hash="DLK_1669884416858_31981"></container>
+      <container hash="DLK_1669884447107_31983"></container>
+      <container hash="DLK_1669885563953_32096"></container>
+      <container hash="DLK_1669885563961_32097"></container>
+      <container hash="DLK_1669885563965_32098"></container>
+      <container hash="DLK_1669885588758_32113"></container>
+      <container hash="DLK_1669885855907_32116"></container>
+      <container hash="DLK_1669885855918_32117"></container>
+      <container hash="DLK_1669885876952_32119"></container>
+    </layer>
+    <layer number="3">
+      <layout>
+        <color name="bg_color">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+        </color>
+      </layout>
+    </layer>
+    <layer number="4">
+      <layout>
+        <color name="bg_color">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+        </color>
+      </layout>
+      <container hash="OTY_1669884573092_32020">
+        <layout>
+          <x>-740</x>
+          <y>-415</y>
+        </layout>
+      </container>
+      <container hash="OTY_1669884584754_32021">
+        <layout>
+          <x>-870</x>
+          <y>-340</y>
+        </layout>
+      </container>
+      <container hash="OTY_1669884599019_32022">
+        <layout>
+          <x>-880</x>
+          <y>-265</y>
+        </layout>
+      </container>
+      <container hash="OTY_1669884610780_32023">
+        <layout>
+          <x>-745</x>
+          <y>-340</y>
+        </layout>
+      </container>
+      <container hash="OTY_1669884622952_32024">
+        <layout>
+          <x>-750</x>
+          <y>-270</y>
+        </layout>
+      </container>
+      <container hash="OTY_1669884639978_32025">
+        <layout>
+          <x>-620</x>
+          <y>-335</y>
+        </layout>
+      </container>
+      <container hash="OTY_1669884648857_32026">
+        <layout>
+          <x>-880</x>
+          <y>-145</y>
+        </layout>
+      </container>
+      <container hash="OTY_1669884659771_32027">
+        <layout>
+          <x>-621</x>
+          <y>-265</y>
+          <width>99</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="OTY_1669884677199_32039">
+        <layout>
+          <x>-496</x>
+          <y>-265</y>
+          <width>99</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="OTY_1669884692021_32040">
+        <layout>
+          <x>-745</x>
+          <y>-155</y>
+        </layout>
+      </container>
+      <container hash="DLK_1669884783364_32041"></container>
+      <container hash="DLK_1669884783371_32042"></container>
+      <container hash="DLK_1669884783375_32043"></container>
+      <container hash="DLK_1669884783378_32044"></container>
+      <container hash="DLK_1669884783380_32045"></container>
+      <container hash="DLK_1669884783381_32046"></container>
+      <container hash="DLK_1669884783382_32047"></container>
+      <container hash="DLK_1669884783383_32048"></container>
+      <container hash="DLK_1669884783384_32049"></container>
+    </layer>
+  </szenario>
+  <szenario hash="SZN_1669881014836_2" titel="MII Architecture (Overview)">
+    <description></description>
+    <view>
+      <selected>false</selected>
+      <x>0</x>
+      <y>0</y>
+      <zoom>0.89</zoom>
+      <degree>65</degree>
+      <shift>200</shift>
+      <pageSizeFactor>2.65625</pageSizeFactor>
+      <activeLayer>2</activeLayer>
+      <multiView>false</multiView>
+    </view>
+    <mapping>
+      <layout class="Bendpoint">
+        <color name="bg_color">
+          <red>255</red>
+          <green>100</green>
+          <blue>100</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>0</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>10</width>
+        <height>10</height>
+      </layout>
+      <layout class="Group">
+        <color name="bg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+          <alpha>0</alpha>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>0</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="Textfield">
+        <color name="bg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+          <alpha>0</alpha>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>0</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="ApplicationSystem">
+        <color name="bg_color">
+          <red>255</red>
+          <green>153</green>
+          <blue>102</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>3</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="Function">
+        <color name="bg_color">
+          <red>255</red>
+          <green>100</green>
+          <blue>100</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>0</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="IheActorInstance">
+        <color name="bg_color">
+          <red>0</red>
+          <green>204</green>
+          <blue>255</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>0</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="IheActorInstanceInvokingInterface">
+        <color name="bg_color">
+          <red>255</red>
+          <green>100</green>
+          <blue>100</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>1</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>16</width>
+        <height>16</height>
+      </layout>
+      <layout class="IheActorInstanceProvidingInterface">
+        <color name="bg_color">
+          <red>192</red>
+          <green>192</green>
+          <blue>192</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>2</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>16</width>
+        <height>16</height>
+      </layout>
+      <layout class="InvokingInterface">
+        <color name="bg_color">
+          <red>204</red>
+          <green>255</green>
+          <blue>204</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>1</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>16</width>
+        <height>16</height>
+      </layout>
+      <layout class="ObjectType">
+        <color name="bg_color">
+          <red>100</red>
+          <green>100</green>
+          <blue>255</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>1</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="OrganisationSystem">
+        <color name="bg_color">
+          <red>100</red>
+          <green>100</green>
+          <blue>255</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>3</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="PhysicalDataProcessingComponent">
+        <color name="bg_color">
+          <red>255</red>
+          <green>200</green>
+          <blue>0</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>0</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="ProvidingInterface">
+        <color name="bg_color">
+          <red>255</red>
+          <green>200</green>
+          <blue>0</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>2</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>16</width>
+        <height>16</height>
+      </layout>
+    </mapping>
+    <layer number="0">
+      <layout>
+        <color name="bg_color">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+        </color>
+      </layout>
+    </layer>
+    <layer number="1">
+      <layout>
+        <color name="bg_color">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+        </color>
+      </layout>
+    </layer>
+    <layer number="2">
+      <layout>
+        <color name="bg_color">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+        </color>
+      </layout>
+      <container hash="TEX_1669881025823_17646">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </color>
+          <x>-1215</x>
+          <y>-879</y>
+          <width>210</width>
+          <height>132</height>
+          <htmlalign>LEFT</htmlalign>
+        </layout>
+      </container>
+      <container hash="Gro_1669881097726_17647">
+        <layout>
+          <x>-662</x>
+          <y>-783</y>
+          <width>227</width>
+          <height>75</height>
+        </layout>
+      </container>
+      <container hash="GRO_1669881109300_17659">
+        <layout>
+          <x>-332</x>
+          <y>-628</y>
+          <width>227</width>
+          <height>75</height>
+        </layout>
+      </container>
+      <container hash="GRO_1669881119643_17671">
+        <layout>
+          <x>-662</x>
+          <y>-468</y>
+          <width>227</width>
+          <height>75</height>
+        </layout>
+      </container>
+      <container hash="GRO_1669881132182_17672">
+        <layout>
+          <x>-957</x>
+          <y>-628</y>
+          <width>227</width>
+          <height>75</height>
+        </layout>
+      </container>
+      <container hash="GRO_1669881163549_17673">
+        <layout>
+          <x>-662</x>
+          <y>-628</y>
+          <width>227</width>
+          <height>75</height>
+        </layout>
+      </container>
+    </layer>
+    <layer number="3">
+      <layout>
+        <color name="bg_color">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+        </color>
+      </layout>
+    </layer>
+    <layer number="4">
+      <layout>
+        <color name="bg_color">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+        </color>
+      </layout>
+    </layer>
+  </szenario>
+  <szenario hash="SZN_1669880931220_1" titel="MII Data Sharing (SMITH-Entwurf)">
+    <description></description>
+    <view>
+      <selected>false</selected>
+      <x>1350</x>
+      <y>1062</y>
+      <zoom>0.89</zoom>
+      <degree>65</degree>
+      <shift>200</shift>
+      <pageSizeFactor>2.65625</pageSizeFactor>
+      <activeLayer>2</activeLayer>
+      <multiView>false</multiView>
+    </view>
+    <mapping>
+      <layout class="Bendpoint">
+        <color name="bg_color">
+          <red>255</red>
+          <green>100</green>
+          <blue>100</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>0</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>10</width>
+        <height>10</height>
+      </layout>
+      <layout class="Group">
+        <color name="bg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+          <alpha>0</alpha>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>0</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="Textfield">
+        <color name="bg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+          <alpha>0</alpha>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>0</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="ApplicationSystem">
+        <color name="bg_color">
+          <red>255</red>
+          <green>153</green>
+          <blue>102</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>3</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="Function">
+        <color name="bg_color">
+          <red>255</red>
+          <green>100</green>
+          <blue>100</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>0</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="IheActorInstance">
+        <color name="bg_color">
+          <red>0</red>
+          <green>204</green>
+          <blue>255</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>0</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="IheActorInstanceInvokingInterface">
+        <color name="bg_color">
+          <red>255</red>
+          <green>100</green>
+          <blue>100</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>1</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>16</width>
+        <height>16</height>
+      </layout>
+      <layout class="IheActorInstanceProvidingInterface">
+        <color name="bg_color">
+          <red>192</red>
+          <green>192</green>
+          <blue>192</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>2</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>16</width>
+        <height>16</height>
+      </layout>
+      <layout class="InvokingInterface">
+        <color name="bg_color">
+          <red>204</red>
+          <green>255</green>
+          <blue>204</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>1</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>16</width>
+        <height>16</height>
+      </layout>
+      <layout class="ObjectType">
+        <color name="bg_color">
+          <red>100</red>
+          <green>100</green>
+          <blue>255</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>1</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="OrganisationSystem">
+        <color name="bg_color">
+          <red>100</red>
+          <green>100</green>
+          <blue>255</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>3</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="PhysicalDataProcessingComponent">
+        <color name="bg_color">
+          <red>255</red>
+          <green>200</green>
+          <blue>0</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>0</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="ProvidingInterface">
+        <color name="bg_color">
+          <red>255</red>
+          <green>200</green>
+          <blue>0</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>2</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>16</width>
+        <height>16</height>
+      </layout>
+    </mapping>
+    <layer number="0">
+      <layout>
+        <color name="bg_color">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+        </color>
+      </layout>
+    </layer>
+    <layer number="1">
+      <layout>
+        <color name="bg_color">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+        </color>
+      </layout>
+    </layer>
+    <layer number="2">
+      <layout>
+        <color name="bg_color">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+        </color>
+      </layout>
+      <container hash="TEX_1646143774372_42335">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </color>
+          <x>700</x>
+          <y>947</y>
+          <width>680</width>
+          <height>145</height>
+          <halign>LEFT</halign>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="RAN_1646134016164_41896">
+        <layout>
+          <color name="bg_color">
+            <red>207</red>
+            <green>200</green>
+            <blue>207</blue>
+          </color>
+          <font_family>SansSerif</font_family>
+          <font_style>0</font_style>
+          <font_size>14</font_size>
+          <x>862</x>
+          <y>412</y>
+          <width>304</width>
+          <height>195</height>
+          <halign>LEFT</halign>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="RAN_1646134049773_42112">
+        <layout>
+          <x>903</x>
+          <y>407</y>
+          <width>64</width>
+          <height>35</height>
+        </layout>
+      </container>
+      <container hash="RAN_1646133596761_38418">
+        <layout>
+          <color name="bg_color">
+            <red>207</red>
+            <green>200</green>
+            <blue>207</blue>
+          </color>
+          <font_family>SansSerif</font_family>
+          <font_style>0</font_style>
+          <font_size>14</font_size>
+          <x>843</x>
+          <y>690</y>
+          <width>304</width>
+          <height>320</height>
+          <halign>LEFT</halign>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="RAN_1646132823022_32593">
+        <layout>
+          <color name="bg_color">
+            <red>207</red>
+            <green>200</green>
+            <blue>207</blue>
+          </color>
+          <font_family>SansSerif</font_family>
+          <font_style>0</font_style>
+          <font_size>14</font_size>
+          <x>528</x>
+          <y>-3</y>
+          <width>304</width>
+          <height>195</height>
+          <halign>LEFT</halign>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="RAN_1646132278071_30692">
+        <layout>
+          <color name="bg_color">
+            <red>207</red>
+            <green>200</green>
+            <blue>207</blue>
+          </color>
+          <font_family>SansSerif</font_family>
+          <font_style>0</font_style>
+          <font_size>14</font_size>
+          <x>843</x>
+          <y>187</y>
+          <width>304</width>
+          <height>195</height>
+          <halign>LEFT</halign>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="RAN_1646131277192_26489">
+        <layout>
+          <color name="bg_color">
+            <red>207</red>
+            <green>200</green>
+            <blue>207</blue>
+          </color>
+          <font_family>SansSerif</font_family>
+          <font_style>0</font_style>
+          <font_size>14</font_size>
+          <x>843</x>
+          <y>-18</y>
+          <width>304</width>
+          <height>195</height>
+          <halign>LEFT</halign>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="RAN_1646129914395_18224">
+        <layout>
+          <color name="bg_color">
+            <red>207</red>
+            <green>200</green>
+            <blue>207</blue>
+          </color>
+          <font_family>SansSerif</font_family>
+          <font_style>0</font_style>
+          <font_size>14</font_size>
+          <x>512</x>
+          <y>-18</y>
+          <width>304</width>
+          <height>195</height>
+          <halign>LEFT</halign>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="RAN_1634046153365_175130">
+        <layout>
+          <x>805</x>
+          <y>187</y>
+          <width>170</width>
+          <height>104</height>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="RAN_1634046309496_182925">
+        <layout>
+          <x>805</x>
+          <y>720</y>
+          <width>170</width>
+          <height>70</height>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="RAN_1634046362137_185504">
+        <layout>
+          <x>805</x>
+          <y>617</y>
+          <width>170</width>
+          <height>95</height>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="RAN_1634046481221_193101">
+        <layout>
+          <x>777</x>
+          <y>800</y>
+          <width>114</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="RAN_1641903905415_15807">
+        <layout>
+          <x>805</x>
+          <y>-5</y>
+          <width>170</width>
+          <height>140</height>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="RAN_1646129683082_9990">
+        <layout>
+          <color name="bg_color">
+            <red>153</red>
+            <green>255</green>
+            <blue>153</blue>
+          </color>
+          <x>842</x>
+          <y>37</y>
+          <width>80</width>
+          <height>35</height>
+        </layout>
+      </container>
+      <container hash="RAN_1646129980074_18645">
+        <layout>
+          <color name="bg_color">
+            <red>153</red>
+            <green>255</green>
+            <blue>153</blue>
+          </color>
+          <x>585</x>
+          <y>12</y>
+          <width>80</width>
+          <height>35</height>
+        </layout>
+      </container>
+      <container hash="RAN_1646130969071_26453">
+        <layout>
+          <color name="bg_color">
+            <red>153</red>
+            <green>255</green>
+            <blue>153</blue>
+          </color>
+          <x>842</x>
+          <y>185</y>
+          <width>80</width>
+          <height>35</height>
+        </layout>
+      </container>
+      <container hash="TEX_1646131712038_28977">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>204</blue>
+          </color>
+          <x>1167</x>
+          <y>-38</y>
+          <width>225</width>
+          <height>35</height>
+          <halign>LEFT</halign>
+        </layout>
+      </container>
+      <container hash="TEX_1646132735719_32079">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>204</blue>
+          </color>
+          <x>1167</x>
+          <y>7</y>
+          <width>225</width>
+          <height>35</height>
+          <halign>LEFT</halign>
+          <htmlalign>LEFT</htmlalign>
+        </layout>
+      </container>
+      <container hash="RAN_1646132874091_32881">
+        <layout>
+          <color name="bg_color">
+            <red>207</red>
+            <green>200</green>
+            <blue>207</blue>
+          </color>
+          <font_family>SansSerif</font_family>
+          <font_style>0</font_style>
+          <font_size>14</font_size>
+          <x>843</x>
+          <y>397</y>
+          <width>304</width>
+          <height>195</height>
+          <halign>LEFT</halign>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="RAN_1646133286852_36093">
+        <layout>
+          <x>805</x>
+          <y>395</y>
+          <width>170</width>
+          <height>104</height>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="RAN_1646133010281_34615">
+        <layout>
+          <color name="bg_color">
+            <red>153</red>
+            <green>255</green>
+            <blue>153</blue>
+          </color>
+          <x>842</x>
+          <y>392</y>
+          <width>80</width>
+          <height>35</height>
+        </layout>
+      </container>
+      <container hash="TEX_1646133444983_37121">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>204</blue>
+          </color>
+          <x>1167</x>
+          <y>324</y>
+          <width>225</width>
+          <height>49</height>
+          <halign>LEFT</halign>
+          <htmlalign>LEFT</htmlalign>
+        </layout>
+      </container>
+      <container hash="TEX_1646133625447_38757">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>204</blue>
+          </color>
+          <x>1167</x>
+          <y>697</y>
+          <width>225</width>
+          <height>135</height>
+          <halign>LEFT</halign>
+          <htmlalign>LEFT</htmlalign>
+        </layout>
+      </container>
+      <container hash="TEX_1646141578099_8931">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>204</blue>
+          </color>
+          <x>242</x>
+          <y>-75</y>
+          <width>185</width>
+          <height>80</height>
+          <halign>LEFT</halign>
+          <htmlalign>LEFT</htmlalign>
+        </layout>
+      </container>
+      <container hash="TEX_1646141789921_9403">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>204</blue>
+          </color>
+          <x>542</x>
+          <y>-148</y>
+          <width>365</width>
+          <height>35</height>
+          <halign>LEFT</halign>
+          <htmlalign>LEFT</htmlalign>
+        </layout>
+      </container>
+      <container hash="RAN_1646141935996_11375">
+        <layout>
+          <color name="bg_color">
+            <red>153</red>
+            <green>255</green>
+            <blue>153</blue>
+          </color>
+          <x>842</x>
+          <y>617</y>
+          <width>80</width>
+          <height>35</height>
+        </layout>
+      </container>
+      <container hash="TEX_1646143248541_24769">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </color>
+          <x>177</x>
+          <y>27</y>
+          <width>55</width>
+          <height>25</height>
+        </layout>
+      </container>
+      <container hash="TEX_1646143279335_25772">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </color>
+          <x>177</x>
+          <y>57</y>
+          <width>55</width>
+          <height>25</height>
+        </layout>
+      </container>
+      <container hash="TEX_1646143289909_25935">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </color>
+          <x>177</x>
+          <y>87</y>
+          <width>55</width>
+          <height>25</height>
+        </layout>
+      </container>
+      <container hash="NME_1562667011915_38994">
+        <layout>
+          <font_family>SansSerif</font_family>
+          <font_style>0</font_style>
+          <font_size>11</font_size>
+          <x>730</x>
+          <y>944</y>
+          <width>569</width>
+          <height>25</height>
+          <halign>LEFT</halign>
+          <htmlalign>LEFT</htmlalign>
+        </layout>
+      </container>
+      <container hash="NME_1562667011915_38995">
+        <layout>
+          <font_family>SansSerif</font_family>
+          <font_style>0</font_style>
+          <font_size>11</font_size>
+          <x>681</x>
+          <y>971</y>
+          <width>470</width>
+          <height>18</height>
+          <halign>LEFT</halign>
+        </layout>
+      </container>
+      <container hash="NME_1562667011915_38996">
+        <layout>
+          <font_family>SansSerif</font_family>
+          <font_style>0</font_style>
+          <font_size>11</font_size>
+          <x>733</x>
+          <y>913</y>
+          <width>575</width>
+          <height>18</height>
+          <halign>LEFT</halign>
+        </layout>
+      </container>
+      <container hash="TEX_1646746240977_70479">
+        <layout>
+          <font_family>SansSerif</font_family>
+          <font_style>0</font_style>
+          <font_size>11</font_size>
+          <x>680</x>
+          <y>996</y>
+          <width>470</width>
+          <height>18</height>
+          <halign>LEFT</halign>
+        </layout>
+      </container>
+      <container hash="DLK_1646130186902_20082"></container>
+      <container hash="DLK_1646131612879_28445"></container>
+      <container hash="DLK_1646130973846_26457"></container>
+      <container hash="DLK_1646131303943_26846"></container>
+      <container hash="DLK_1646133681745_39197"></container>
+      <container hash="DLK_1646133681783_39198"></container>
+      <container hash="DLK_1646133681693_39196"></container>
+      <container hash="DLK_1646134283997_45514"></container>
+      <container hash="DLK_1646141948242_11551"></container>
+      <container hash="DLK_1646133381688_36856"></container>
+      <container hash="DLK_1646133726344_39584"></container>
+      <container hash="DLK_1646134059243_42198"></container>
+    </layer>
+    <layer number="3">
+      <layout>
+        <color name="bg_color">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+        </color>
+      </layout>
+    </layer>
+    <layer number="4">
+      <layout>
+        <color name="bg_color">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+        </color>
+      </layout>
+    </layer>
+  </szenario>
+  <images></images>
+</modell_3lgm_2>
