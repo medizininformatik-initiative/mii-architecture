@@ -4,9 +4,12 @@
   <header>
     <title>MII-Architektur.3lgm</title>
     <description></description>
-    <version>10_sippe_1669886034900</version>
+    <version>21_sippe_1670967582573</version>
   </header>
   <userFieldDefinitions>
+    <userFieldFormat hash="FRM_1623450079169_2058">
+      <userFieldFormatString>d2 u%</userFieldFormatString>
+    </userFieldFormat>
     <userFieldFormat hash="USERFIELD_1497433330877_1">
       <userFieldFormatString>d2 u%</userFieldFormatString>
     </userFieldFormat>
@@ -36,6 +39,384 @@
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
     </userFieldDef>
+    <userFieldDef elementClass="RepresentationForm" hash="USERFIELD_1622801082285_1965">
+      <userFieldName>XDS Metadaten</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>SUBTYPE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="RepresentationForm" hash="USERFIELD_1620154377098_7156">
+      <userFieldName>XDS Metadaten</userFieldName>
+      <userFieldDescription>Metadaten zur Repräsentationsform</userFieldDescription>
+      <userFieldStyle>TAB</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="RepresentationForm" hash="USERFIELD_1620154470655_7157">
+      <userFieldName>Art des Dokuments</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>GROUP</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="RepresentationForm" hash="USERFIELD_1620154569452_7158">
+      <userFieldName>classCode</userFieldName>
+      <userFieldDescription>Dokumentenklasse, siehe https://wiki.hl7.de/index.php?title=Ihevs:DocumentEntry.classCode</userFieldDescription>
+      <userFieldStyle>COMBO_BOX</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+      <userFieldStandardValue>ADM Administratives Dokument</userFieldStandardValue>
+      <userFieldStandardValue>ANF Anforderung</userFieldStandardValue>
+      <userFieldStandardValue>ASM Assessment</userFieldStandardValue>
+      <userFieldStandardValue>BEF Befundbericht</userFieldStandardValue>
+      <userFieldStandardValue>BIL Bilddaten</userFieldStandardValue>
+      <userFieldStandardValue>BRI Brief</userFieldStandardValue>
+      <userFieldStandardValue>DOK Dokumente ohne besondere Form (Notizen)</userFieldStandardValue>
+      <userFieldStandardValue>DUR Durchführungsprotokoll</userFieldStandardValue>
+      <userFieldStandardValue>FOR Forschung</userFieldStandardValue>
+      <userFieldStandardValue>GUT Gutachten und Qualitätsmanagement</userFieldStandardValue>
+      <userFieldStandardValue>LAB Laborergebnisse</userFieldStandardValue>
+      <userFieldStandardValue>AUS Medizinischer Ausweis</userFieldStandardValue>
+      <userFieldStandardValue>PLA Planungsdokument</userFieldStandardValue>
+      <userFieldStandardValue>57016-8 Patienteneinverständniserklärung</userFieldStandardValue>
+      <userFieldStandardValue>VER Verordnung</userFieldStandardValue>
+      <userFieldStandardValue>VID Videodaten</userFieldStandardValue>
+      <userFieldStandardValue>MED obsolet</userFieldStandardValue>
+    </userFieldDef>
+    <userFieldDef elementClass="RepresentationForm" hash="USERFIELD_1620154965613_7161">
+      <userFieldName>typeCode</userFieldName>
+      <userFieldDescription>Dokumententyp, siehe https://wiki.hl7.de/index.php?title=Ihevs:DocumentEntry.typeCode</userFieldDescription>
+      <userFieldStyle>COMBO_BOX</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+      <userFieldStandardValue>ABRE Abrechnungsdokumente</userFieldStandardValue>
+      <userFieldStandardValue>ADCH Administrative Checklisten</userFieldStandardValue>
+      <userFieldStandardValue>ANTR Anträge und deren Bescheide</userFieldStandardValue>
+      <userFieldStandardValue>ANAE Anästhesiedokumente</userFieldStandardValue>
+      <userFieldStandardValue>BERI Arztberichte</userFieldStandardValue>
+      <userFieldStandardValue>BESC Ärztliche Bescheinigungen</userFieldStandardValue>
+      <userFieldStandardValue>BEFU Ergebnisse Diagnostik</userFieldStandardValue>
+      <userFieldStandardValue>BSTR Bestrahlungsdokumentation</userFieldStandardValue>
+      <userFieldStandardValue>AUFN Einweisungs- und Aufnahmedokumente</userFieldStandardValue>
+      <userFieldStandardValue>EINW Einwilligungen/Aufklärungen</userFieldStandardValue>
+      <userFieldStandardValue>FUNK Ergebnisse Funktionsdiagnostik</userFieldStandardValue>
+      <userFieldStandardValue>BILD Ergebnisse bildgebender Diagnostik</userFieldStandardValue>
+      <userFieldStandardValue>FALL Fallbesprechungen</userFieldStandardValue>
+      <userFieldStandardValue>FOTO Fotodokumentation</userFieldStandardValue>
+      <userFieldStandardValue>FPRO Therapiedokumentation</userFieldStandardValue>
+      <userFieldStandardValue>IMMU Ergebnisse Immunologie</userFieldStandardValue>
+      <userFieldStandardValue>INTS Intensivmedizinische Dokumente</userFieldStandardValue>
+      <userFieldStandardValue>KOMP Komplexbehandlungsbögen</userFieldStandardValue>
+      <userFieldStandardValue>MEDI Medikamentöse Therapien</userFieldStandardValue>
+      <userFieldStandardValue>MKRO Ergebnisse Mikrobiologie</userFieldStandardValue>
+      <userFieldStandardValue>OPDK OP-Dokumente</userFieldStandardValue>
+      <userFieldStandardValue>ONKO Onkologische Dokumente</userFieldStandardValue>
+      <userFieldStandardValue>PATH Pathologiebefundberichte</userFieldStandardValue>
+      <userFieldStandardValue>PATD Patienteneigene Dokumente</userFieldStandardValue>
+      <userFieldStandardValue>PATI Patienteninformationen</userFieldStandardValue>
+      <userFieldStandardValue>PFLG Pflegedokumentation</userFieldStandardValue>
+      <userFieldStandardValue>57016-8 Patienteneinverständniserklärung</userFieldStandardValue>
+      <userFieldStandardValue>QUAL Qualitätssicherung</userFieldStandardValue>
+      <userFieldStandardValue>RETT Rettungsdienstliche Dokumente</userFieldStandardValue>
+      <userFieldStandardValue>SCHR Schriftwechsel (administrativ)</userFieldStandardValue>
+      <userFieldStandardValue>GEBU Schwangerschafts- und Geburtsdokumentation</userFieldStandardValue>
+      <userFieldStandardValue>SOZI Sozialdienstdokumente</userFieldStandardValue>
+      <userFieldStandardValue>STUD Studiendokumente</userFieldStandardValue>
+      <userFieldStandardValue>TRFU Transfusionsdokumente</userFieldStandardValue>
+      <userFieldStandardValue>TRPL Transplantationsdokumente</userFieldStandardValue>
+      <userFieldStandardValue>VERO Verordnungen</userFieldStandardValue>
+      <userFieldStandardValue>VERT Verträge</userFieldStandardValue>
+      <userFieldStandardValue>VIRO Ergebnisse Virologie</userFieldStandardValue>
+      <userFieldStandardValue>WUND Wunddokumentation</userFieldStandardValue>
+    </userFieldDef>
+    <userFieldDef elementClass="RepresentationForm" hash="USERFIELD_1620155158095_7169">
+      <userFieldName>eventCodeList</userFieldName>
+      <userFieldDescription>Tätigkeitskennzeichen/Zusätzliche Kennzeichnung, siehe https://wiki.hl7.de/index.php?title=Ihevs:DocumentEntry.eventCodeList</userFieldDescription>
+      <userFieldStyle>COMBO_BOX</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+      <userFieldStandardValue>urn:ihe:iti:xdw:2011:eventCode:open Workflow offen</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:iti:xdw:2011:eventCode:closed Workflow abgeschlossen</userFieldStandardValue>
+      <userFieldStandardValue>H1 vom Patienten mitgebracht</userFieldStandardValue>
+      <userFieldStandardValue>H2 noch nicht mit Patient besprochen</userFieldStandardValue>
+      <userFieldStandardValue>H3 eventuell veraltete Daten</userFieldStandardValue>
+      <userFieldStandardValue>H4 vorläufiges Dokument</userFieldStandardValue>
+      <userFieldStandardValue>E100 ambulanter Kontakt</userFieldStandardValue>
+      <userFieldStandardValue>-E110 ambulante OP</userFieldStandardValue>
+      <userFieldStandardValue>E200 stationärer Aufenthalt</userFieldStandardValue>
+      <userFieldStandardValue>-E210 stationäre Aufnahme</userFieldStandardValue>
+      <userFieldStandardValue>--E211 Aufnahme vollstationär</userFieldStandardValue>
+      <userFieldStandardValue>--E212 Aufnahme/Wiederaufnahme teilstationär</userFieldStandardValue>
+      <userFieldStandardValue>--E213 Aufnahme Entbindung stationär</userFieldStandardValue>
+      <userFieldStandardValue>--E214 Aufnahme eines Neugeborenen</userFieldStandardValue>
+      <userFieldStandardValue>--E215 Aufnahme des Spenders zur Organentnahme</userFieldStandardValue>
+      <userFieldStandardValue>-E230 stationäre Entlassung</userFieldStandardValue>
+      <userFieldStandardValue>--E231 stationäre Entlassung nach Hause</userFieldStandardValue>
+      <userFieldStandardValue>--E232 stationäre Entlassung in eine Rehabilitationseinrichtung</userFieldStandardValue>
+      <userFieldStandardValue>--E233 stationäre Entlassung in eine Pflegeeinrichtung/Hospiz</userFieldStandardValue>
+      <userFieldStandardValue>--E234 Entlassung zur nachstationären Behandlung</userFieldStandardValue>
+      <userFieldStandardValue>--E235 Patient während stationärem Aufenthalt verstorben</userFieldStandardValue>
+      <userFieldStandardValue>-E250 stationäre Verlegung</userFieldStandardValue>
+      <userFieldStandardValue>--E251 Verlegung innerhalb eines Krankenhauses</userFieldStandardValue>
+      <userFieldStandardValue>--E252 Verlegung in ein anderes Krankenhaus</userFieldStandardValue>
+      <userFieldStandardValue>--E253 externe Verlegung in Psychiatrie</userFieldStandardValue>
+      <userFieldStandardValue>-E270 kurzzeitige Unterbrechung einer stationären Behandlung</userFieldStandardValue>
+      <userFieldStandardValue>E280 Konsil</userFieldStandardValue>
+      <userFieldStandardValue>E300 Behandlung im häuslichen Umfeld</userFieldStandardValue>
+      <userFieldStandardValue>E400 Virtual Encounter</userFieldStandardValue>
+    </userFieldDef>
+    <userFieldDef elementClass="RepresentationForm" hash="USERFIELD_1620155819305_7188">
+      <userFieldName>practiceSettingCode</userFieldName>
+      <userFieldDescription>Erstellende Fachrichtung, siehe https://wiki.hl7.de/index.php?title=Ihevs:DocumentEntry.PracticeSettingCode</userFieldDescription>
+      <userFieldStyle>COMBO_BOX</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+      <userFieldStandardValue>ALLG Allgemeinmedizin</userFieldStandardValue>
+      <userFieldStandardValue>ANAE Anästhesiologie</userFieldStandardValue>
+      <userFieldStandardValue>ARBE Arbeitsmedizin</userFieldStandardValue>
+      <userFieldStandardValue>AUGE Augenheilkunde</userFieldStandardValue>
+      <userFieldStandardValue>CHIR Chirurgie</userFieldStandardValue>
+      <userFieldStandardValue>-ALCH Allgemeinchirurgie</userFieldStandardValue>
+      <userFieldStandardValue>-GFCH Gefäßchirurgie</userFieldStandardValue>
+      <userFieldStandardValue>-HZCH Herzchirurgie</userFieldStandardValue>
+      <userFieldStandardValue>-KDCH Kinderchirurgie</userFieldStandardValue>
+      <userFieldStandardValue>-ORTH Orthopädie</userFieldStandardValue>
+      <userFieldStandardValue>-PLCH Plastische und Ästhetische Chirurgie</userFieldStandardValue>
+      <userFieldStandardValue>-THCH Thoraxchirurgie</userFieldStandardValue>
+      <userFieldStandardValue>-UNFC Unfallchirurgie</userFieldStandardValue>
+      <userFieldStandardValue>-VICH Viszeralchirurgie</userFieldStandardValue>
+      <userFieldStandardValue>FRAU Frauenheilkunde und Geburtshilfe</userFieldStandardValue>
+      <userFieldStandardValue>-GEND Gynäkologische Endokrinologie und Reproduktionsmedizin</userFieldStandardValue>
+      <userFieldStandardValue>-GONK Gynäkologische Onkologie</userFieldStandardValue>
+      <userFieldStandardValue>-PERI Perinatalmedizin</userFieldStandardValue>
+      <userFieldStandardValue>GERI Geriatrie</userFieldStandardValue>
+      <userFieldStandardValue>HNOH Hals-Nasen-Ohrenheilkunde</userFieldStandardValue>
+      <userFieldStandardValue>-HRST Sprach-, Stimm- und kindliche Hörstörungen</userFieldStandardValue>
+      <userFieldStandardValue>HAUT Haut- und Geschlechtskrankheiten</userFieldStandardValue>
+      <userFieldStandardValue>0 D HIST obsolet</userFieldStandardValue>
+      <userFieldStandardValue>HUMA Humangenetik</userFieldStandardValue>
+      <userFieldStandardValue>HYGI Hygiene und Umweltmedizin</userFieldStandardValue>
+      <userFieldStandardValue>INNE Innere Medizin</userFieldStandardValue>
+      <userFieldStandardValue>-ANGI Angiologie</userFieldStandardValue>
+      <userFieldStandardValue>-ENDO Endokrinologie und Diabetologie</userFieldStandardValue>
+      <userFieldStandardValue>-GAST Gastroenterologie</userFieldStandardValue>
+      <userFieldStandardValue>-HAEM Hämatologie und internistische Onkologie</userFieldStandardValue>
+      <userFieldStandardValue>-KARD Kardiologie</userFieldStandardValue>
+      <userFieldStandardValue>-NEPH Nephrologie</userFieldStandardValue>
+      <userFieldStandardValue>-PNEU Pneumologie</userFieldStandardValue>
+      <userFieldStandardValue>-RHEU Rheumatologie</userFieldStandardValue>
+      <userFieldStandardValue>INTM Intensivmedizin</userFieldStandardValue>
+      <userFieldStandardValue>INTO Interdisziplinäre Onkologie</userFieldStandardValue>
+      <userFieldStandardValue>INTS Interdisziplinäre Schmerzmedizin</userFieldStandardValue>
+      <userFieldStandardValue>KIJU Kinder- und Jugendmedizin</userFieldStandardValue>
+      <userFieldStandardValue>-KONK Kinder-Hämatologie und -Onkologie</userFieldStandardValue>
+      <userFieldStandardValue>-KKAR Kinder-Kardiologie</userFieldStandardValue>
+      <userFieldStandardValue>-NNAT Neonatologie</userFieldStandardValue>
+      <userFieldStandardValue>-NPAE Neuropädiatrie</userFieldStandardValue>
+      <userFieldStandardValue>KPSY Kinder- und Jugendpsychiatrie und -psychotherapie</userFieldStandardValue>
+      <userFieldStandardValue>LABO Laboratoriumsmedizin</userFieldStandardValue>
+      <userFieldStandardValue>MIKR Mikrobiologie, Virologie und Infektionsepidemiologie</userFieldStandardValue>
+      <userFieldStandardValue>MKGC Mund-Kiefer-Gesichtschirurgie</userFieldStandardValue>
+      <userFieldStandardValue>NATU Naturheilverfahren und alternative Heilmethoden</userFieldStandardValue>
+      <userFieldStandardValue>NOTF Notfallmedizin</userFieldStandardValue>
+      <userFieldStandardValue>NRCH Neurochirurgie</userFieldStandardValue>
+      <userFieldStandardValue>NEUR Neurologie</userFieldStandardValue>
+      <userFieldStandardValue>NUKL Nuklearmedizin</userFieldStandardValue>
+      <userFieldStandardValue>GESU Öffentliches Gesundheitswesen</userFieldStandardValue>
+      <userFieldStandardValue>PALL Palliativmedizin</userFieldStandardValue>
+      <userFieldStandardValue>PATH Pathologie</userFieldStandardValue>
+      <userFieldStandardValue>-NPAT Neuropathologie</userFieldStandardValue>
+      <userFieldStandardValue>PHAR Pharmakologie</userFieldStandardValue>
+      <userFieldStandardValue>-TOXI Toxikologie</userFieldStandardValue>
+      <userFieldStandardValue>REHA Physikalische und Rehabilitative Medizin</userFieldStandardValue>
+      <userFieldStandardValue>PSYC Psychiatrie und Psychotherapie</userFieldStandardValue>
+      <userFieldStandardValue>-FPSY Forensische Psychiatrie</userFieldStandardValue>
+      <userFieldStandardValue>PSYM Psychosomatische Medizin und Psychotherapie</userFieldStandardValue>
+      <userFieldStandardValue>RADI Radiologie</userFieldStandardValue>
+      <userFieldStandardValue>-KRAD Kinderradiologie</userFieldStandardValue>
+      <userFieldStandardValue>-NRAD Neuroradiologie</userFieldStandardValue>
+      <userFieldStandardValue>RECH Rechtsmedizin</userFieldStandardValue>
+      <userFieldStandardValue>SCHL Schlafmedizin</userFieldStandardValue>
+      <userFieldStandardValue>SPOR Sport- und Bewegungsmedizin</userFieldStandardValue>
+      <userFieldStandardValue>STRA Strahlentherapie</userFieldStandardValue>
+      <userFieldStandardValue>TRAN Transfusionsmedizin</userFieldStandardValue>
+      <userFieldStandardValue>TROP Tropen-/Reisemedizin</userFieldStandardValue>
+      <userFieldStandardValue>UROL Urologie</userFieldStandardValue>
+      <userFieldStandardValue>MZKH Zahnmedizin</userFieldStandardValue>
+      <userFieldStandardValue>-ORAL Oralchirurgie</userFieldStandardValue>
+      <userFieldStandardValue>-KIEF Kieferorthopädie</userFieldStandardValue>
+      <userFieldStandardValue>TRPL Transplantationsmedizin</userFieldStandardValue>
+      <userFieldStandardValue>ERG Ergotherapie</userFieldStandardValue>
+      <userFieldStandardValue>ERN Ernährung und Diätetik</userFieldStandardValue>
+      <userFieldStandardValue>FOR Forschung</userFieldStandardValue>
+      <userFieldStandardValue>PFL Pflege und Betreuung</userFieldStandardValue>
+      <userFieldStandardValue>-ALT Altenpflege</userFieldStandardValue>
+      <userFieldStandardValue>-KIN Kinderpflege</userFieldStandardValue>
+      <userFieldStandardValue>PAT Patient außerhalb der Betreuung</userFieldStandardValue>
+      <userFieldStandardValue>PHZ Pharmazeutik</userFieldStandardValue>
+      <userFieldStandardValue>POD Podologie</userFieldStandardValue>
+      <userFieldStandardValue>PRV Prävention</userFieldStandardValue>
+      <userFieldStandardValue>SOZ Sozialwesen</userFieldStandardValue>
+      <userFieldStandardValue>SPR Sprachtherapie</userFieldStandardValue>
+      <userFieldStandardValue>VKO Versorgungskoordination</userFieldStandardValue>
+      <userFieldStandardValue>VER Verwaltung</userFieldStandardValue>
+    </userFieldDef>
+    <userFieldDef elementClass="RepresentationForm" hash="USERFIELD_1620156061386_7196">
+      <userFieldName>Format</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>GROUP</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="RepresentationForm" hash="USERFIELD_1620156164656_7198">
+      <userFieldName>mimeType</userFieldName>
+      <userFieldDescription>Mime Type des Dokuments, z.B.: "text/xml“ für CDA oder "application/fhir+json" für FHIR Ressourcen im JSON Format.</userFieldDescription>
+      <userFieldStyle>SINGLE_LINE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="RepresentationForm" hash="USERFIELD_1620156362242_7199">
+      <userFieldName>formatCode</userFieldName>
+      <userFieldDescription>Dokumentenformat, siehe https://wiki.hl7.de/index.php?title=Ihevs:DocumentEntry.formatCode</userFieldDescription>
+      <userFieldStyle>COMBO_BOX</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+      <userFieldStandardValue>&lt;html&gt;&lt;i&gt;urn:ihe:pcc:xds-ms:2007&lt;/i&gt;&lt;nb&gt; - Medical Summaries (XDS-MS)&lt;/nb&gt;&lt;/html&gt;</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:pcc:xphr:2007 - Exchange of Personal Health Records (XPHR)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:pcc:edr:2007 - Emergency Department Referral (EDR)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:pcc:aps:2007 - Antepartum Summary (APS)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:pcc:edes:2007 - Emergency Department Encounter Summary (EDES)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:pcc:aphp:2008 - Antepartum History and Physical (APHP)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:pcc:apl:2008 - Antepartum Laboratory (APL)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:pcc:ape:2008 - Antepartum Education (APE)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:pcc:ic:2009 - Immunization Content (IC)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:pcc:cm:2008 - Care Management (CM)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:pcc:tn:2007 - ??? (urn:ihe:pcc:tn:2007)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:pcc:nn:2007 - ??? (urn:ihe:pcc:nn:2007)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:pcc:ctn:2007 - ??? (urn:ihe:pcc:ctn:2007)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:pcc:edpn:2007 - ??? (urn:ihe:pcc:edpn:2007)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:pcc:hp:2008 - ??? (urn:ihe:pcc:hp:2008)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:pcc:ldhp:2009 - ??? (urn:ihe:pcc:ldhp:2009)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:pcc:lds:2009 - ??? (urn:ihe:pcc:lds:2009)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:pcc:mds:2009 - ??? (urn:ihe:pcc:mds:2009)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:pcc:nds:2010 - ??? (urn:ihe:pcc:nds:2010)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:pcc:ppvs:2010 - ??? (urn:ihe:pcc:ppvs:2010)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:pcc:trs:2011 - ??? (urn:ihe:pcc:trs:2011)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:pcc:ets:2011 - ??? (urn:ihe:pcc:ets:2011)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:pcc:its:2011 - ??? (urn:ihe:pcc:its:2011)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:iti:xds-sd:pdf:2008 - Scanned Documents (PDF)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:iti:xds-sd:text:2008 - Scanned Documents (text)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:iti:bppc:2007 - Basic Patient Privacy Consents</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:iti:bppc-sd:2007 - Basic Patient Privacy Consents with Scanned Document</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:iti:appc:2016:consent - APPC Privacy Consent Document</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:iti:xdw:2011:workflowDoc - XDW Workflow Document</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:iti:dsg:detached:2014 - DSG Detached Document</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:iti:dsg:enveloping:2014 - DSG Enveloping Document</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:lab:xd-lab:2008 - CDA Laboratory Report</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:rad:TEXT - XDS-I CDA Wrapped Text Report (XDS-I)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:rad:PDF - XDS-I PDF (XDS-I)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:rad:CDA:ImagingReportStructuredHeadings:2013 - XDS-I Imaging Report with Structured Headings (XDS-I)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:card:CRC:2012 - Cardiology ??? (CRC)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:card:EPRC-IE:2014 - Cardiology ??? (EPRC-IE)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:card:imaging:2011 - Cardiac Imaging Report</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:dent:TEXT - Dental CDA Wrapped Text Report (DENT)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:dent:PDF - Dental PDF (DENT)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:dent:CDA:ImagingReportStructuredHeadings:2013 - Dental Imaging Report with Structured Headings (DENT)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:palm:apsr:2016 - Anatomic Pathology Structured Report (APSR)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:pharm:pre:2010 - Pharmacy ??? (urn:ihe:pharm:pre:2010)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:pharm:padv:2010 - Pharmacy ??? (urn:ihe:pharm:padv:2010)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:pharm:dis:2010 - Pharmacy ??? (urn:ihe:pharm:dis:2010)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:pharm:pml:2013 - Pharmacy ??? (urn:ihe:pharm:pml:2013)</userFieldStandardValue>
+      <userFieldStandardValue>1.2.840.10008.5.1.4.1.1.88.59 - DICOM Manifest (DICOM KOS SOP Class UID)</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:iti:xds:2017:mimeTypeSufficient - Format aus MIME Type ableitbar</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe-d:ig:Entlassmanagementbrief:2018 - Entlassmanagementbrief</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe-d:ig:NotaufnahmeregisterTraumaModul:2017 - NotaufnahmeregisterTraumamodul</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe-d:ig:NotaufnahmeregisterBasisModul:2017 - NotaufnahmeregisterBasismodul</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe-d:ig:MeldepflichtigeKrankheitenLabor:2014 - Meldepflichtige Krankheiten: Labormeldung</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe-d:ig:MeldepflichtigeKrankheitenArzt:2013 - Übermittlung meldepflichtiger Krankheiten – Arztmeldung</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe-d:ig:RehaEntlassbrief:2009 - Ärztlicher Reha-Entlassungsbericht</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe-d:ig:KurzberichtUeberleitungKrankenhaus:2016 - Überleitungsmanagement Ärztlicher Kurzbericht über den Krankenhausaufenthalt</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe-d:ig:KurzberichtUeberleitungNiedergelassenerArzt:2016 - Überleitungsmanagement Ärztlicher Kurzbericht des niedergelassenen Arztes</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe-d:ig:Medikationsplan:2015 - Medikationsplan</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe-d:ig:Arztbriefplus:2017 - Arztbrief plus</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe-d:ig:arztbrief:2014:nonXmlBody - Arztbrief 2014</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe-d:ig:eppc-g:2015 - Enhanced Patient Privacy Consent - Germany</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe-d:ig:eppc-g-sd:2015 - Enhanced Patient Privacy Consent - Germany - Scanned Document Option</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe-d:spec:PDF_A1:2005 - PDF/A-1</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe-d:spec:PDF_A2:2011 - PDF/A-2</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe-d:spec:PDF_A3:2012 - PDF/A-3</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe-d:spec:PDF_UA:2008 - PDF/UA</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe-d:mime - obsolet</userFieldStandardValue>
+      <userFieldStandardValue>urn:ihe:pcc:xds-ms:2007 - Medical Summaries (XDS-MS)</userFieldStandardValue>
+    </userFieldDef>
+    <userFieldDef elementClass="RepresentationForm" hash="USERFIELD_1622801104013_1966">
+      <userFieldName>FHIR Ressource</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>SUBTYPE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="RepresentationForm" hash="USERFIELD_1620285514229_7874">
+      <userFieldName>FHIR Ressource</userFieldName>
+      <userFieldDescription>Metadaten von FHIR Ressourcen</userFieldDescription>
+      <userFieldStyle>TAB</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="RepresentationForm" hash="USERFIELD_1620285553237_7875">
+      <userFieldName>Ressourcen Typ</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>COMBO_BOX</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+      <userFieldStandardValue>Condition</userFieldStandardValue>
+      <userFieldStandardValue>Consent</userFieldStandardValue>
+      <userFieldStandardValue>Diagnosis</userFieldStandardValue>
+      <userFieldStandardValue>Location</userFieldStandardValue>
+      <userFieldStandardValue>Medication</userFieldStandardValue>
+      <userFieldStandardValue>Observation</userFieldStandardValue>
+      <userFieldStandardValue>Organization</userFieldStandardValue>
+      <userFieldStandardValue>Patient</userFieldStandardValue>
+      <userFieldStandardValue>Practitioner</userFieldStandardValue>
+      <userFieldStandardValue>Provenance</userFieldStandardValue>
+    </userFieldDef>
+    <userFieldDef elementClass="RepresentationForm" hash="USERFIELD_1623054261459_3913">
+      <userFieldName>Link zur FHIR Spezifikation</userFieldName>
+      <userFieldDescription>Link zur FHIR Spezifikation der Ressource unter http://hl7.org/fhir/
+(ToDo: ggf. automatisch hinzufügen)</userFieldDescription>
+      <userFieldStyle>HYPERLINK</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="RepresentationForm" hash="USERFIELD_1620285612795_7876">
+      <userFieldName>Profil</userFieldName>
+      <userFieldDescription>Link zum Profil, z.B. auf Simplifier (http://simplifier.net/)</userFieldDescription>
+      <userFieldStyle>HYPERLINK</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="RepresentationForm" hash="USERFIELD_1622803876617_5861">
+      <userFieldName>OpenEHR Metadaten</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>SUBTYPE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="RepresentationForm" hash="USERFIELD_1622803925771_5862">
+      <userFieldName>OpenEHR Metadaten</userFieldName>
+      <userFieldDescription>Metadaten von OpenEHR Archtypen</userFieldDescription>
+      <userFieldStyle>TAB</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="RepresentationForm" hash="USERFIELD_1620155964405_7195">
+      <userFieldName>Link zum Informationsmodell</userFieldName>
+      <userFieldDescription>Link zum Informationsmodell des Objekttyps UML oder Template im CKM</userFieldDescription>
+      <userFieldStyle>HYPERLINK</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
     <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884870745_32050">
       <userFieldName>MII KDS</userFieldName>
       <userFieldDescription></userFieldDescription>
@@ -57,9 +438,25 @@
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
     </userFieldDef>
+    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1670937850267_6188">
+      <userFieldName>Simplifier Projekt</userFieldName>
+      <userFieldDescription>Link zum Simplifier Projekt</userFieldDescription>
+      <userFieldStyle>HYPERLINK</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
   </userFieldDefinitions>
   <objects>
     <model></model>
+    <element class="ObjectType" hash="OTY_1670939071598_19716">
+      <field name="name">"fhir-mapping"</field>
+    </element>
+    <element class="ObjectType" hash="OTY_1670939058263_19715">
+      <field name="name">"ontology-tree"</field>
+    </element>
+    <element class="ObjectType" hash="OTY_1670939032420_19714">
+      <field name="name">"ui-ontology-tree"</field>
+    </element>
     <element class="ObjectType" hash="OTY_1669884639978_32025" subtype="USERFIELD_1669884870745_32050">
       <field name="name">Condition</field>
       <userField hash="USERFIELD_1669884915184_32052">https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Diagnose/IGMIIKDSModulDiagnose.html</userField>
@@ -68,9 +465,18 @@
       <field name="name">Consent</field>
       <userField hash="USERFIELD_1669884915184_32052">https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Consent/IGMIIKDSModulConsent.html</userField>
     </element>
+    <element class="ObjectType" hash="OTY_1670487646180_4792">
+      <field name="name">Dashboard Query</field>
+    </element>
+    <element class="ObjectType" hash="OTY_1670487517879_4748">
+      <field name="name">Data Use Project Proposal</field>
+    </element>
     <element class="ObjectType" hash="OTY_1669884599019_32022" subtype="USERFIELD_1669884870745_32050">
       <field name="name">Encounter</field>
       <userField hash="USERFIELD_1669884915184_32052">https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Fall/IGMIIKDSModulFall.html</userField>
+    </element>
+    <element class="ObjectType" hash="OTY_1670487602103_4780">
+      <field name="name">Feasibility Query</field>
     </element>
     <element class="ObjectType" hash="OTY_1669884659771_32027" subtype="USERFIELD_1669884870745_32050">
       <field name="name">Medication Administration</field>
@@ -83,6 +489,10 @@
     <element class="ObjectType" hash="OTY_1669884573092_32020" subtype="USERFIELD_1669884870745_32050">
       <field name="name">MII KDS</field>
       <userField hash="USERFIELD_1669884915184_32052">https://www.medizininformatik-initiative.de/de/der-kerndatensatz-der-medizininformatik-initiative</userField>
+      <userField hash="USERFIELD_1670937850267_6188">https://simplifier.net/organization/koordinationsstellemii</userField>
+    </element>
+    <element class="Group" hash="GRO_1669898073958_5926">
+      <field name="name">MII KDS</field>
     </element>
     <element class="ObjectType" hash="OTY_1669884610780_32023" subtype="USERFIELD_1669884870745_32050">
       <field name="name">Observation</field>
@@ -91,6 +501,7 @@
     <element class="ObjectType" hash="OTY_1669884584754_32021" subtype="USERFIELD_1669884870745_32050">
       <field name="name">Patient</field>
       <userField hash="USERFIELD_1669884915184_32052">https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Person/IGMIIKDSModulPerson.html</userField>
+      <userField hash="USERFIELD_1670937850267_6188">https://simplifier.net/medizininformatikinitiative-modulperson</userField>
     </element>
     <element class="ObjectType" hash="OTY_1669884622952_32024" subtype="USERFIELD_1669884870745_32050">
       <field name="name">Procedures</field>
@@ -100,8 +511,48 @@
       <field name="name">Specimen</field>
       <userField hash="USERFIELD_1669884915184_32052">https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Biobank/IGMIIKDSModulBiobank.html</userField>
     </element>
+    <element class="Textfield" hash="TEX_1670938212088_6208">
+      <field name="name">"PSD Service" DIZ vs. TU-Dienst?</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1670487697793_4809">
+      <field name="name">(DSF) FHIR Mailbox</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1670487387151_4741">
+      <field name="name">(DSF) FHIR Mailbox</field>
+    </element>
     <element class="ApplicationSystem" hash="ASY_1669884429790_31982">
       <field name="name">(DSF) FHIR Mailbox</field>
+    </element>
+    <element class="Textfield" hash="TEX_1670488161181_4860">
+      <field name="name">[ToDo] Mii-Schnittstellenbeschreibung Machbarkeitsanfragen [1]: Abbildung 3 als Teilmodell
+Achtung: es gib 2 Varianten - 1) DSF, 2) Aktin -&gt; 2 Teilmodelle erstellen</field>
+      <field name="description">[1] https://tmfev.sharepoint.com/:w:/r/sites/tmf/mi-i/_layouts/15/Doc.aspx?sourcedoc=%7BF19FD33F-8C04-4375-9FF6-BD93D76E48B2%7D&amp;file=MII-Schnittstellenbeschreibung-Machbarkeitsanfragen.docx&amp;action=default&amp;mobileredirect=true (MII SharePoint)</field>
+    </element>
+    <element class="Textfield" hash="TEX_1670489962436_6157">
+      <field name="name">[ToDo] Was sind diese Angaben im draw.io?
+- "ui-ontology-tree"
+- "ontology-tree"
+- "fhir-mapping"
+=&gt; sind Dateien (versioniert), die zu laden sind -&gt; siehe Objekttypen</field>
+    </element>
+    <element class="RepresentationForm" hash="RFO_1622804003846_5863" subtype="USERFIELD_1622803876617_5861">
+      <field name="name">1. Blutdruck</field>
+      <userField hash="USERFIELD_1620155964405_7195">https://ckm.openehr.org/ckm/archetypes/1013.1.3574</userField>
+    </element>
+    <element class="RepresentationForm" hash="RFO_1624435139776_2095" subtype="USERFIELD_1622801104013_1966">
+      <field name="name">2. FHIR Patient Ressource (IDAT)</field>
+      <userField hash="USERFIELD_1620285553237_7875">Patient</userField>
+      <userField hash="USERFIELD_1620285612795_7876">https://simplifier.net/medizininformatikinitiative-modulperson/patientin</userField>
+      <userField hash="USERFIELD_1623054261459_3913">http://hl7.org/fhir/patient.html</userField>
+    </element>
+    <element class="RepresentationForm" hash="RFO_1622801518777_1971" subtype="USERFIELD_1622801082285_1965">
+      <field name="name">3. XDS Befund</field>
+      <userField hash="USERFIELD_1620154569452_7158">BEF Befundbericht</userField>
+      <userField hash="USERFIELD_1620154965613_7161">BERI Arztberichte</userField>
+      <userField hash="USERFIELD_1620155158095_7169">H4 vorläufiges Dokument</userField>
+      <userField hash="USERFIELD_1620155819305_7188">RADI Radiologie</userField>
+      <userField hash="USERFIELD_1620156164656_7198">text/xml</userField>
+      <userField hash="USERFIELD_1620156362242_7199">&lt;html&gt;&lt;i&gt;urn:ihe:pcc:xds-ms:2007&lt;/i&gt;&lt;nb&gt; - Medical Summaries (XDS-MS)&lt;/nb&gt;&lt;/html&gt;</userField>
     </element>
     <element class="Textfield" hash="TEX_1646143248541_24769">
       <field name="name">5.1</field>
@@ -112,11 +563,23 @@
     <element class="Textfield" hash="TEX_1646143289909_25935">
       <field name="name">5.3</field>
     </element>
+    <element class="ApplicationSystem" hash="ASY_1670487993777_4858">
+      <field name="name">Aktin Broker</field>
+    </element>
     <element class="ApplicationSystem" hash="ASY_1669884403712_31980">
       <field name="name">AKTIN Client</field>
     </element>
+    <element class="ApplicationSystem" hash="ASY_1670489842872_6153">
+      <field name="name">Backend</field>
+    </element>
     <element class="ApplicationSystem" hash="ASY_1669885834036_32115">
       <field name="name">Biobank Management System</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1670487354829_4726">
+      <field name="name">BPE DM</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1670487774685_4825">
+      <field name="name">BPE FDPG</field>
     </element>
     <element class="ApplicationSystem" hash="ASY_1669884193206_31945">
       <field name="name">Business Process Engine DIZ</field>
@@ -136,6 +599,12 @@
     <element class="Group" hash="GRO_1669883901897_27205">
       <field name="name">Data Selection &amp; Extraction</field>
     </element>
+    <element class="Group" hash="GRO_1670489080736_4936">
+      <field name="name">Data Selection &amp; Extraction</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1670487835802_4843">
+      <field name="name">Data Selection &amp; Extraction Process</field>
+    </element>
     <element class="ApplicationSystem" hash="ASY_1669884259524_31946">
       <field name="name">Data Selektion &amp; Extraction Prozess (zentral / dezentral)</field>
     </element>
@@ -146,7 +615,10 @@
       <field name="name">DataSHIELD</field>
     </element>
     <element class="Group" hash="GRO_1669881119643_17671">
-      <field name="name">Datenmanagementstelle</field>
+      <field name="name">Datenmanagementstelle / Data Management Hub</field>
+    </element>
+    <element class="Group" hash="GRO_1670488979096_4872">
+      <field name="name">DIC Dashboard</field>
     </element>
     <element class="ApplicationSystem" hash="RAN_1646133286852_36093">
       <field name="name">Digital Hub</field>
@@ -175,6 +647,12 @@
     <element class="Group" hash="GRO_1669884326814_31963">
       <field name="name">Feasibility</field>
     </element>
+    <element class="Group" hash="GRO_1670489163249_4953">
+      <field name="name">Feasibility</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1670487803007_4828">
+      <field name="name">Feasibility Process</field>
+    </element>
     <element class="ApplicationSystem" hash="ASY_1669884302898_31961">
       <field name="name">Feasibility Prozess</field>
     </element>
@@ -193,11 +671,14 @@ SELECT and EXTRACT
 ANALYSE - BUILD MODEL
 PUBLISH - DEPLOY MODEL</field>
     </element>
+    <element class="ApplicationSystem" hash="ASY_1669883986745_31943">
+      <field name="name">Flare</field>
+    </element>
     <element class="ApplicationSystem" hash="ASY_1669884380661_31977">
       <field name="name">Flare</field>
     </element>
-    <element class="ApplicationSystem" hash="ASY_1669883986745_31943">
-      <field name="name">Flare</field>
+    <element class="ApplicationSystem" hash="ASY_1670489807199_6141">
+      <field name="name">FLARE FHIR Query Translate</field>
     </element>
     <element class="Textfield" hash="TEX_1646132735719_32079">
       <field name="name">Frage: Benennung der Benutzerschnittstellen (GUI)?</field>
@@ -233,8 +714,14 @@ PUBLISH - DEPLOY MODEL</field>
     <element class="Textfield" hash="TEX_1646746240977_70479">
       <field name="name">Interface-type D: communication is unknown or not specified yet.</field>
     </element>
+    <element class="SoftwareProduct" hash="SPR_1670489257136_4956">
+      <field name="name">Keycloak</field>
+    </element>
     <element class="Textfield" hash="TEX_1646143774372_42335">
       <field name="name">Legend:</field>
+    </element>
+    <element class="Textfield" hash="TEX_1670939174557_19734">
+      <field name="name">Link zum github-Repo für Prozesse</field>
     </element>
     <element class="Group" hash="GRO_1669885448205_32070">
       <field name="name">Local Trust Unit</field>
@@ -250,6 +737,9 @@ PUBLISH - DEPLOY MODEL</field>
     </element>
     <element class="Group" hash="GRO_1669881163549_17673">
       <field name="name">Middleware Prozesse</field>
+    </element>
+    <element class="Group" hash="GRO_1670490286778_6174">
+      <field name="name">MII - Terminology Service</field>
     </element>
     <element class="ApplicationSystem" hash="ASY_1669884539642_32017">
       <field name="name">MII FHIR Server</field>
@@ -275,17 +765,53 @@ PUBLISH - DEPLOY MODEL</field>
     <element class="Textfield" hash="TEX_1646131712038_28977">
       <field name="name">offen: Integration FDPG und DSF</field>
     </element>
+    <element class="SoftwareProduct" hash="SPR_1670490336075_6177">
+      <field name="name">Ontoserver</field>
+    </element>
     <element class="ApplicationSystem" hash="ASY_1669883257529_17690">
       <field name="name">Personal Health Train</field>
     </element>
     <element class="ApplicationSystem" hash="ASY_1669883481275_22444">
       <field name="name">Personal Health Train</field>
     </element>
+    <element class="Group" hash="GRO_1670489035425_4903">
+      <field name="name">Proposal</field>
+    </element>
     <element class="ApplicationSystem" hash="ASY_1669884506222_32016">
       <field name="name">PSD Service (Pseudonymisation)</field>
     </element>
     <element class="ApplicationSystem" hash="ASY_1669885508958_32083">
       <field name="name">Pseudonymization Service</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1670489790612_6129">
+      <field name="name">Query Builder CQL</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1670490168290_6172">
+      <field name="name">Query Executor</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1670489212677_4955">
+      <field name="name">SSO - FDPG</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1670490309195_6175">
+      <field name="name">Terminology Service</field>
+    </element>
+    <element class="ApplicationSystem" hash="ASY_1670489627273_6117">
+      <field name="name">Terminology Service</field>
+    </element>
+    <element class="Textfield" hash="TEX_1670490359354_6179">
+      <field name="name">Textfeld 1</field>
+    </element>
+    <element class="Textfield" hash="TEX_1670489080737_4937">
+      <field name="name">ToDo: Julian Gründner</field>
+    </element>
+    <element class="Textfield" hash="TEX_1670487405699_4744">
+      <field name="name">ToDo: Klötgen, Ringer</field>
+    </element>
+    <element class="Textfield" hash="TEX_1670489062435_4918">
+      <field name="name">ToDo: TMF</field>
+    </element>
+    <element class="Textfield" hash="TEX_1670489013546_4887">
+      <field name="name">ToDo: TMF</field>
     </element>
     <element class="ApplicationSystem" hash="ASY_1669885588757_32112">
       <field name="name">TU FHIR Interface</field>
@@ -358,9 +884,24 @@ PUBLISH - DEPLOY MODEL</field>
       <field name="start">OTY_1669884573092_32020</field>
       <field name="end">OTY_1669884659771_32027</field>
     </element>
-    <element class="ObjectType_RepresentationForm_Edge" hash="DLK_1669885408228_32069">
+    <element class="ObjectType_RepresentationForm_Edge" hash="DLK_1670234143187_5087">
       <field name="name">Beziehung 1</field>
+      <field name="start">OTY_1669884584754_32021</field>
+      <field name="end">RFO_1624435139776_2095</field>
+    </element>
+    <element class="ObjectType_RepresentationForm_Edge" hash="DLK_1670270722699_14258">
+      <field name="name">Beziehung 2</field>
       <field name="start">OTY_1669884573092_32020</field>
+      <field name="end">RFO_1669885358166_32057</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669898238211_5953">
+      <field name="name">Hat-Teil-Beziehung 17</field>
+      <field name="start">GRO_1669898073958_5926</field>
+      <field name="end">OTY_1669884573092_32020</field>
+    </element>
+    <element class="ApplicationComponent_RepresentationForm_Edge" hash="DLK_1669885369437_32058">
+      <field name="name">Speicherung 1</field>
+      <field name="start">ASY_1669884539642_32017</field>
       <field name="end">RFO_1669885358166_32057</field>
     </element>
     <element class="Group_HasPartEdge" hash="DLK_1669883273637_17691">
@@ -392,6 +933,71 @@ PUBLISH - DEPLOY MODEL</field>
       <field name="name">Hat-Teil-Beziehung 6</field>
       <field name="start">GRO_1669883421830_22427</field>
       <field name="end">ASY_1669883481276_22445</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669884002607_31944">
+      <field name="name">Hat-Teil-Beziehung 7</field>
+      <field name="start">GRO_1669883901897_27205</field>
+      <field name="end">ASY_1669883986745_31943</field>
+    </element>
+    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1669884291990_31947">
+      <field name="name">Hat-Teil-Beziehung 1</field>
+      <field name="start">ASY_1669884193206_31945</field>
+      <field name="end">ASY_1669884259524_31946</field>
+    </element>
+    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1669884302899_31962">
+      <field name="name">Hat-Teil-Beziehung 1</field>
+      <field name="start">ASY_1669884193206_31945</field>
+      <field name="end">ASY_1669884302898_31961</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669884387347_31979">
+      <field name="name">Hat-Teil-Beziehung 8</field>
+      <field name="start">GRO_1669884326814_31963</field>
+      <field name="end">ASY_1669884380661_31977</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669884416858_31981">
+      <field name="name">Hat-Teil-Beziehung 9</field>
+      <field name="start">GRO_1669884326814_31963</field>
+      <field name="end">ASY_1669884403712_31980</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669884447107_31983">
+      <field name="name">Hat-Teil-Beziehung 10</field>
+      <field name="start">GRO_1669881132182_17672</field>
+      <field name="end">ASY_1669884429790_31982</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669885563953_32096">
+      <field name="name">Hat-Teil-Beziehung 11</field>
+      <field name="start">GRO_1669885448205_32070</field>
+      <field name="end">ASY_1669885532573_32095</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669885563961_32097">
+      <field name="name">Hat-Teil-Beziehung 12</field>
+      <field name="start">GRO_1669885448205_32070</field>
+      <field name="end">ASY_1669885494726_32071</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669885563965_32098">
+      <field name="name">Hat-Teil-Beziehung 13</field>
+      <field name="start">GRO_1669885448205_32070</field>
+      <field name="end">ASY_1669885508958_32083</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669885588758_32113">
+      <field name="name">Hat-Teil-Beziehung 13</field>
+      <field name="start">GRO_1669885448205_32070</field>
+      <field name="end">ASY_1669885588757_32112</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669885855907_32116">
+      <field name="name">Hat-Teil-Beziehung 14</field>
+      <field name="start">GRO_1669881132182_17672</field>
+      <field name="end">ASY_1669885834036_32115</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669885855918_32117">
+      <field name="name">Hat-Teil-Beziehung 15</field>
+      <field name="start">GRO_1669881132182_17672</field>
+      <field name="end">ASY_1669885817618_32114</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669885876952_32119">
+      <field name="name">Hat-Teil-Beziehung 16</field>
+      <field name="start">GRO_1669881132182_17672</field>
+      <field name="end">ASY_1669885862004_32118</field>
     </element>
     <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1646130186902_20082">
       <field name="name">Has-Part-Relation 113</field>
@@ -453,87 +1059,167 @@ PUBLISH - DEPLOY MODEL</field>
       <field name="start">RAN_1646134016164_41896</field>
       <field name="end">RAN_1646134049773_42112</field>
     </element>
-    <element class="Group_HasPartEdge" hash="DLK_1669884002607_31944">
-      <field name="name">Hat-Teil-Beziehung 7</field>
-      <field name="start">GRO_1669883901897_27205</field>
-      <field name="end">ASY_1669883986745_31943</field>
+    <element class="Group_HasPartEdge" hash="DLK_1670487377912_4727">
+      <field name="name">Hat-Teil-Beziehung 18</field>
+      <field name="start">GRO_1669881119643_17671</field>
+      <field name="end">ASY_1670487354829_4726</field>
     </element>
-    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1669884291990_31947">
-      <field name="name">Hat-Teil-Beziehung 1</field>
-      <field name="start">ASY_1669884193206_31945</field>
-      <field name="end">ASY_1669884259524_31946</field>
+    <element class="Group_HasPartEdge" hash="DLK_1670487393272_4743">
+      <field name="name">Hat-Teil-Beziehung 19</field>
+      <field name="start">GRO_1669881119643_17671</field>
+      <field name="end">ASY_1670487387151_4741</field>
     </element>
-    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1669884302899_31962">
-      <field name="name">Hat-Teil-Beziehung 1</field>
-      <field name="start">ASY_1669884193206_31945</field>
-      <field name="end">ASY_1669884302898_31961</field>
+    <element class="Group_HasPartEdge" hash="DLK_1670487432641_4745">
+      <field name="name">Hat-Teil-Beziehung 20</field>
+      <field name="start">GRO_1669881119643_17671</field>
+      <field name="end">TEX_1670487405699_4744</field>
     </element>
-    <element class="Group_HasPartEdge" hash="DLK_1669884387347_31979">
-      <field name="name">Hat-Teil-Beziehung 8</field>
-      <field name="start">GRO_1669884326814_31963</field>
-      <field name="end">ASY_1669884380661_31977</field>
+    <element class="Group_HasPartEdge" hash="DLK_1670487701667_4811">
+      <field name="name">Hat-Teil-Beziehung 21</field>
+      <field name="start">GRO_1669881109300_17659</field>
+      <field name="end">ASY_1670487697793_4809</field>
     </element>
-    <element class="Group_HasPartEdge" hash="DLK_1669884416858_31981">
-      <field name="name">Hat-Teil-Beziehung 9</field>
-      <field name="start">GRO_1669884326814_31963</field>
-      <field name="end">ASY_1669884403712_31980</field>
+    <element class="Group_HasPartEdge" hash="DLK_1670487780882_4827">
+      <field name="name">Hat-Teil-Beziehung 22</field>
+      <field name="start">GRO_1669881109300_17659</field>
+      <field name="end">ASY_1670487774685_4825</field>
     </element>
-    <element class="Group_HasPartEdge" hash="DLK_1669884447107_31983">
-      <field name="name">Hat-Teil-Beziehung 10</field>
-      <field name="start">GRO_1669881132182_17672</field>
-      <field name="end">ASY_1669884429790_31982</field>
+    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1670487831096_4829">
+      <field name="name">Hat-Teil-Beziehung 2</field>
+      <field name="start">ASY_1670487774685_4825</field>
+      <field name="end">ASY_1670487803007_4828</field>
     </element>
-    <element class="ApplicationComponent_RepresentationForm_Edge" hash="DLK_1669885369437_32058">
-      <field name="name">Speicherung 1</field>
-      <field name="start">ASY_1669884539642_32017</field>
-      <field name="end">RFO_1669885358166_32057</field>
+    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1670487835805_4844">
+      <field name="name">Hat-Teil-Beziehung 2</field>
+      <field name="start">ASY_1670487774685_4825</field>
+      <field name="end">ASY_1670487835802_4843</field>
     </element>
-    <element class="Group_HasPartEdge" hash="DLK_1669885563953_32096">
-      <field name="name">Hat-Teil-Beziehung 11</field>
-      <field name="start">GRO_1669885448205_32070</field>
-      <field name="end">ASY_1669885532573_32095</field>
+    <element class="Group_HasPartEdge" hash="DLK_1670487993779_4859">
+      <field name="name">Hat-Teil-Beziehung 21</field>
+      <field name="start">GRO_1669881109300_17659</field>
+      <field name="end">ASY_1670487993777_4858</field>
     </element>
-    <element class="Group_HasPartEdge" hash="DLK_1669885563961_32097">
-      <field name="name">Hat-Teil-Beziehung 12</field>
-      <field name="start">GRO_1669885448205_32070</field>
-      <field name="end">ASY_1669885494726_32071</field>
+    <element class="Group_HasPartEdge" hash="DLK_1670488992024_4873">
+      <field name="name">Hat-Teil-Beziehung 23</field>
+      <field name="start">GRO_1669881109300_17659</field>
+      <field name="end">GRO_1670488979096_4872</field>
     </element>
-    <element class="Group_HasPartEdge" hash="DLK_1669885563965_32098">
-      <field name="name">Hat-Teil-Beziehung 13</field>
-      <field name="start">GRO_1669885448205_32070</field>
-      <field name="end">ASY_1669885508958_32083</field>
+    <element class="Group_HasPartEdge" hash="DLK_1670489021861_4889">
+      <field name="name">Hat-Teil-Beziehung 24</field>
+      <field name="start">GRO_1670488979096_4872</field>
+      <field name="end">TEX_1670489013546_4887</field>
     </element>
-    <element class="Group_HasPartEdge" hash="DLK_1669885588758_32113">
-      <field name="name">Hat-Teil-Beziehung 13</field>
-      <field name="start">GRO_1669885448205_32070</field>
-      <field name="end">ASY_1669885588757_32112</field>
+    <element class="Group_HasPartEdge" hash="DLK_1670489035426_4904">
+      <field name="name">Hat-Teil-Beziehung 23</field>
+      <field name="start">GRO_1669881109300_17659</field>
+      <field name="end">GRO_1670489035425_4903</field>
     </element>
-    <element class="Group_HasPartEdge" hash="DLK_1669885855907_32116">
-      <field name="name">Hat-Teil-Beziehung 14</field>
-      <field name="start">GRO_1669881132182_17672</field>
-      <field name="end">ASY_1669885834036_32115</field>
+    <element class="Group_HasPartEdge" hash="DLK_1670489066867_4920">
+      <field name="name">Hat-Teil-Beziehung 25</field>
+      <field name="start">GRO_1670489035425_4903</field>
+      <field name="end">TEX_1670489062435_4918</field>
     </element>
-    <element class="Group_HasPartEdge" hash="DLK_1669885855918_32117">
-      <field name="name">Hat-Teil-Beziehung 15</field>
-      <field name="start">GRO_1669881132182_17672</field>
-      <field name="end">ASY_1669885817618_32114</field>
+    <element class="Group_HasPartEdge" hash="DLK_1670489080737_4938">
+      <field name="name">Hat-Teil-Beziehung 25</field>
+      <field name="start">GRO_1670489080736_4936</field>
+      <field name="end">TEX_1670489080737_4937</field>
     </element>
-    <element class="Group_HasPartEdge" hash="DLK_1669885876952_32119">
-      <field name="name">Hat-Teil-Beziehung 16</field>
-      <field name="start">GRO_1669881132182_17672</field>
-      <field name="end">ASY_1669885862004_32118</field>
+    <element class="Group_HasPartEdge" hash="DLK_1670489080737_4939">
+      <field name="name">Hat-Teil-Beziehung 23</field>
+      <field name="start">GRO_1669881109300_17659</field>
+      <field name="end">GRO_1670489080736_4936</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1670489163251_4954">
+      <field name="name">Hat-Teil-Beziehung 23</field>
+      <field name="start">GRO_1669881109300_17659</field>
+      <field name="end">GRO_1670489163249_4953</field>
+    </element>
+    <element class="ApplicationSystem_SoftwareProduct_Edge" hash="DLK_1670489265451_4957">
+      <field name="name">Installation	 1</field>
+      <field name="start">ASY_1670489212677_4955</field>
+      <field name="end">SPR_1670489257136_4956</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1670489583472_6116">
+      <field name="name">Hat-Teil-Beziehung 26</field>
+      <field name="start">GRO_1669881109300_17659</field>
+      <field name="end">ASY_1670489212677_4955</field>
+    </element>
+    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1670489870545_6154">
+      <field name="name">Hat-Teil-Beziehung 3</field>
+      <field name="start">ASY_1670489842872_6153</field>
+      <field name="end">ASY_1670489790612_6129</field>
+    </element>
+    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1670489870556_6155">
+      <field name="name">Hat-Teil-Beziehung 4</field>
+      <field name="start">ASY_1670489842872_6153</field>
+      <field name="end">ASY_1670489627273_6117</field>
+    </element>
+    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1670489870561_6156">
+      <field name="name">Hat-Teil-Beziehung 5</field>
+      <field name="start">ASY_1670489842872_6153</field>
+      <field name="end">ASY_1670489807199_6141</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1670490157213_6158">
+      <field name="name">Hat-Teil-Beziehung 27</field>
+      <field name="start">GRO_1670489163249_4953</field>
+      <field name="end">TEX_1670489962436_6157</field>
+    </element>
+    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1670490168292_6173">
+      <field name="name">Hat-Teil-Beziehung 4</field>
+      <field name="start">ASY_1670489842872_6153</field>
+      <field name="end">ASY_1670490168290_6172</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1670490331463_6176">
+      <field name="name">Hat-Teil-Beziehung 28</field>
+      <field name="start">GRO_1670490286778_6174</field>
+      <field name="end">ASY_1670490309195_6175</field>
+    </element>
+    <element class="ApplicationSystem_SoftwareProduct_Edge" hash="DLK_1670490341466_6178">
+      <field name="name">Installation	 2</field>
+      <field name="start">ASY_1670490309195_6175</field>
+      <field name="end">SPR_1670490336075_6177</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1670270650996_14252">
+      <field name="name">Knickpunkt 4</field>
+      <field name="kantenHash">DLK_1669884783371_32042</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1670270654909_14253">
+      <field name="name">Knickpunkt 5</field>
+      <field name="kantenHash">DLK_1669884783384_32049</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1670270646093_14251">
+      <field name="name">Knickpunkt 3</field>
+      <field name="kantenHash">DLK_1669884783383_32048</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1670270642375_14250">
+      <field name="name">Knickpunkt 2</field>
+      <field name="kantenHash">DLK_1669884783380_32045</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1670270636940_14249">
+      <field name="name">Knickpunkt 1</field>
+      <field name="kantenHash">DLK_1669884783375_32043</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1670270657517_14254">
+      <field name="name">Knickpunkt 6</field>
+      <field name="kantenHash">DLK_1669884783381_32046</field>
+      <field name="index">0</field>
     </element>
   </objects>
   <szenario hash="SZN_1669881258721_5" titel="MII Architecture (detailed-Overview)">
     <description></description>
     <view>
       <selected>true</selected>
-      <x>0</x>
-      <y>0</y>
-      <zoom>0.3</zoom>
+      <x>155</x>
+      <y>120</y>
+      <zoom>0.53</zoom>
       <degree>65</degree>
-      <shift>200</shift>
-      <pageSizeFactor>2.7565104166666665</pageSizeFactor>
+      <shift>568</shift>
+      <pageSizeFactor>2.7578125</pageSizeFactor>
       <activeLayer>2</activeLayer>
       <multiView>false</multiView>
     </view>
@@ -749,9 +1435,9 @@ PUBLISH - DEPLOY MODEL</field>
       </layout>
       <layout class="ObjectType">
         <color name="bg_color">
-          <red>100</red>
-          <green>100</green>
-          <blue>255</blue>
+          <red>167</red>
+          <green>204</green>
+          <blue>155</blue>
         </color>
         <color name="fg_color">
           <red>0</red>
@@ -866,6 +1552,25 @@ PUBLISH - DEPLOY MODEL</field>
           <blue>255</blue>
         </color>
       </layout>
+      <container hash="GRO_1669881109300_17659">
+        <layout>
+          <x>955</x>
+          <y>-185</y>
+          <width>860</width>
+          <height>800</height>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="GRO_1670489163249_4953">
+        <layout>
+          <x>1025</x>
+          <y>-95</y>
+          <width>420</width>
+          <height>270</height>
+          <halign>RIGHT</halign>
+          <valign>TOP</valign>
+        </layout>
+      </container>
       <container hash="TEX_1669881025823_17646">
         <layout>
           <color name="bg_color">
@@ -889,20 +1594,13 @@ PUBLISH - DEPLOY MODEL</field>
           <valign>TOP</valign>
         </layout>
       </container>
-      <container hash="GRO_1669881109300_17659">
-        <layout>
-          <x>638</x>
-          <y>-338</y>
-          <width>227</width>
-          <height>75</height>
-        </layout>
-      </container>
       <container hash="GRO_1669881119643_17671">
         <layout>
-          <x>-12</x>
-          <y>377</y>
-          <width>227</width>
-          <height>75</height>
+          <x>55</x>
+          <y>428</y>
+          <width>620</width>
+          <height>285</height>
+          <valign>BOTTOM</valign>
         </layout>
       </container>
       <container hash="GRO_1669881132182_17672">
@@ -1055,8 +1753,8 @@ PUBLISH - DEPLOY MODEL</field>
       </container>
       <container hash="GRO_1669885448205_32070">
         <layout>
-          <x>-1133</x>
-          <y>-480</y>
+          <x>-1183</x>
+          <y>-670</y>
           <width>345</width>
           <height>150</height>
           <valign>TOP</valign>
@@ -1064,32 +1762,32 @@ PUBLISH - DEPLOY MODEL</field>
       </container>
       <container hash="ASY_1669885494726_32071">
         <layout>
-          <x>-1019</x>
-          <y>-485</y>
+          <x>-1069</x>
+          <y>-675</y>
           <width>92</width>
           <height>50</height>
         </layout>
       </container>
       <container hash="ASY_1669885508958_32083">
         <layout>
-          <x>-1133</x>
-          <y>-485</y>
+          <x>-1183</x>
+          <y>-675</y>
           <width>115</width>
           <height>50</height>
         </layout>
       </container>
       <container hash="ASY_1669885532573_32095">
         <layout>
-          <x>-1249</x>
-          <y>-485</y>
+          <x>-1299</x>
+          <y>-675</y>
           <width>92</width>
           <height>50</height>
         </layout>
       </container>
       <container hash="ASY_1669885588757_32112">
         <layout>
-          <x>-1133</x>
-          <y>-427</y>
+          <x>-1183</x>
+          <y>-617</y>
           <width>325</width>
           <height>25</height>
         </layout>
@@ -1114,6 +1812,257 @@ PUBLISH - DEPLOY MODEL</field>
           <y>-150</y>
         </layout>
       </container>
+      <container hash="ASY_1670487354829_4726">
+        <layout>
+          <x>-35</x>
+          <y>325</y>
+        </layout>
+      </container>
+      <container hash="ASY_1670487387151_4741">
+        <layout>
+          <x>95</x>
+          <y>290</y>
+        </layout>
+      </container>
+      <container hash="TEX_1670487405699_4744">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>204</blue>
+          </color>
+          <x>-180</x>
+          <y>510</y>
+          <width>110</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="ASY_1670487697793_4809">
+        <layout>
+          <x>525</x>
+          <y>-335</y>
+        </layout>
+      </container>
+      <container hash="ASY_1670487774685_4825">
+        <layout>
+          <x>670</x>
+          <y>-195</y>
+          <width>210</width>
+          <height>200</height>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="ASY_1670487803007_4828">
+        <layout>
+          <x>665</x>
+          <y>-240</y>
+          <width>130</width>
+          <height>41</height>
+        </layout>
+      </container>
+      <container hash="ASY_1670487835802_4843">
+        <layout>
+          <x>665</x>
+          <y>-185</y>
+          <width>130</width>
+          <height>41</height>
+        </layout>
+      </container>
+      <container hash="ASY_1670487993777_4858">
+        <layout>
+          <x>525</x>
+          <y>-400</y>
+        </layout>
+      </container>
+      <container hash="TEX_1670488161181_4860">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>204</blue>
+          </color>
+          <x>515</x>
+          <y>-737</y>
+          <width>389</width>
+          <height>113</height>
+          <htmlalign>LEFT</htmlalign>
+        </layout>
+      </container>
+      <container hash="GRO_1670488979096_4872">
+        <layout>
+          <x>1025</x>
+          <y>-468</y>
+          <width>420</width>
+          <height>135</height>
+          <halign>RIGHT</halign>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="TEX_1670489013546_4887">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>204</blue>
+          </color>
+          <x>1050</x>
+          <y>-465</y>
+          <width>110</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="GRO_1670489035425_4903">
+        <layout>
+          <x>1025</x>
+          <y>-313</y>
+          <width>420</width>
+          <height>135</height>
+          <halign>RIGHT</halign>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="TEX_1670489062435_4918">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>204</blue>
+          </color>
+          <x>1055</x>
+          <y>-320</y>
+          <width>110</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="GRO_1670489080736_4936">
+        <layout>
+          <x>1025</x>
+          <y>122</y>
+          <width>420</width>
+          <height>135</height>
+          <halign>RIGHT</halign>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="TEX_1670489080737_4937">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>204</blue>
+          </color>
+          <x>1055</x>
+          <y>115</y>
+          <width>110</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="ASY_1670489212677_4955">
+        <layout>
+          <x>1310</x>
+          <y>-200</y>
+          <width>111</width>
+          <height>60</height>
+        </layout>
+      </container>
+      <container hash="ASY_1670489842872_6153">
+        <layout>
+          <x>1029</x>
+          <y>-88</y>
+          <width>139</width>
+          <height>175</height>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="ASY_1670489790612_6129">
+        <layout>
+          <x>1029</x>
+          <y>-78</y>
+          <width>110</width>
+          <height>35</height>
+        </layout>
+      </container>
+      <container hash="ASY_1670489627273_6117">
+        <layout>
+          <x>1169</x>
+          <y>-158</y>
+          <width>110</width>
+          <height>35</height>
+        </layout>
+      </container>
+      <container hash="ASY_1670489807199_6141">
+        <layout>
+          <x>1029</x>
+          <y>-33</y>
+          <width>110</width>
+          <height>35</height>
+        </layout>
+      </container>
+      <container hash="TEX_1670489962436_6157">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>204</blue>
+          </color>
+          <x>1243</x>
+          <y>-44</y>
+          <width>206</width>
+          <height>127</height>
+          <htmlalign>LEFT</htmlalign>
+        </layout>
+      </container>
+      <container hash="ASY_1670490168290_6172">
+        <layout>
+          <x>889</x>
+          <y>-158</y>
+          <width>110</width>
+          <height>35</height>
+        </layout>
+      </container>
+      <container hash="GRO_1670490286778_6174">
+        <layout>
+          <x>955</x>
+          <y>-710</y>
+          <width>360</width>
+          <height>160</height>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="ASY_1670490309195_6175">
+        <layout>
+          <x>952</x>
+          <y>-690</y>
+          <width>90</width>
+          <height>70</height>
+        </layout>
+      </container>
+      <container hash="TEX_1670938212088_6208">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>204</blue>
+          </color>
+          <x>-983</x>
+          <y>-444</y>
+          <width>155</width>
+          <height>62</height>
+        </layout>
+      </container>
+      <container hash="TEX_1670939174557_19734">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>204</blue>
+          </color>
+          <x>540</x>
+          <y>-235</y>
+          <width>110</width>
+          <height>50</height>
+        </layout>
+      </container>
       <container hash="DLK_1669883273637_17691"></container>
       <container hash="DLK_1669883292506_17693"></container>
       <container hash="DLK_1669883326512_17695"></container>
@@ -1133,6 +2082,28 @@ PUBLISH - DEPLOY MODEL</field>
       <container hash="DLK_1669885855907_32116"></container>
       <container hash="DLK_1669885855918_32117"></container>
       <container hash="DLK_1669885876952_32119"></container>
+      <container hash="DLK_1670487377912_4727"></container>
+      <container hash="DLK_1670487393272_4743"></container>
+      <container hash="DLK_1670487432641_4745"></container>
+      <container hash="DLK_1670487701667_4811"></container>
+      <container hash="DLK_1670487780882_4827"></container>
+      <container hash="DLK_1670487831096_4829"></container>
+      <container hash="DLK_1670487835805_4844"></container>
+      <container hash="DLK_1670487993779_4859"></container>
+      <container hash="DLK_1670488992024_4873"></container>
+      <container hash="DLK_1670489021861_4889"></container>
+      <container hash="DLK_1670489035426_4904"></container>
+      <container hash="DLK_1670489066867_4920"></container>
+      <container hash="DLK_1670489080737_4938"></container>
+      <container hash="DLK_1670489080737_4939"></container>
+      <container hash="DLK_1670489163251_4954"></container>
+      <container hash="DLK_1670489583472_6116"></container>
+      <container hash="DLK_1670489870545_6154"></container>
+      <container hash="DLK_1670489870556_6155"></container>
+      <container hash="DLK_1670489870561_6156"></container>
+      <container hash="DLK_1670490157213_6158"></container>
+      <container hash="DLK_1670490168292_6173"></container>
+      <container hash="DLK_1670490331463_6176"></container>
     </layer>
     <layer number="3">
       <layout>
@@ -1151,68 +2122,175 @@ PUBLISH - DEPLOY MODEL</field>
           <blue>255</blue>
         </color>
       </layout>
-      <container hash="OTY_1669884573092_32020">
+      <container hash="GRO_1669898073958_5926">
         <layout>
-          <x>-740</x>
-          <y>-415</y>
-        </layout>
-      </container>
-      <container hash="OTY_1669884584754_32021">
-        <layout>
-          <x>-870</x>
-          <y>-340</y>
-        </layout>
-      </container>
-      <container hash="OTY_1669884599019_32022">
-        <layout>
-          <x>-880</x>
-          <y>-265</y>
-        </layout>
-      </container>
-      <container hash="OTY_1669884610780_32023">
-        <layout>
-          <x>-745</x>
-          <y>-340</y>
-        </layout>
-      </container>
-      <container hash="OTY_1669884622952_32024">
-        <layout>
-          <x>-750</x>
-          <y>-270</y>
-        </layout>
-      </container>
-      <container hash="OTY_1669884639978_32025">
-        <layout>
-          <x>-620</x>
-          <y>-335</y>
-        </layout>
-      </container>
-      <container hash="OTY_1669884648857_32026">
-        <layout>
-          <x>-880</x>
-          <y>-145</y>
+          <x>-940</x>
+          <y>-293</y>
+          <width>689</width>
+          <height>395</height>
+          <valign>TOP</valign>
         </layout>
       </container>
       <container hash="OTY_1669884659771_32027">
         <layout>
-          <x>-621</x>
-          <y>-265</y>
+          <color name="bg_color">
+            <red>167</red>
+            <green>204</green>
+            <blue>155</blue>
+          </color>
+          <x>-835</x>
+          <y>-275</y>
           <width>99</width>
           <height>50</height>
         </layout>
       </container>
       <container hash="OTY_1669884677199_32039">
         <layout>
-          <x>-496</x>
-          <y>-265</y>
+          <color name="bg_color">
+            <red>167</red>
+            <green>204</green>
+            <blue>155</blue>
+          </color>
+          <x>-711</x>
+          <y>-275</y>
           <width>99</width>
           <height>50</height>
         </layout>
       </container>
+      <container hash="OTY_1669884639978_32025">
+        <layout>
+          <color name="bg_color">
+            <red>167</red>
+            <green>204</green>
+            <blue>155</blue>
+          </color>
+          <x>-835</x>
+          <y>-345</y>
+        </layout>
+      </container>
       <container hash="OTY_1669884692021_32040">
         <layout>
-          <x>-745</x>
-          <y>-155</y>
+          <color name="bg_color">
+            <red>167</red>
+            <green>204</green>
+            <blue>155</blue>
+          </color>
+          <x>-1030</x>
+          <y>-165</y>
+        </layout>
+      </container>
+      <container hash="OTY_1669884648857_32026">
+        <layout>
+          <color name="bg_color">
+            <red>167</red>
+            <green>204</green>
+            <blue>155</blue>
+          </color>
+          <x>-1155</x>
+          <y>-165</y>
+        </layout>
+      </container>
+      <container hash="OTY_1669884584754_32021">
+        <layout>
+          <color name="bg_color">
+            <red>167</red>
+            <green>204</green>
+            <blue>155</blue>
+          </color>
+          <x>-1155</x>
+          <y>-345</y>
+        </layout>
+      </container>
+      <container hash="OTY_1669884573092_32020">
+        <layout>
+          <color name="bg_color">
+            <red>167</red>
+            <green>204</green>
+            <blue>155</blue>
+          </color>
+          <x>-935</x>
+          <y>-430</y>
+        </layout>
+      </container>
+      <container hash="OTY_1669884599019_32022">
+        <layout>
+          <color name="bg_color">
+            <red>167</red>
+            <green>204</green>
+            <blue>155</blue>
+          </color>
+          <x>-1155</x>
+          <y>-275</y>
+        </layout>
+      </container>
+      <container hash="OTY_1669884610780_32023">
+        <layout>
+          <color name="bg_color">
+            <red>167</red>
+            <green>204</green>
+            <blue>155</blue>
+          </color>
+          <x>-1030</x>
+          <y>-345</y>
+        </layout>
+      </container>
+      <container hash="OTY_1669884622952_32024">
+        <layout>
+          <color name="bg_color">
+            <red>167</red>
+            <green>204</green>
+            <blue>155</blue>
+          </color>
+          <x>-1030</x>
+          <y>-275</y>
+        </layout>
+      </container>
+      <container hash="OTY_1670487517879_4748">
+        <layout>
+          <x>280</x>
+          <y>-420</y>
+          <width>90</width>
+          <height>62</height>
+        </layout>
+      </container>
+      <container hash="OTY_1670487602103_4780">
+        <layout>
+          <x>405</x>
+          <y>-419</y>
+          <width>90</width>
+          <height>62</height>
+        </layout>
+      </container>
+      <container hash="OTY_1670487646180_4792">
+        <layout>
+          <x>160</x>
+          <y>-424</y>
+          <width>90</width>
+          <height>62</height>
+        </layout>
+      </container>
+      <container hash="OTY_1670939032420_19714">
+        <layout>
+          <x>158</x>
+          <y>-170</y>
+          <width>113</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="OTY_1670939058263_19715">
+        <layout>
+          <x>280</x>
+          <y>-170</y>
+          <width>99</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="OTY_1670939071598_19716">
+        <layout>
+          <x>396</x>
+          <y>-170</y>
+          <width>98</width>
+          <height>50</height>
         </layout>
       </container>
       <container hash="DLK_1669884783364_32041"></container>
@@ -1224,15 +2302,88 @@ PUBLISH - DEPLOY MODEL</field>
       <container hash="DLK_1669884783382_32047"></container>
       <container hash="DLK_1669884783383_32048"></container>
       <container hash="DLK_1669884783384_32049"></container>
+      <container hash="DLK_1669898238211_5953"></container>
+      <container hash="BEN_1670270650996_14252">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>-1080</x>
+          <y>-365</y>
+        </layout>
+      </container>
+      <container hash="BEN_1670270654909_14253">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>-905</x>
+          <y>-315</y>
+        </layout>
+      </container>
+      <container hash="BEN_1670270646093_14251">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>-975</x>
+          <y>-320</y>
+        </layout>
+      </container>
+      <container hash="BEN_1670270642375_14250">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>-975</x>
+          <y>-235</y>
+        </layout>
+      </container>
+      <container hash="BEN_1670270636940_14249">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>-935</x>
+          <y>-215</y>
+        </layout>
+      </container>
+      <container hash="BEN_1670270657517_14254">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>-760</x>
+          <y>-355</y>
+        </layout>
+      </container>
     </layer>
   </szenario>
   <szenario hash="SZN_1669881014836_2" titel="MII Architecture (Overview)">
     <description></description>
     <view>
       <selected>false</selected>
-      <x>0</x>
+      <x>54</x>
       <y>0</y>
-      <zoom>0.89</zoom>
+      <zoom>0.45</zoom>
       <degree>65</degree>
       <shift>200</shift>
       <pageSizeFactor>2.65625</pageSizeFactor>
@@ -1646,9 +2797,9 @@ PUBLISH - DEPLOY MODEL</field>
     <description></description>
     <view>
       <selected>false</selected>
-      <x>1350</x>
-      <y>1062</y>
-      <zoom>0.89</zoom>
+      <x>90</x>
+      <y>51</y>
+      <zoom>0.3</zoom>
       <degree>65</degree>
       <shift>200</shift>
       <pageSizeFactor>2.65625</pageSizeFactor>
