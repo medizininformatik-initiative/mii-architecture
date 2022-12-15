@@ -4,7 +4,7 @@
   <header>
     <title>MII-Architektur.3lgm</title>
     <description></description>
-    <version>23_sippe_1671054687556</version>
+    <version>24_sippe_1671086700165</version>
   </header>
   <userFieldDefinitions>
     <userFieldFormat hash="FRM_1623450079169_2058">
@@ -38,6 +38,34 @@
       <userFieldStyle>HYPERLINK</userFieldStyle>
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884870745_32050">
+      <userFieldName>MII KDS</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>SUBTYPE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884904331_32051">
+      <userFieldName>MII KDS</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>TAB</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884915184_32052">
+      <userFieldName>MII Dokumentation</userFieldName>
+      <userFieldDescription>Link zu weiterführenden Informationen</userFieldDescription>
+      <userFieldStyle>HYPERLINK</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1670937850267_6188">
+      <userFieldName>Simplifier Projekt</userFieldName>
+      <userFieldDescription>Link zum Simplifier Projekt</userFieldDescription>
+      <userFieldStyle>HYPERLINK</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
     </userFieldDef>
     <userFieldDef elementClass="RepresentationForm" hash="USERFIELD_1622801082285_1965">
       <userFieldName>XDS Metadaten</userFieldName>
@@ -417,34 +445,6 @@
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
     </userFieldDef>
-    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884870745_32050">
-      <userFieldName>MII KDS</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>SUBTYPE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884904331_32051">
-      <userFieldName>MII KDS</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>TAB</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884915184_32052">
-      <userFieldName>MII Dokumentation</userFieldName>
-      <userFieldDescription>Link zu weiterführenden Informationen</userFieldDescription>
-      <userFieldStyle>HYPERLINK</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1670937850267_6188">
-      <userFieldName>Simplifier Projekt</userFieldName>
-      <userFieldDescription>Link zum Simplifier Projekt</userFieldDescription>
-      <userFieldStyle>HYPERLINK</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
-    </userFieldDef>
   </userFieldDefinitions>
   <objects>
     <model></model>
@@ -668,6 +668,9 @@ Achtung: es gib 2 Varianten - 1) DSF, 2) Aktin -&gt; 2 Teilmodelle erstellen</fi
     <element class="ApplicationSystem" hash="ASY_1669884302898_31961">
       <field name="name">Feasibility Prozess</field>
     </element>
+    <element class="Textfield" hash="TEX_1671086393401_4878">
+      <field name="name">Feasibility-UI?</field>
+    </element>
     <element class="ApplicationSystem" hash="RAN_1634046481221_193101">
       <field name="name">federated trust unit</field>
     </element>
@@ -822,6 +825,9 @@ PUBLISH - DEPLOY MODEL</field>
     <element class="InvokingInterface" hash="IIN_1671046635879_4793">
       <field name="name">Schnittstelle (aufrufend) 1</field>
     </element>
+    <element class="InvokingInterface" hash="IIN_1671086294127_4863">
+      <field name="name">Schnittstelle (aufrufend) 10</field>
+    </element>
     <element class="InvokingInterface" hash="IIN_1671046647073_4798">
       <field name="name">Schnittstelle (aufrufend) 2</field>
     </element>
@@ -830,6 +836,21 @@ PUBLISH - DEPLOY MODEL</field>
     </element>
     <element class="InvokingInterface" hash="IIN_1671047477643_4871">
       <field name="name">Schnittstelle (aufrufend) 4</field>
+    </element>
+    <element class="InvokingInterface" hash="IIN_1671086155037_4839">
+      <field name="name">Schnittstelle (aufrufend) 5</field>
+    </element>
+    <element class="InvokingInterface" hash="IIN_1671086215600_4847">
+      <field name="name">Schnittstelle (aufrufend) 6</field>
+    </element>
+    <element class="InvokingInterface" hash="IIN_1671086218579_4852">
+      <field name="name">Schnittstelle (aufrufend) 7</field>
+    </element>
+    <element class="InvokingInterface" hash="IIN_1671086231171_4855">
+      <field name="name">Schnittstelle (aufrufend) 8</field>
+    </element>
+    <element class="InvokingInterface" hash="IIN_1671086279345_4860">
+      <field name="name">Schnittstelle (aufrufend) 9</field>
     </element>
     <element class="ProvidingInterface" hash="PIN_1671046635847_4791">
       <field name="name">Schnittstelle (bereitstellend) 1</field>
@@ -842,6 +863,18 @@ PUBLISH - DEPLOY MODEL</field>
     </element>
     <element class="ProvidingInterface" hash="PIN_1671047477618_4869">
       <field name="name">Schnittstelle (bereitstellend) 4</field>
+    </element>
+    <element class="ProvidingInterface" hash="PIN_1671086155015_4837">
+      <field name="name">Schnittstelle (bereitstellend) 5</field>
+    </element>
+    <element class="ProvidingInterface" hash="PIN_1671086215586_4845">
+      <field name="name">Schnittstelle (bereitstellend) 6</field>
+    </element>
+    <element class="ProvidingInterface" hash="PIN_1671086218563_4850">
+      <field name="name">Schnittstelle (bereitstellend) 7</field>
+    </element>
+    <element class="ProvidingInterface" hash="PIN_1671086279329_4858">
+      <field name="name">Schnittstelle (bereitstellend) 8</field>
     </element>
     <element class="ApplicationSystem" hash="ASY_1670489212677_4955">
       <field name="name">SSO - FDPG</field>
@@ -945,11 +978,6 @@ PUBLISH - DEPLOY MODEL</field>
       <field name="start">OTY_1669884573092_32020</field>
       <field name="end">RFO_1669885358166_32057</field>
     </element>
-    <element class="Group_HasPartEdge" hash="DLK_1669898238211_5953">
-      <field name="name">Hat-Teil-Beziehung 17</field>
-      <field name="start">GRO_1669898073958_5926</field>
-      <field name="end">OTY_1669884573092_32020</field>
-    </element>
     <element class="ObjectType_RepresentationForm_Edge" hash="DLK_1671047029552_4822">
       <field name="name">Beziehung 3</field>
       <field name="start">OTY_1671046933845_4810</field>
@@ -970,6 +998,11 @@ PUBLISH - DEPLOY MODEL</field>
       <field name="start">OTY_1670487602103_4780</field>
       <field name="end">RFO_1671047202902_4856</field>
     </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669898238211_5953">
+      <field name="name">Hat-Teil-Beziehung 17</field>
+      <field name="start">GRO_1669898073958_5926</field>
+      <field name="end">OTY_1669884573092_32020</field>
+    </element>
     <element class="ApplicationComponent_RepresentationForm_Edge" hash="DLK_1669885369437_32058">
       <field name="name">Speicherung 1</field>
       <field name="start">ASY_1669884539642_32017</field>
@@ -984,6 +1017,128 @@ PUBLISH - DEPLOY MODEL</field>
       <field name="name">Installation	 2</field>
       <field name="start">ASY_1670490309195_6175</field>
       <field name="end">SPR_1670490336075_6177</field>
+    </element>
+    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671046635868_4792">
+      <field name="name">Unterordunungsbeziehung 1</field>
+      <field name="start">ASY_1670487993777_4858</field>
+      <field name="end">PIN_1671046635847_4791</field>
+    </element>
+    <element class="CommunicationLink_Edge" hash="DLK_1671046635883_4794">
+      <field name="name">Kommunikationsbeziehung 1</field>
+      <field name="start">IIN_1671046635879_4793</field>
+      <field name="end">PIN_1671046635847_4791</field>
+    </element>
+    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671046635888_4795">
+      <field name="name">Unterordunungsbeziehung 2</field>
+      <field name="start">ASY_1669884403712_31980</field>
+      <field name="end">IIN_1671046635879_4793</field>
+    </element>
+    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671046647064_4797">
+      <field name="name">Unterordunungsbeziehung 3</field>
+      <field name="start">ASY_1670487993777_4858</field>
+      <field name="end">PIN_1671046647059_4796</field>
+    </element>
+    <element class="CommunicationLink_Edge" hash="DLK_1671046647079_4799">
+      <field name="name">Kommunikationsbeziehung 2</field>
+      <field name="start">IIN_1671046647073_4798</field>
+      <field name="end">PIN_1671046647059_4796</field>
+    </element>
+    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671046647083_4800">
+      <field name="name">Unterordunungsbeziehung 4</field>
+      <field name="start">ASY_1669884403712_31980</field>
+      <field name="end">IIN_1671046647073_4798</field>
+    </element>
+    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671046872293_4803">
+      <field name="name">Unterordunungsbeziehung 5</field>
+      <field name="start">ASY_1669884380661_31977</field>
+      <field name="end">PIN_1671046872276_4802</field>
+    </element>
+    <element class="CommunicationLink_Edge" hash="DLK_1671046872307_4805">
+      <field name="name">Kommunikationsbeziehung 3</field>
+      <field name="start">IIN_1671046872303_4804</field>
+      <field name="end">PIN_1671046872276_4802</field>
+    </element>
+    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671046872310_4806">
+      <field name="name">Unterordunungsbeziehung 6</field>
+      <field name="start">ASY_1669884403712_31980</field>
+      <field name="end">IIN_1671046872303_4804</field>
+    </element>
+    <element class="ApplicationComponent_RepresentationForm_Edge" hash="DLK_1671047029572_4823">
+      <field name="name">Speicherung 2</field>
+      <field name="start">ASY_1669884380661_31977</field>
+      <field name="end">RFO_1671047029550_4821</field>
+    </element>
+    <element class="ApplicationComponent_RepresentationForm_Edge" hash="DLK_1671047149360_4846">
+      <field name="name">Speicherung 3</field>
+      <field name="start">ASY_1669884380661_31977</field>
+      <field name="end">RFO_1671047149333_4844</field>
+    </element>
+    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671047185654_4851">
+      <field name="name">Unterordunungsbeziehung 7</field>
+      <field name="start">ASY_1669884539642_32017</field>
+      <field name="end">PIN_1671047185639_4850</field>
+    </element>
+    <element class="CommunicationLink_Edge" hash="DLK_1671047185666_4853">
+      <field name="name">Kommunikationsbeziehung 4</field>
+      <field name="start">IIN_1671047185663_4852</field>
+      <field name="end">PIN_1671047185639_4850</field>
+    </element>
+    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671047185670_4854">
+      <field name="name">Unterordunungsbeziehung 8</field>
+      <field name="start">ASY_1669884380661_31977</field>
+      <field name="end">IIN_1671047185663_4852</field>
+    </element>
+    <element class="ApplicationComponent_RepresentationForm_Edge" hash="DLK_1671047253563_4860">
+      <field name="name">Speicherung 4</field>
+      <field name="start">ASY_1669884539642_32017</field>
+      <field name="end">RFO_1671047202902_4856</field>
+    </element>
+    <element class="Service_RepresentationForm_Edge" hash="DLK_1671047355520_4865">
+      <field name="name">Beziehung 1</field>
+      <field name="start">SER_1671047337521_4864</field>
+      <field name="end">RFO_1671047202902_4856</field>
+      <field name="state">DOUBLE</field>
+    </element>
+    <element class="Service_InvokingInterface_Edge" hash="DLK_1671047398949_4866">
+      <field name="name">Beziehung 1</field>
+      <field name="start">SER_1671047337521_4864</field>
+      <field name="end">IIN_1671047185663_4852</field>
+    </element>
+    <element class="Service_ProvidingInterface_Edge" hash="DLK_1671047401064_4867">
+      <field name="name">Beziehung 1</field>
+      <field name="start">SER_1671047337521_4864</field>
+      <field name="end">PIN_1671047185639_4850</field>
+    </element>
+    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671047477634_4870">
+      <field name="name">Unterordunungsbeziehung 9</field>
+      <field name="start">ASY_1669884539642_32017</field>
+      <field name="end">PIN_1671047477618_4869</field>
+    </element>
+    <element class="CommunicationLink_Edge" hash="DLK_1671047477646_4872">
+      <field name="name">Kommunikationsbeziehung 5</field>
+      <field name="start">IIN_1671047477643_4871</field>
+      <field name="end">PIN_1671047477618_4869</field>
+    </element>
+    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671047477649_4873">
+      <field name="name">Unterordunungsbeziehung 10</field>
+      <field name="start">ASY_1669884403712_31980</field>
+      <field name="end">IIN_1671047477643_4871</field>
+    </element>
+    <element class="Service_RepresentationForm_Edge" hash="DLK_1671047535855_4876">
+      <field name="name">Beziehung 2</field>
+      <field name="start">SER_1671047510385_4875</field>
+      <field name="end">RFO_1671047488206_4874</field>
+      <field name="state">DOUBLE</field>
+    </element>
+    <element class="Service_ProvidingInterface_Edge" hash="DLK_1671047543896_4877">
+      <field name="name">Beziehung 2</field>
+      <field name="start">SER_1671047510385_4875</field>
+      <field name="end">PIN_1671047477618_4869</field>
+    </element>
+    <element class="Service_InvokingInterface_Edge" hash="DLK_1671047550301_4878">
+      <field name="name">Beziehung 2</field>
+      <field name="start">SER_1671047510385_4875</field>
+      <field name="end">IIN_1671047477643_4871</field>
     </element>
     <element class="Group_HasPartEdge" hash="DLK_1669883273637_17691">
       <field name="name">Hat-Teil-Beziehung 1</field>
@@ -1250,134 +1405,92 @@ PUBLISH - DEPLOY MODEL</field>
       <field name="start">RAN_1646134016164_41896</field>
       <field name="end">RAN_1646134049773_42112</field>
     </element>
-    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671046635868_4792">
-      <field name="name">Unterordunungsbeziehung 1</field>
-      <field name="start">ASY_1670487993777_4858</field>
-      <field name="end">PIN_1671046635847_4791</field>
+    <element class="CommunicationLink_Edge" hash="DLK_1671086155042_4840">
+      <field name="name">Kommunikationsbeziehung 6</field>
+      <field name="start">IIN_1671086155037_4839</field>
+      <field name="end">PIN_1671086155015_4837</field>
     </element>
-    <element class="CommunicationLink_Edge" hash="DLK_1671046635883_4794">
-      <field name="name">Kommunikationsbeziehung 1</field>
-      <field name="start">IIN_1671046635879_4793</field>
-      <field name="end">PIN_1671046635847_4791</field>
-    </element>
-    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671046635888_4795">
-      <field name="name">Unterordunungsbeziehung 2</field>
-      <field name="start">ASY_1669884403712_31980</field>
-      <field name="end">IIN_1671046635879_4793</field>
-    </element>
-    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671046647064_4797">
-      <field name="name">Unterordunungsbeziehung 3</field>
-      <field name="start">ASY_1670487993777_4858</field>
-      <field name="end">PIN_1671046647059_4796</field>
-    </element>
-    <element class="CommunicationLink_Edge" hash="DLK_1671046647079_4799">
-      <field name="name">Kommunikationsbeziehung 2</field>
-      <field name="start">IIN_1671046647073_4798</field>
-      <field name="end">PIN_1671046647059_4796</field>
-    </element>
-    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671046647083_4800">
-      <field name="name">Unterordunungsbeziehung 4</field>
-      <field name="start">ASY_1669884403712_31980</field>
-      <field name="end">IIN_1671046647073_4798</field>
-    </element>
-    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671046872293_4803">
-      <field name="name">Unterordunungsbeziehung 5</field>
+    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671086155046_4841">
+      <field name="name">Unterordunungsbeziehung 12</field>
       <field name="start">ASY_1669884380661_31977</field>
-      <field name="end">PIN_1671046872276_4802</field>
+      <field name="end">IIN_1671086155037_4839</field>
     </element>
-    <element class="CommunicationLink_Edge" hash="DLK_1671046872307_4805">
-      <field name="name">Kommunikationsbeziehung 3</field>
-      <field name="start">IIN_1671046872303_4804</field>
-      <field name="end">PIN_1671046872276_4802</field>
+    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671086215593_4846">
+      <field name="name">Unterordunungsbeziehung 13</field>
+      <field name="start">ASY_1669885862004_32118</field>
+      <field name="end">PIN_1671086215586_4845</field>
     </element>
-    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671046872310_4806">
-      <field name="name">Unterordunungsbeziehung 6</field>
-      <field name="start">ASY_1669884403712_31980</field>
-      <field name="end">IIN_1671046872303_4804</field>
+    <element class="CommunicationLink_Edge" hash="DLK_1671086215604_4848">
+      <field name="name">Kommunikationsbeziehung 7</field>
+      <field name="start">IIN_1671086215600_4847</field>
+      <field name="end">PIN_1671086215586_4845</field>
     </element>
-    <element class="ApplicationComponent_RepresentationForm_Edge" hash="DLK_1671047029572_4823">
-      <field name="name">Speicherung 2</field>
-      <field name="start">ASY_1669884380661_31977</field>
-      <field name="end">RFO_1671047029550_4821</field>
+    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671086215607_4849">
+      <field name="name">Unterordunungsbeziehung 14</field>
+      <field name="start">ASY_1669885817618_32114</field>
+      <field name="end">IIN_1671086215600_4847</field>
     </element>
-    <element class="ApplicationComponent_RepresentationForm_Edge" hash="DLK_1671047149360_4846">
-      <field name="name">Speicherung 3</field>
-      <field name="start">ASY_1669884380661_31977</field>
-      <field name="end">RFO_1671047149333_4844</field>
+    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671086218570_4851">
+      <field name="name">Unterordunungsbeziehung 15</field>
+      <field name="start">ASY_1669885834036_32115</field>
+      <field name="end">PIN_1671086218563_4850</field>
     </element>
-    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671047185654_4851">
-      <field name="name">Unterordunungsbeziehung 7</field>
-      <field name="start">ASY_1669884539642_32017</field>
+    <element class="CommunicationLink_Edge" hash="DLK_1671086218583_4853">
+      <field name="name">Kommunikationsbeziehung 8</field>
+      <field name="start">IIN_1671086218579_4852</field>
+      <field name="end">PIN_1671086218563_4850</field>
+    </element>
+    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671086218586_4854">
+      <field name="name">Unterordunungsbeziehung 16</field>
+      <field name="start">ASY_1669885817618_32114</field>
+      <field name="end">IIN_1671086218579_4852</field>
+    </element>
+    <element class="CommunicationLink_Edge" hash="DLK_1671086231178_4856">
+      <field name="name">Kommunikationsbeziehung 9</field>
+      <field name="start">IIN_1671086231171_4855</field>
       <field name="end">PIN_1671047185639_4850</field>
     </element>
-    <element class="CommunicationLink_Edge" hash="DLK_1671047185666_4853">
-      <field name="name">Kommunikationsbeziehung 4</field>
-      <field name="start">IIN_1671047185663_4852</field>
-      <field name="end">PIN_1671047185639_4850</field>
+    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671086231181_4857">
+      <field name="name">Unterordunungsbeziehung 17</field>
+      <field name="start">ASY_1669885817618_32114</field>
+      <field name="end">IIN_1671086231171_4855</field>
     </element>
-    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671047185670_4854">
-      <field name="name">Unterordunungsbeziehung 8</field>
-      <field name="start">ASY_1669884380661_31977</field>
-      <field name="end">IIN_1671047185663_4852</field>
+    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671086279336_4859">
+      <field name="name">Unterordunungsbeziehung 18</field>
+      <field name="start">ASY_1669885588757_32112</field>
+      <field name="end">PIN_1671086279329_4858</field>
     </element>
-    <element class="ApplicationComponent_RepresentationForm_Edge" hash="DLK_1671047253563_4860">
-      <field name="name">Speicherung 4</field>
-      <field name="start">ASY_1669884539642_32017</field>
-      <field name="end">RFO_1671047202902_4856</field>
+    <element class="CommunicationLink_Edge" hash="DLK_1671086279350_4861">
+      <field name="name">Kommunikationsbeziehung 10</field>
+      <field name="start">IIN_1671086279345_4860</field>
+      <field name="end">PIN_1671086279329_4858</field>
     </element>
-    <element class="Service_RepresentationForm_Edge" hash="DLK_1671047355520_4865">
-      <field name="name">Beziehung 1</field>
-      <field name="start">SER_1671047337521_4864</field>
-      <field name="end">RFO_1671047202902_4856</field>
-      <field name="state">DOUBLE</field>
+    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671086279354_4862">
+      <field name="name">Unterordunungsbeziehung 19</field>
+      <field name="start">ASY_1669885817618_32114</field>
+      <field name="end">IIN_1671086279345_4860</field>
     </element>
-    <element class="Service_InvokingInterface_Edge" hash="DLK_1671047398949_4866">
-      <field name="name">Beziehung 1</field>
-      <field name="start">SER_1671047337521_4864</field>
-      <field name="end">IIN_1671047185663_4852</field>
+    <element class="CommunicationLink_Edge" hash="DLK_1671086294134_4864">
+      <field name="name">Kommunikationsbeziehung 11</field>
+      <field name="start">IIN_1671086294127_4863</field>
+      <field name="end">PIN_1671086279329_4858</field>
     </element>
-    <element class="Service_ProvidingInterface_Edge" hash="DLK_1671047401064_4867">
-      <field name="name">Beziehung 1</field>
-      <field name="start">SER_1671047337521_4864</field>
-      <field name="end">PIN_1671047185639_4850</field>
+    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671086294138_4865">
+      <field name="name">Unterordunungsbeziehung 20</field>
+      <field name="start">ASY_1669884506222_32016</field>
+      <field name="end">IIN_1671086294127_4863</field>
     </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1671047401079_4868">
+    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671086327745_4866">
+      <field name="name">Unterordunungsbeziehung 21</field>
+      <field name="start">ASY_1669884302898_31961</field>
+      <field name="end">PIN_1671086155015_4837</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1671086393404_4879">
       <field name="name">Beziehung 1</field>
       <field name="start">SER_1671047337521_4864</field>
       <field name="end">DLK_1671047185666_4853</field>
     </element>
-    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671047477634_4870">
-      <field name="name">Unterordunungsbeziehung 9</field>
-      <field name="start">ASY_1669884539642_32017</field>
-      <field name="end">PIN_1671047477618_4869</field>
-    </element>
-    <element class="CommunicationLink_Edge" hash="DLK_1671047477646_4872">
-      <field name="name">Kommunikationsbeziehung 5</field>
-      <field name="start">IIN_1671047477643_4871</field>
-      <field name="end">PIN_1671047477618_4869</field>
-    </element>
-    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1671047477649_4873">
-      <field name="name">Unterordunungsbeziehung 10</field>
-      <field name="start">ASY_1669884403712_31980</field>
-      <field name="end">IIN_1671047477643_4871</field>
-    </element>
-    <element class="Service_RepresentationForm_Edge" hash="DLK_1671047535855_4876">
-      <field name="name">Beziehung 2</field>
-      <field name="start">SER_1671047510385_4875</field>
-      <field name="end">RFO_1671047488206_4874</field>
-      <field name="state">DOUBLE</field>
-    </element>
-    <element class="Service_ProvidingInterface_Edge" hash="DLK_1671047543896_4877">
-      <field name="name">Beziehung 2</field>
-      <field name="start">SER_1671047510385_4875</field>
-      <field name="end">PIN_1671047477618_4869</field>
-    </element>
-    <element class="Service_InvokingInterface_Edge" hash="DLK_1671047550301_4878">
-      <field name="name">Beziehung 2</field>
-      <field name="start">SER_1671047510385_4875</field>
-      <field name="end">IIN_1671047477643_4871</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1671047550317_4879">
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1671086393404_4880">
       <field name="name">Beziehung 2</field>
       <field name="start">SER_1671047510385_4875</field>
       <field name="end">DLK_1671047477646_4872</field>
@@ -1412,9 +1525,9 @@ PUBLISH - DEPLOY MODEL</field>
       <field name="kantenHash">DLK_1669884783381_32046</field>
       <field name="index">0</field>
     </element>
-    <element class="Bendpoint" hash="BEN_1671046877170_4807">
-      <field name="name">Knickpunkt 7</field>
-      <field name="kantenHash">DLK_1671046872307_4805</field>
+    <element class="Bendpoint" hash="BEN_1671047562405_4880">
+      <field name="name">Knickpunkt 9</field>
+      <field name="kantenHash">DLK_1671047477646_4872</field>
       <field name="index">0</field>
     </element>
     <element class="Bendpoint" hash="BEN_1671047187901_4855">
@@ -1422,9 +1535,9 @@ PUBLISH - DEPLOY MODEL</field>
       <field name="kantenHash">DLK_1671047185666_4853</field>
       <field name="index">0</field>
     </element>
-    <element class="Bendpoint" hash="BEN_1671047562405_4880">
-      <field name="name">Knickpunkt 9</field>
-      <field name="kantenHash">DLK_1671047477646_4872</field>
+    <element class="Bendpoint" hash="BEN_1671046877170_4807">
+      <field name="name">Knickpunkt 7</field>
+      <field name="kantenHash">DLK_1671046872307_4805</field>
       <field name="index">0</field>
     </element>
     <element class="Bendpoint" hash="BEN_1671047566860_4881">
@@ -1432,13 +1545,760 @@ PUBLISH - DEPLOY MODEL</field>
       <field name="kantenHash">DLK_1671047477646_4872</field>
       <field name="index">1</field>
     </element>
+    <element class="Bendpoint" hash="BEN_1671086597720_4897">
+      <field name="name">Knickpunkt 7</field>
+      <field name="kantenHash">DLK_1671046872307_4805</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1671086597724_4898">
+      <field name="name">Knickpunkt 8</field>
+      <field name="kantenHash">DLK_1671047185666_4853</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1671086597725_4899">
+      <field name="name">Knickpunkt 9</field>
+      <field name="kantenHash">DLK_1671047477646_4872</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1671086597725_4900">
+      <field name="name">Knickpunkt 10</field>
+      <field name="kantenHash">DLK_1671047477646_4872</field>
+      <field name="index">1</field>
+    </element>
   </objects>
-  <szenario hash="SZN_1669881258721_5" titel="MII Architecture (detailed-Overview)">
+  <szenario hash="SZN_1671086535030_1" titel="MII Architecture - Feasibility AKTIN">
     <description></description>
     <view>
       <selected>true</selected>
-      <x>243</x>
+      <x>289</x>
       <y>0</y>
+      <zoom>0.33</zoom>
+      <degree>65</degree>
+      <shift>200</shift>
+      <pageSizeFactor>2.7057291666666665</pageSizeFactor>
+      <activeLayer>2</activeLayer>
+      <multiView>false</multiView>
+    </view>
+    <mapping>
+      <layout class="Bendpoint">
+        <color name="bg_color">
+          <red>255</red>
+          <green>100</green>
+          <blue>100</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>0</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>10</width>
+        <height>10</height>
+      </layout>
+      <layout class="Group">
+        <color name="bg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+          <alpha>0</alpha>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>0</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="Textfield">
+        <color name="bg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+          <alpha>0</alpha>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>0</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="ApplicationSystem">
+        <color name="bg_color">
+          <red>255</red>
+          <green>153</green>
+          <blue>102</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>3</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="Function">
+        <color name="bg_color">
+          <red>255</red>
+          <green>100</green>
+          <blue>100</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>0</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="IheActorInstance">
+        <color name="bg_color">
+          <red>0</red>
+          <green>204</green>
+          <blue>255</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>0</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="IheActorInstanceInvokingInterface">
+        <color name="bg_color">
+          <red>255</red>
+          <green>100</green>
+          <blue>100</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>1</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>16</width>
+        <height>16</height>
+      </layout>
+      <layout class="IheActorInstanceProvidingInterface">
+        <color name="bg_color">
+          <red>192</red>
+          <green>192</green>
+          <blue>192</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>2</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>16</width>
+        <height>16</height>
+      </layout>
+      <layout class="InvokingInterface">
+        <color name="bg_color">
+          <red>204</red>
+          <green>255</green>
+          <blue>204</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>1</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>16</width>
+        <height>16</height>
+      </layout>
+      <layout class="ObjectType">
+        <color name="bg_color">
+          <red>100</red>
+          <green>100</green>
+          <blue>255</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>1</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="OrganisationSystem">
+        <color name="bg_color">
+          <red>100</red>
+          <green>100</green>
+          <blue>255</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>3</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="PhysicalDataProcessingComponent">
+        <color name="bg_color">
+          <red>255</red>
+          <green>200</green>
+          <blue>0</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>0</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>90</width>
+        <height>50</height>
+      </layout>
+      <layout class="ProvidingInterface">
+        <color name="bg_color">
+          <red>255</red>
+          <green>200</green>
+          <blue>0</blue>
+        </color>
+        <color name="fg_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <color name="border_color">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+        <form>2</form>
+        <font_family>SansSerif</font_family>
+        <font_style>0</font_style>
+        <font_size>12</font_size>
+        <width>16</width>
+        <height>16</height>
+      </layout>
+    </mapping>
+    <layer number="0">
+      <layout>
+        <color name="bg_color">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+        </color>
+      </layout>
+    </layer>
+    <layer number="1">
+      <layout>
+        <color name="bg_color">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+        </color>
+      </layout>
+    </layer>
+    <layer number="2">
+      <layout>
+        <color name="bg_color">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+        </color>
+      </layout>
+      <container hash="GRO_1669881132182_17672">
+        <layout>
+          <x>-845</x>
+          <y>-185</y>
+          <width>1020</width>
+          <height>800</height>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="GRO_1669884326814_31963">
+        <layout>
+          <x>-548</x>
+          <y>-325</y>
+          <width>385</width>
+          <height>170</height>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="ASY_1669884193206_31945">
+        <layout>
+          <x>-460</x>
+          <y>-183</y>
+          <width>170</width>
+          <height>265</height>
+        </layout>
+      </container>
+      <container hash="ASY_1669884302898_31961">
+        <layout>
+          <x>-458</x>
+          <y>-275</y>
+          <width>135</width>
+          <height>60</height>
+        </layout>
+      </container>
+      <container hash="PIN_1671086155015_4837">
+        <layout>
+          <x>-525</x>
+          <y>-255</y>
+          <width>19</width>
+          <height>19</height>
+        </layout>
+      </container>
+      <container hash="ASY_1669884380661_31977">
+        <layout>
+          <x>-675</x>
+          <y>-280</y>
+        </layout>
+      </container>
+      <container hash="PIN_1671046872276_4802">
+        <layout>
+          <x>-651</x>
+          <y>-310</y>
+          <width>19</width>
+          <height>19</height>
+        </layout>
+      </container>
+      <container hash="IIN_1671047185663_4852">
+        <layout>
+          <x>-703</x>
+          <y>-254</y>
+          <width>19</width>
+          <height>19</height>
+        </layout>
+      </container>
+      <container hash="IIN_1671086155037_4839">
+        <layout>
+          <x>-630</x>
+          <y>-254</y>
+          <width>19</width>
+          <height>19</height>
+        </layout>
+      </container>
+      <container hash="ASY_1669884403712_31980">
+        <layout>
+          <x>-355</x>
+          <y>-365</y>
+        </layout>
+      </container>
+      <container hash="IIN_1671046635879_4793">
+        <layout>
+          <x>-309</x>
+          <y>-377</y>
+          <width>19</width>
+          <height>19</height>
+        </layout>
+      </container>
+      <container hash="IIN_1671046647073_4798">
+        <layout>
+          <x>-310</x>
+          <y>-350</y>
+          <width>19</width>
+          <height>19</height>
+        </layout>
+      </container>
+      <container hash="IIN_1671046872303_4804">
+        <layout>
+          <x>-400</x>
+          <y>-351</y>
+          <width>19</width>
+          <height>19</height>
+        </layout>
+      </container>
+      <container hash="IIN_1671047477643_4871">
+        <layout>
+          <x>-400</x>
+          <y>-376</y>
+          <width>19</width>
+          <height>19</height>
+        </layout>
+      </container>
+      <container hash="ASY_1669884539642_32017">
+        <layout>
+          <x>-860</x>
+          <y>-125</y>
+          <width>131</width>
+          <height>410</height>
+        </layout>
+      </container>
+      <container hash="PIN_1671047185639_4850">
+        <layout>
+          <x>-794</x>
+          <y>-177</y>
+          <width>19</width>
+          <height>19</height>
+        </layout>
+      </container>
+      <container hash="PIN_1671047477618_4869">
+        <layout>
+          <x>-794</x>
+          <y>-205</y>
+          <width>19</width>
+          <height>19</height>
+        </layout>
+      </container>
+      <container hash="ASY_1669885817618_32114">
+        <layout>
+          <x>-1025</x>
+          <y>-145</y>
+        </layout>
+      </container>
+      <container hash="IIN_1671086215600_4847">
+        <layout>
+          <x>-1071</x>
+          <y>-145</y>
+          <width>19</width>
+          <height>19</height>
+        </layout>
+      </container>
+      <container hash="IIN_1671086218579_4852">
+        <layout>
+          <x>-1071</x>
+          <y>-165</y>
+          <width>19</width>
+          <height>19</height>
+        </layout>
+      </container>
+      <container hash="IIN_1671086231171_4855">
+        <layout>
+          <x>-980</x>
+          <y>-151</y>
+          <width>19</width>
+          <height>19</height>
+        </layout>
+      </container>
+      <container hash="IIN_1671086279345_4860">
+        <layout>
+          <x>-1032</x>
+          <y>-170</y>
+          <width>19</width>
+          <height>19</height>
+        </layout>
+      </container>
+      <container hash="ASY_1669885862004_32118">
+        <layout>
+          <x>-1245</x>
+          <y>-150</y>
+        </layout>
+      </container>
+      <container hash="PIN_1671086215586_4845">
+        <layout>
+          <x>-1200</x>
+          <y>-148</y>
+          <width>19</width>
+          <height>19</height>
+        </layout>
+      </container>
+      <container hash="GRO_1669881109300_17659">
+        <layout>
+          <x>955</x>
+          <y>-185</y>
+          <width>860</width>
+          <height>800</height>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="GRO_1670489163249_4953">
+        <layout>
+          <x>1025</x>
+          <y>-95</y>
+          <width>420</width>
+          <height>270</height>
+          <halign>RIGHT</halign>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="ASY_1670487993777_4858">
+        <layout>
+          <x>525</x>
+          <y>-365</y>
+        </layout>
+      </container>
+      <container hash="PIN_1671046635847_4791">
+        <layout>
+          <x>480</x>
+          <y>-377</y>
+          <width>19</width>
+          <height>19</height>
+        </layout>
+      </container>
+      <container hash="PIN_1671046647059_4796">
+        <layout>
+          <x>479</x>
+          <y>-350</y>
+          <width>19</width>
+          <height>19</height>
+        </layout>
+      </container>
+      <container hash="ASY_1670489842872_6153">
+        <layout>
+          <x>1029</x>
+          <y>-88</y>
+          <width>139</width>
+          <height>175</height>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="ASY_1670489790612_6129">
+        <layout>
+          <x>1029</x>
+          <y>-78</y>
+          <width>110</width>
+          <height>35</height>
+        </layout>
+      </container>
+      <container hash="ASY_1670489627273_6117">
+        <layout>
+          <x>1169</x>
+          <y>-158</y>
+          <width>110</width>
+          <height>35</height>
+        </layout>
+      </container>
+      <container hash="ASY_1670489807199_6141">
+        <layout>
+          <x>1029</x>
+          <y>-33</y>
+          <width>110</width>
+          <height>35</height>
+        </layout>
+      </container>
+      <container hash="ASY_1670490168290_6172">
+        <layout>
+          <x>889</x>
+          <y>-158</y>
+          <width>110</width>
+          <height>35</height>
+        </layout>
+      </container>
+      <container hash="TEX_1671086393401_4878">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>204</blue>
+          </color>
+          <x>627</x>
+          <y>-449</y>
+          <width>155</width>
+          <height>62</height>
+        </layout>
+      </container>
+      <container hash="DLK_1669884302899_31962"></container>
+      <container hash="DLK_1671086327745_4866"></container>
+      <container hash="DLK_1669884387347_31979"></container>
+      <container hash="DLK_1671046872293_4803"></container>
+      <container hash="DLK_1671047185670_4854"></container>
+      <container hash="DLK_1671086155042_4840"></container>
+      <container hash="DLK_1671086155046_4841"></container>
+      <container hash="DLK_1669884416858_31981"></container>
+      <container hash="DLK_1671046635888_4795"></container>
+      <container hash="DLK_1671046647083_4800"></container>
+      <container hash="DLK_1671046872307_4805"></container>
+      <container hash="DLK_1671046872310_4806"></container>
+      <container hash="DLK_1671047477649_4873"></container>
+      <container hash="DLK_1671047185654_4851"></container>
+      <container hash="DLK_1671047185666_4853"></container>
+      <container hash="DLK_1671047477634_4870"></container>
+      <container hash="DLK_1671047477646_4872"></container>
+      <container hash="DLK_1669885855918_32117"></container>
+      <container hash="DLK_1671086215607_4849"></container>
+      <container hash="DLK_1671086218586_4854"></container>
+      <container hash="DLK_1671086231178_4856"></container>
+      <container hash="DLK_1671086231181_4857"></container>
+      <container hash="DLK_1671086279354_4862"></container>
+      <container hash="DLK_1669885876952_32119"></container>
+      <container hash="DLK_1671086215593_4846"></container>
+      <container hash="DLK_1671086215604_4848"></container>
+      <container hash="DLK_1670489163251_4954"></container>
+      <container hash="DLK_1670487993779_4859"></container>
+      <container hash="DLK_1671046635868_4792"></container>
+      <container hash="DLK_1671046635883_4794"></container>
+      <container hash="DLK_1671046647064_4797"></container>
+      <container hash="DLK_1671046647079_4799"></container>
+      <container hash="DLK_1670489870545_6154"></container>
+      <container hash="DLK_1670489870556_6155"></container>
+      <container hash="DLK_1670489870561_6156"></container>
+      <container hash="DLK_1670490168292_6173"></container>
+      <container hash="BEN_1671086597720_4897">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>-650</x>
+          <y>-350</y>
+        </layout>
+      </container>
+      <container hash="BEN_1671086597724_4898">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>-702</x>
+          <y>-177</y>
+        </layout>
+      </container>
+      <container hash="BEN_1671086597725_4899">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>-750</x>
+          <y>-375</y>
+        </layout>
+      </container>
+      <container hash="BEN_1671086597725_4900">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>-750</x>
+          <y>-205</y>
+        </layout>
+      </container>
+    </layer>
+    <layer number="3">
+      <layout>
+        <color name="bg_color">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+        </color>
+      </layout>
+    </layer>
+    <layer number="4">
+      <layout>
+        <color name="bg_color">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+        </color>
+      </layout>
+    </layer>
+  </szenario>
+  <szenario hash="SZN_1669881258721_5" titel="MII Architecture (detailed-Overview)">
+    <description></description>
+    <view>
+      <selected>false</selected>
+      <x>864</x>
+      <y>210</y>
       <zoom>0.54</zoom>
       <degree>65</degree>
       <shift>568</shift>
@@ -1927,7 +2787,7 @@ PUBLISH - DEPLOY MODEL</field>
       <container hash="ASY_1669884259524_31946">
         <layout>
           <x>-458</x>
-          <y>-275</y>
+          <y>-95</y>
           <width>135</width>
           <height>60</height>
         </layout>
@@ -1935,7 +2795,7 @@ PUBLISH - DEPLOY MODEL</field>
       <container hash="ASY_1669884302898_31961">
         <layout>
           <x>-458</x>
-          <y>-95</y>
+          <y>-275</y>
           <width>135</width>
           <height>60</height>
         </layout>
@@ -2267,8 +3127,8 @@ PUBLISH - DEPLOY MODEL</field>
             <green>255</green>
             <blue>204</blue>
           </color>
-          <x>-983</x>
-          <y>-444</y>
+          <x>-853</x>
+          <y>-451</y>
           <width>155</width>
           <height>62</height>
         </layout>
@@ -2366,6 +3226,99 @@ PUBLISH - DEPLOY MODEL</field>
           <height>19</height>
         </layout>
       </container>
+      <container hash="PIN_1671086155015_4837">
+        <layout>
+          <x>-525</x>
+          <y>-255</y>
+          <width>19</width>
+          <height>19</height>
+        </layout>
+      </container>
+      <container hash="IIN_1671086155037_4839">
+        <layout>
+          <x>-630</x>
+          <y>-254</y>
+          <width>19</width>
+          <height>19</height>
+        </layout>
+      </container>
+      <container hash="PIN_1671086215586_4845">
+        <layout>
+          <x>-1200</x>
+          <y>-148</y>
+          <width>19</width>
+          <height>19</height>
+        </layout>
+      </container>
+      <container hash="IIN_1671086215600_4847">
+        <layout>
+          <x>-1071</x>
+          <y>-145</y>
+          <width>19</width>
+          <height>19</height>
+        </layout>
+      </container>
+      <container hash="PIN_1671086218563_4850">
+        <layout>
+          <x>-1198</x>
+          <y>-223</y>
+          <width>19</width>
+          <height>19</height>
+        </layout>
+      </container>
+      <container hash="IIN_1671086218579_4852">
+        <layout>
+          <x>-1071</x>
+          <y>-165</y>
+          <width>19</width>
+          <height>19</height>
+        </layout>
+      </container>
+      <container hash="IIN_1671086231171_4855">
+        <layout>
+          <x>-980</x>
+          <y>-151</y>
+          <width>19</width>
+          <height>19</height>
+        </layout>
+      </container>
+      <container hash="PIN_1671086279329_4858">
+        <layout>
+          <x>-1178</x>
+          <y>-605</y>
+          <width>19</width>
+          <height>19</height>
+        </layout>
+      </container>
+      <container hash="IIN_1671086279345_4860">
+        <layout>
+          <x>-1032</x>
+          <y>-170</y>
+          <width>19</width>
+          <height>19</height>
+        </layout>
+      </container>
+      <container hash="IIN_1671086294127_4863">
+        <layout>
+          <x>-920</x>
+          <y>-405</y>
+          <width>19</width>
+          <height>19</height>
+        </layout>
+      </container>
+      <container hash="TEX_1671086393401_4878">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>204</blue>
+          </color>
+          <x>627</x>
+          <y>-449</y>
+          <width>155</width>
+          <height>62</height>
+        </layout>
+      </container>
       <container hash="DLK_1669883273637_17691"></container>
       <container hash="DLK_1669883292506_17693"></container>
       <container hash="DLK_1669883326512_17695"></container>
@@ -2422,7 +3375,23 @@ PUBLISH - DEPLOY MODEL</field>
       <container hash="DLK_1671047477634_4870"></container>
       <container hash="DLK_1671047477646_4872"></container>
       <container hash="DLK_1671047477649_4873"></container>
-      <container hash="BEN_1671046877170_4807">
+      <container hash="DLK_1671086155042_4840"></container>
+      <container hash="DLK_1671086155046_4841"></container>
+      <container hash="DLK_1671086215593_4846"></container>
+      <container hash="DLK_1671086215604_4848"></container>
+      <container hash="DLK_1671086215607_4849"></container>
+      <container hash="DLK_1671086218570_4851"></container>
+      <container hash="DLK_1671086218583_4853"></container>
+      <container hash="DLK_1671086218586_4854"></container>
+      <container hash="DLK_1671086231178_4856"></container>
+      <container hash="DLK_1671086231181_4857"></container>
+      <container hash="DLK_1671086279336_4859"></container>
+      <container hash="DLK_1671086279350_4861"></container>
+      <container hash="DLK_1671086279354_4862"></container>
+      <container hash="DLK_1671086294134_4864"></container>
+      <container hash="DLK_1671086294138_4865"></container>
+      <container hash="DLK_1671086327745_4866"></container>
+      <container hash="BEN_1671047562405_4880">
         <layout>
           <color name="bg_color">
             <red>0</red>
@@ -2430,8 +3399,8 @@ PUBLISH - DEPLOY MODEL</field>
             <blue>0</blue>
             <alpha>0</alpha>
           </color>
-          <x>-650</x>
-          <y>-350</y>
+          <x>-750</x>
+          <y>-375</y>
         </layout>
       </container>
       <container hash="BEN_1671047187901_4855">
@@ -2446,7 +3415,7 @@ PUBLISH - DEPLOY MODEL</field>
           <y>-177</y>
         </layout>
       </container>
-      <container hash="BEN_1671047562405_4880">
+      <container hash="BEN_1671046877170_4807">
         <layout>
           <color name="bg_color">
             <red>0</red>
@@ -2454,8 +3423,8 @@ PUBLISH - DEPLOY MODEL</field>
             <blue>0</blue>
             <alpha>0</alpha>
           </color>
-          <x>-750</x>
-          <y>-375</y>
+          <x>-650</x>
+          <y>-350</y>
         </layout>
       </container>
       <container hash="BEN_1671047566860_4881">
