@@ -4,7 +4,7 @@
   <header>
     <title>MII-Architektur.3lgm</title>
     <description></description>
-    <version>67_sippe_1675428206047</version>
+    <version>69_sippe_1675939829647</version>
   </header>
   <userFieldDefinitions>
     <userFieldFormat hash="FRM_1623450079169_2058">
@@ -564,11 +564,6 @@
     </element>
     <element class="Textfield" hash="TEX_1673000606345_5051">
       <field name="name">[ToDo] Layout</field>
-    </element>
-    <element class="Textfield" hash="TEX_1670488161181_4860">
-      <field name="name">[ToDo] Mii-Schnittstellenbeschreibung Machbarkeitsanfragen [1]: Abbildung 3 als Teilmodell
-Achtung: es gib 2 Varianten - 1) DSF, 2) Aktin -&gt; 2 Teilmodelle erstellen</field>
-      <field name="description">[1] https://tmfev.sharepoint.com/:w:/r/sites/tmf/mi-i/_layouts/15/Doc.aspx?sourcedoc=%7BF19FD33F-8C04-4375-9FF6-BD93D76E48B2%7D&amp;file=MII-Schnittstellenbeschreibung-Machbarkeitsanfragen.docx&amp;action=default&amp;mobileredirect=true (MII SharePoint)</field>
     </element>
     <element class="Textfield" hash="TEX_1670489962436_6157">
       <field name="name">[ToDo] Was sind diese Angaben im draw.io?
@@ -1311,16 +1306,13 @@ Kontakt: Ana Grönke (Köln), J. Ingenerf (Lübeck)
       <field name="name">TU FHIR Interface</field>
     </element>
     <element class="Textfield" hash="TEX_1675327270835_8150">
-      <field name="name">Variente DSF Instanzen je:
+      <field name="name">Variante DSF Instanzen je:
 - FDPG
 - CRR
 - DMSt
 
 Variante (DIZ Köln):
 - Nur eine Instanz, die alle Komponenten bedient</field>
-    </element>
-    <element class="Textfield" hash="TEX_1671092696396_3835">
-      <field name="name">Was ist das? FHIR-Server?</field>
     </element>
     <element class="SoftwareProduct" hash="SPR_1675158580667_7147">
       <field name="name">Wordpress</field>
@@ -1455,15 +1447,15 @@ Variante (DIZ Köln):
       <field name="start">OTY_1675157692535_6041</field>
       <field name="end">RFO_1675157717450_6042</field>
     </element>
-    <element class="Group_HasPartEdge" hash="DLK_1669898238211_5953">
-      <field name="name">Hat-Teil-Beziehung 17</field>
-      <field name="start">GRO_1669898073958_5926</field>
-      <field name="end">OTY_1669884573092_32020</field>
-    </element>
     <element class="ObjectType_RepresentationForm_Edge" hash="DLK_1675323976008_6226">
       <field name="name">Beziehung 8</field>
       <field name="start">OTY_1670487517879_4748</field>
       <field name="end">RFO_1675323966744_6225</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669898238211_5953">
+      <field name="name">Hat-Teil-Beziehung 17</field>
+      <field name="start">GRO_1669898073958_5926</field>
+      <field name="end">OTY_1669884573092_32020</field>
     </element>
     <element class="ApplicationComponent_RepresentationForm_Edge" hash="DLK_1669885369437_32058">
       <field name="name">Speicherung 1</field>
@@ -1977,6 +1969,71 @@ Variante (DIZ Köln):
       <field name="start">IIN_1675159599368_9323</field>
       <field name="end">PIN_1671092533296_3805</field>
     </element>
+    <element class="CommunicationLink_Edge" hash="DLK_1675323663417_5743">
+      <field name="name">Kommunikationsbeziehung 29</field>
+      <field name="start">IIN_1675159225368_8871</field>
+      <field name="end">PIN_1675159217839_8826</field>
+    </element>
+    <element class="ApplicationComponent_RepresentationForm_Edge" hash="DLK_1675324043418_6233">
+      <field name="name">Speicherung 7</field>
+      <field name="start">ASY_1675159082692_8282</field>
+      <field name="end">RFO_1675323966744_6225</field>
+    </element>
+    <element class="ApplicationComponent_RepresentationForm_Edge" hash="DLK_1675324047344_6237">
+      <field name="name">Speicherung 8</field>
+      <field name="start">ASY_1675159017001_8204</field>
+      <field name="end">RFO_1675323966744_6225</field>
+    </element>
+    <element class="ApplicationSystem_SoftwareProduct_Edge" hash="DLK_1675329034302_8240">
+      <field name="name">Installation	 7</field>
+      <field name="start">ASY_1670487697793_4809</field>
+      <field name="end">SPR_1675329005457_8239</field>
+    </element>
+    <element class="ApplicationSystem_SoftwareProduct_Edge" hash="DLK_1675329050512_8252">
+      <field name="name">Installation	 8</field>
+      <field name="start">ASY_1669884429790_31982</field>
+      <field name="end">SPR_1675329005457_8239</field>
+    </element>
+    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1675329557421_8336">
+      <field name="name">Unterordunungsbeziehung 49</field>
+      <field name="start">ASY_1674738439558_5980</field>
+      <field name="end">IIN_1675329557416_8335</field>
+    </element>
+    <element class="CommunicationLink_Edge" hash="DLK_1675329563679_8337">
+      <field name="name">Kommunikationsbeziehung 33</field>
+      <field name="start">IIN_1675329557416_8335</field>
+      <field name="end">PIN_1671047185639_4850</field>
+    </element>
+    <element class="Service_InvokingInterface_Edge" hash="DLK_1675329638102_8341">
+      <field name="name">Beziehung 5</field>
+      <field name="start">SER_1675329621925_8340</field>
+      <field name="end">IIN_1675329557416_8335</field>
+    </element>
+    <element class="Service_ProvidingInterface_Edge" hash="DLK_1675329656327_8342">
+      <field name="name">Beziehung 2</field>
+      <field name="start">SER_1675329621925_8340</field>
+      <field name="end">PIN_1671047185639_4850</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1675420396478_8411">
+      <field name="name">Beziehung 1</field>
+      <field name="start">SER_1671047337521_4864</field>
+      <field name="end">DLK_1671047185666_4853</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1675420396478_8412">
+      <field name="name">Beziehung 2</field>
+      <field name="start">SER_1671047510385_4875</field>
+      <field name="end">DLK_1671095390112_4018</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1675420396478_8413">
+      <field name="name">Beziehung 3</field>
+      <field name="start">SER_1671047510385_4875</field>
+      <field name="end">DLK_1671095408897_4021</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1675420396478_8414">
+      <field name="name">Beziehung 4</field>
+      <field name="start">SER_1675329621925_8340</field>
+      <field name="end">DLK_1675329563679_8337</field>
+    </element>
     <element class="Group_HasPartEdge" hash="DLK_1669883273637_17691">
       <field name="name">Hat-Teil-Beziehung 1</field>
       <field name="start">Gro_1669881097726_17647</field>
@@ -2287,6 +2344,21 @@ Variante (DIZ Köln):
       <field name="start">ASY_1670487354829_4726</field>
       <field name="end">ASY_1674739835537_6497</field>
     </element>
+    <element class="Group_HasPartEdge" hash="DLK_1675326724663_8133">
+      <field name="name">Hat-Teil-Beziehung 37</field>
+      <field name="start">GRO_1674738864116_6144</field>
+      <field name="end">ASY_1675326724662_8132</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1675327930877_8155">
+      <field name="name">Hat-Teil-Beziehung 24</field>
+      <field name="start">GRO_1669881119643_17671</field>
+      <field name="end">ASY_1674739972437_6499</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1675327934545_8156">
+      <field name="name">Hat-Teil-Beziehung 48</field>
+      <field name="start">GRO_1669881119643_17671</field>
+      <field name="end">TEX_1674740298396_6524</field>
+    </element>
     <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1646130186902_20082">
       <field name="name">Has-Part-Relation 113</field>
       <field name="start">RAN_1646129914395_18224</field>
@@ -2347,94 +2419,14 @@ Variante (DIZ Köln):
       <field name="start">RAN_1646134016164_41896</field>
       <field name="end">RAN_1646134049773_42112</field>
     </element>
-    <element class="CommunicationLink_Edge" hash="DLK_1675323663417_5743">
-      <field name="name">Kommunikationsbeziehung 29</field>
-      <field name="start">IIN_1675159225368_8871</field>
-      <field name="end">PIN_1675159217839_8826</field>
-    </element>
-    <element class="ApplicationComponent_RepresentationForm_Edge" hash="DLK_1675324043418_6233">
-      <field name="name">Speicherung 7</field>
-      <field name="start">ASY_1675159082692_8282</field>
-      <field name="end">RFO_1675323966744_6225</field>
-    </element>
-    <element class="ApplicationComponent_RepresentationForm_Edge" hash="DLK_1675324047344_6237">
-      <field name="name">Speicherung 8</field>
-      <field name="start">ASY_1675159017001_8204</field>
-      <field name="end">RFO_1675323966744_6225</field>
-    </element>
-    <element class="Group_HasPartEdge" hash="DLK_1675326724663_8133">
-      <field name="name">Hat-Teil-Beziehung 37</field>
-      <field name="start">GRO_1674738864116_6144</field>
-      <field name="end">ASY_1675326724662_8132</field>
-    </element>
-    <element class="Group_HasPartEdge" hash="DLK_1675327930877_8155">
-      <field name="name">Hat-Teil-Beziehung 24</field>
-      <field name="start">GRO_1669881119643_17671</field>
-      <field name="end">ASY_1674739972437_6499</field>
-    </element>
-    <element class="Group_HasPartEdge" hash="DLK_1675327934545_8156">
-      <field name="name">Hat-Teil-Beziehung 48</field>
-      <field name="start">GRO_1669881119643_17671</field>
-      <field name="end">TEX_1674740298396_6524</field>
-    </element>
-    <element class="ApplicationSystem_SoftwareProduct_Edge" hash="DLK_1675329034302_8240">
-      <field name="name">Installation	 7</field>
-      <field name="start">ASY_1670487697793_4809</field>
-      <field name="end">SPR_1675329005457_8239</field>
-    </element>
-    <element class="ApplicationSystem_SoftwareProduct_Edge" hash="DLK_1675329050512_8252">
-      <field name="name">Installation	 8</field>
-      <field name="start">ASY_1669884429790_31982</field>
-      <field name="end">SPR_1675329005457_8239</field>
-    </element>
-    <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1675329557421_8336">
-      <field name="name">Unterordunungsbeziehung 49</field>
-      <field name="start">ASY_1674738439558_5980</field>
-      <field name="end">IIN_1675329557416_8335</field>
-    </element>
-    <element class="CommunicationLink_Edge" hash="DLK_1675329563679_8337">
-      <field name="name">Kommunikationsbeziehung 33</field>
-      <field name="start">IIN_1675329557416_8335</field>
-      <field name="end">PIN_1671047185639_4850</field>
-    </element>
-    <element class="Service_InvokingInterface_Edge" hash="DLK_1675329638102_8341">
-      <field name="name">Beziehung 5</field>
-      <field name="start">SER_1675329621925_8340</field>
-      <field name="end">IIN_1675329557416_8335</field>
-    </element>
-    <element class="Service_ProvidingInterface_Edge" hash="DLK_1675329656327_8342">
-      <field name="name">Beziehung 2</field>
-      <field name="start">SER_1675329621925_8340</field>
-      <field name="end">PIN_1671047185639_4850</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1675420396478_8411">
-      <field name="name">Beziehung 1</field>
-      <field name="start">SER_1671047337521_4864</field>
-      <field name="end">DLK_1671047185666_4853</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1675420396478_8412">
-      <field name="name">Beziehung 2</field>
-      <field name="start">SER_1671047510385_4875</field>
-      <field name="end">DLK_1671095390112_4018</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1675420396478_8413">
-      <field name="name">Beziehung 3</field>
-      <field name="start">SER_1671047510385_4875</field>
-      <field name="end">DLK_1671095408897_4021</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1675420396478_8414">
-      <field name="name">Beziehung 4</field>
-      <field name="start">SER_1675329621925_8340</field>
-      <field name="end">DLK_1675329563679_8337</field>
+    <element class="Bendpoint" hash="BEN_1670270657517_14254">
+      <field name="name">Knickpunkt 6</field>
+      <field name="kantenHash">DLK_1669884783381_32046</field>
+      <field name="index">0</field>
     </element>
     <element class="Bendpoint" hash="BEN_1670270642375_14250">
       <field name="name">Knickpunkt 2</field>
       <field name="kantenHash">DLK_1669884783380_32045</field>
-      <field name="index">0</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1670270657517_14254">
-      <field name="name">Knickpunkt 6</field>
-      <field name="kantenHash">DLK_1669884783381_32046</field>
       <field name="index">0</field>
     </element>
     <element class="Bendpoint" hash="BEN_1670270650996_14252">
@@ -2457,19 +2449,134 @@ Variante (DIZ Köln):
       <field name="kantenHash">DLK_1669884783375_32043</field>
       <field name="index">0</field>
     </element>
+    <element class="Bendpoint" hash="BEN_1671047187901_4855">
+      <field name="name">Knickpunkt 8</field>
+      <field name="kantenHash">DLK_1671047185666_4853</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1675157994698_6762">
+      <field name="name">Knickpunkt 45</field>
+      <field name="kantenHash">DLK_1675157984116_6593</field>
+      <field name="index">1</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1675158643646_7283">
+      <field name="name">Knickpunkt 48</field>
+      <field name="kantenHash">DLK_1675158642446_7280</field>
+      <field name="index">1</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1675158694496_7548">
+      <field name="name">Knickpunkt 51</field>
+      <field name="kantenHash">DLK_1675158693380_7544</field>
+      <field name="index">1</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1675159262021_8984">
+      <field name="name">Knickpunkt 58</field>
+      <field name="kantenHash">DLK_1675159260596_8981</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1671095825000_4039">
+      <field name="name">Knickpunkt 25</field>
+      <field name="kantenHash">DLK_1671095814782_4036</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1675159143129_8501">
+      <field name="name">Knickpunkt 55</field>
+      <field name="kantenHash">DLK_1675159142035_8498</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1671046877170_4807">
+      <field name="name">Knickpunkt 7</field>
+      <field name="kantenHash">DLK_1671046872307_4805</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1675325194025_7565">
+      <field name="name">Knickpunkt 65</field>
+      <field name="kantenHash">DLK_1671086279350_4861</field>
+      <field name="index">1</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1675157999753_6810">
+      <field name="name">Knickpunkt 46</field>
+      <field name="kantenHash">DLK_1675157984116_6593</field>
+      <field name="index">2</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1675324706981_7165">
+      <field name="name">Knickpunkt 64</field>
+      <field name="kantenHash">DLK_1671095814782_4036</field>
+      <field name="index">2</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1675324693603_7143">
+      <field name="name">Knickpunkt 63</field>
+      <field name="kantenHash">DLK_1675159260596_8981</field>
+      <field name="index">3</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1675158626185_7187">
+      <field name="name">Knickpunkt 47</field>
+      <field name="kantenHash">DLK_1675158624109_7182</field>
+      <field name="index">1</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1671095391592_4020">
+      <field name="name">Knickpunkt 23</field>
+      <field name="kantenHash">DLK_1671095390112_4018</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1675324575822_6844">
+      <field name="name">Knickpunkt 60</field>
+      <field name="kantenHash">DLK_1675158624109_7182</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1671095415176_4024">
+      <field name="name">Knickpunkt 10</field>
+      <field name="kantenHash">DLK_1671095408897_4021</field>
+      <field name="index">1</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1671095815904_4038">
+      <field name="name">Knickpunkt 24</field>
+      <field name="kantenHash">DLK_1671095814782_4036</field>
+      <field name="index">1</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1675324601457_6938">
+      <field name="name">Knickpunkt 61</field>
+      <field name="kantenHash">DLK_1675158642446_7280</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1671095279368_4000">
+      <field name="name">Knickpunkt 13</field>
+      <field name="kantenHash">DLK_1671095278449_3999</field>
+      <field name="index">1</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1671095451464_4025">
+      <field name="name">Knickpunkt 22</field>
+      <field name="kantenHash">DLK_1671095390112_4018</field>
+      <field name="index">1</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1675158649600_7386">
+      <field name="name">Knickpunkt 50</field>
+      <field name="kantenHash">DLK_1675158642446_7280</field>
+      <field name="index">2</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1675159265531_9069">
+      <field name="name">Knickpunkt 59</field>
+      <field name="kantenHash">DLK_1675159260596_8981</field>
+      <field name="index">2</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1675324648932_7040">
+      <field name="name">Knickpunkt 62</field>
+      <field name="kantenHash">DLK_1675159260596_8981</field>
+      <field name="index">1</field>
+    </element>
     <element class="Bendpoint" hash="BEN_1671095411144_4023">
       <field name="name">Knickpunkt 9</field>
       <field name="kantenHash">DLK_1671095408897_4021</field>
       <field name="index">0</field>
     </element>
+    <element class="Bendpoint" hash="BEN_1675325202628_7612">
+      <field name="name">Knickpunkt 67</field>
+      <field name="kantenHash">DLK_1671086294134_4864</field>
+      <field name="index">1</field>
+    </element>
     <element class="Bendpoint" hash="BEN_1671092591367_3816">
       <field name="name">Knickpunkt 12</field>
       <field name="kantenHash">DLK_1671092573570_3814</field>
-      <field name="index">0</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1671047187901_4855">
-      <field name="name">Knickpunkt 8</field>
-      <field name="kantenHash">DLK_1671047185666_4853</field>
       <field name="index">0</field>
     </element>
     <element class="Bendpoint" hash="BEN_1671092542367_3810">
@@ -2487,34 +2594,19 @@ Variante (DIZ Köln):
       <field name="kantenHash">DLK_1671095278449_3999</field>
       <field name="index">0</field>
     </element>
-    <element class="Bendpoint" hash="BEN_1675157994698_6762">
-      <field name="name">Knickpunkt 45</field>
-      <field name="kantenHash">DLK_1675157984116_6593</field>
-      <field name="index">1</field>
-    </element>
     <element class="Bendpoint" hash="BEN_1671093583216_3888">
       <field name="name">Knickpunkt 20</field>
       <field name="kantenHash">DLK_1671093525447_3883</field>
       <field name="index">0</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1675158643646_7283">
-      <field name="name">Knickpunkt 48</field>
-      <field name="kantenHash">DLK_1675158642446_7280</field>
-      <field name="index">1</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1675158694496_7548">
-      <field name="name">Knickpunkt 51</field>
-      <field name="kantenHash">DLK_1675158693380_7544</field>
-      <field name="index">1</field>
     </element>
     <element class="Bendpoint" hash="BEN_1675159146234_8566">
       <field name="name">Knickpunkt 56</field>
       <field name="kantenHash">DLK_1675159142035_8498</field>
       <field name="index">1</field>
     </element>
-    <element class="Bendpoint" hash="BEN_1675159262021_8984">
-      <field name="name">Knickpunkt 58</field>
-      <field name="kantenHash">DLK_1675159260596_8981</field>
+    <element class="Bendpoint" hash="BEN_1675325183893_7503">
+      <field name="name">Knickpunkt 53</field>
+      <field name="kantenHash">DLK_1671086218583_4853</field>
       <field name="index">0</field>
     </element>
     <element class="Bendpoint" hash="BEN_1675158646840_7330">
@@ -2527,24 +2619,14 @@ Variante (DIZ Köln):
       <field name="kantenHash">DLK_1671093406003_3870</field>
       <field name="index">1</field>
     </element>
-    <element class="Bendpoint" hash="BEN_1671095825000_4039">
-      <field name="name">Knickpunkt 25</field>
-      <field name="kantenHash">DLK_1671095814782_4036</field>
-      <field name="index">0</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1675159143129_8501">
-      <field name="name">Knickpunkt 55</field>
-      <field name="kantenHash">DLK_1675159142035_8498</field>
-      <field name="index">0</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1671046877170_4807">
-      <field name="name">Knickpunkt 7</field>
-      <field name="kantenHash">DLK_1671046872307_4805</field>
-      <field name="index">0</field>
-    </element>
     <element class="Bendpoint" hash="BEN_1675157872507_6239">
       <field name="name">Knickpunkt 43</field>
       <field name="kantenHash">DLK_1675157871128_6233</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1675325189443_7530">
+      <field name="name">Knickpunkt 54</field>
+      <field name="kantenHash">DLK_1671086279350_4861</field>
       <field name="index">0</field>
     </element>
     <element class="Bendpoint" hash="BEN_1671093597528_3889">
@@ -2562,14 +2644,14 @@ Variante (DIZ Köln):
       <field name="kantenHash">DLK_1671095643359_4029</field>
       <field name="index">1</field>
     </element>
-    <element class="Bendpoint" hash="BEN_1675157999753_6810">
-      <field name="name">Knickpunkt 46</field>
-      <field name="kantenHash">DLK_1675157984116_6593</field>
-      <field name="index">2</field>
-    </element>
     <element class="Bendpoint" hash="BEN_1675158701869_7672">
       <field name="name">Knickpunkt 52</field>
       <field name="kantenHash">DLK_1675158693380_7544</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1675325223516_7680">
+      <field name="name">Knickpunkt 68</field>
+      <field name="kantenHash">DLK_1671086294134_4864</field>
       <field name="index">0</field>
     </element>
     <element class="Bendpoint" hash="BEN_1671095656752_4032">
@@ -2577,55 +2659,10 @@ Variante (DIZ Köln):
       <field name="kantenHash">DLK_1671095643359_4029</field>
       <field name="index">0</field>
     </element>
-    <element class="Bendpoint" hash="BEN_1675158626185_7187">
-      <field name="name">Knickpunkt 47</field>
-      <field name="kantenHash">DLK_1675158624109_7182</field>
-      <field name="index">1</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1671095391592_4020">
-      <field name="name">Knickpunkt 23</field>
-      <field name="kantenHash">DLK_1671095390112_4018</field>
-      <field name="index">0</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1671093560536_3887">
-      <field name="name">Knickpunkt 19</field>
-      <field name="kantenHash">DLK_1671093554528_3886</field>
-      <field name="index">0</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1671095415176_4024">
-      <field name="name">Knickpunkt 10</field>
-      <field name="kantenHash">DLK_1671095408897_4021</field>
-      <field name="index">1</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1671095815904_4038">
-      <field name="name">Knickpunkt 24</field>
-      <field name="kantenHash">DLK_1671095814782_4036</field>
-      <field name="index">1</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1671095279368_4000">
-      <field name="name">Knickpunkt 13</field>
-      <field name="kantenHash">DLK_1671095278449_3999</field>
-      <field name="index">1</field>
-    </element>
     <element class="Bendpoint" hash="BEN_1671093532024_3885">
       <field name="name">Knickpunkt 18</field>
       <field name="kantenHash">DLK_1671093525447_3883</field>
       <field name="index">1</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1671095451464_4025">
-      <field name="name">Knickpunkt 22</field>
-      <field name="kantenHash">DLK_1671095390112_4018</field>
-      <field name="index">1</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1675158649600_7386">
-      <field name="name">Knickpunkt 50</field>
-      <field name="kantenHash">DLK_1675158642446_7280</field>
-      <field name="index">2</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1675159265531_9069">
-      <field name="name">Knickpunkt 59</field>
-      <field name="kantenHash">DLK_1675159260596_8981</field>
-      <field name="index">2</field>
     </element>
     <element class="Bendpoint" hash="BEN_1671698858749_4989">
       <field name="name">Knickpunkt 7</field>
@@ -2696,6 +2733,11 @@ Variante (DIZ Köln):
       <field name="name">Knickpunkt 19</field>
       <field name="kantenHash">DLK_1671093554528_3886</field>
       <field name="index">1</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1675420897046_8506">
+      <field name="name">Knickpunkt 70</field>
+      <field name="kantenHash">DLK_1671093406003_3870</field>
+      <field name="index">2</field>
     </element>
     <element class="Bendpoint" hash="BEN_1671718714606_5241">
       <field name="name">Knickpunkt 36</field>
@@ -2817,6 +2859,16 @@ Variante (DIZ Köln):
       <field name="kantenHash">DLK_1671095390112_4018</field>
       <field name="index">0</field>
     </element>
+    <element class="Bendpoint" hash="BEN_1675329572837_8339">
+      <field name="name">Knickpunkt 69</field>
+      <field name="kantenHash">DLK_1675329563679_8337</field>
+      <field name="index">1</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1675329568838_8338">
+      <field name="name">Knickpunkt 66</field>
+      <field name="kantenHash">DLK_1675329563679_8337</field>
+      <field name="index">0</field>
+    </element>
     <element class="Bendpoint" hash="BEN_1674738654795_6006">
       <field name="name">Knickpunkt 31</field>
       <field name="kantenHash">DLK_1674738653341_6005</field>
@@ -2827,79 +2879,14 @@ Variante (DIZ Köln):
       <field name="kantenHash">DLK_1671093554528_3886</field>
       <field name="index">0</field>
     </element>
-    <element class="Bendpoint" hash="BEN_1675324575822_6844">
-      <field name="name">Knickpunkt 60</field>
-      <field name="kantenHash">DLK_1675158624109_7182</field>
-      <field name="index">0</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1675324601457_6938">
-      <field name="name">Knickpunkt 61</field>
-      <field name="kantenHash">DLK_1675158642446_7280</field>
-      <field name="index">0</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1675324648932_7040">
-      <field name="name">Knickpunkt 62</field>
-      <field name="kantenHash">DLK_1675159260596_8981</field>
-      <field name="index">1</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1675324693603_7143">
-      <field name="name">Knickpunkt 63</field>
-      <field name="kantenHash">DLK_1675159260596_8981</field>
-      <field name="index">3</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1675324706981_7165">
-      <field name="name">Knickpunkt 64</field>
-      <field name="kantenHash">DLK_1671095814782_4036</field>
-      <field name="index">2</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1675325183893_7503">
-      <field name="name">Knickpunkt 53</field>
-      <field name="kantenHash">DLK_1671086218583_4853</field>
-      <field name="index">0</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1675325189443_7530">
-      <field name="name">Knickpunkt 54</field>
-      <field name="kantenHash">DLK_1671086279350_4861</field>
-      <field name="index">0</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1675325194025_7565">
-      <field name="name">Knickpunkt 65</field>
-      <field name="kantenHash">DLK_1671086279350_4861</field>
-      <field name="index">1</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1675325202628_7612">
-      <field name="name">Knickpunkt 67</field>
-      <field name="kantenHash">DLK_1671086294134_4864</field>
-      <field name="index">1</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1675325223516_7680">
-      <field name="name">Knickpunkt 68</field>
-      <field name="kantenHash">DLK_1671086294134_4864</field>
-      <field name="index">0</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1675329568838_8338">
-      <field name="name">Knickpunkt 66</field>
-      <field name="kantenHash">DLK_1675329563679_8337</field>
-      <field name="index">0</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1675329572837_8339">
-      <field name="name">Knickpunkt 69</field>
-      <field name="kantenHash">DLK_1675329563679_8337</field>
-      <field name="index">1</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1675420897046_8506">
-      <field name="name">Knickpunkt 70</field>
-      <field name="kantenHash">DLK_1671093406003_3870</field>
-      <field name="index">2</field>
-    </element>
   </objects>
   <szenario hash="SZN_1669881014836_2" titel="00 MII Architecture - Overview">
     <description></description>
     <view>
       <selected>false</selected>
-      <x>84</x>
-      <y>90</y>
-      <zoom>0.95</zoom>
+      <x>168</x>
+      <y>3</y>
+      <zoom>0.7</zoom>
       <degree>65</degree>
       <shift>200</shift>
       <pageSizeFactor>2.65625</pageSizeFactor>
@@ -3312,10 +3299,10 @@ Variante (DIZ Köln):
   <szenario hash="SZN_1669881258721_5" titel="01 MII Architecture - detailed-Overview">
     <description></description>
     <view>
-      <selected>false</selected>
-      <x>626</x>
-      <y>150</y>
-      <zoom>0.71</zoom>
+      <selected>true</selected>
+      <x>1692</x>
+      <y>581</y>
+      <zoom>1.04</zoom>
       <degree>65</degree>
       <shift>568</shift>
       <pageSizeFactor>2.9609375</pageSizeFactor>
@@ -3802,7 +3789,7 @@ Variante (DIZ Köln):
           <x>-548</x>
           <y>-325</y>
           <width>385</width>
-          <height>170</height>
+          <height>190</height>
           <valign>TOP</valign>
         </layout>
       </container>
@@ -3833,13 +3820,13 @@ Variante (DIZ Köln):
       <container hash="ASY_1669884380661_31977">
         <layout>
           <x>-675</x>
-          <y>-280</y>
+          <y>-275</y>
         </layout>
       </container>
       <container hash="ASY_1669884403712_31980">
         <layout>
           <x>-355</x>
-          <y>-365</y>
+          <y>-375</y>
         </layout>
       </container>
       <container hash="ASY_1669884429790_31982">
@@ -4017,7 +4004,7 @@ Variante (DIZ Köln):
       <container hash="ASY_1670487993777_4858">
         <layout>
           <x>525</x>
-          <y>-365</y>
+          <y>-375</y>
         </layout>
       </container>
       <container hash="GRO_1670488979096_4872">
@@ -4158,7 +4145,7 @@ Variante (DIZ Köln):
       <container hash="PIN_1671046635847_4791">
         <layout>
           <x>480</x>
-          <y>-377</y>
+          <y>-387</y>
           <width>19</width>
           <height>19</height>
         </layout>
@@ -4166,7 +4153,7 @@ Variante (DIZ Köln):
       <container hash="IIN_1671046635879_4793">
         <layout>
           <x>-309</x>
-          <y>-377</y>
+          <y>-387</y>
           <width>19</width>
           <height>19</height>
         </layout>
@@ -4174,7 +4161,7 @@ Variante (DIZ Köln):
       <container hash="PIN_1671046647059_4796">
         <layout>
           <x>479</x>
-          <y>-350</y>
+          <y>-360</y>
           <width>19</width>
           <height>19</height>
         </layout>
@@ -4182,7 +4169,7 @@ Variante (DIZ Köln):
       <container hash="IIN_1671046647073_4798">
         <layout>
           <x>-310</x>
-          <y>-350</y>
+          <y>-360</y>
           <width>19</width>
           <height>19</height>
         </layout>
@@ -4190,7 +4177,7 @@ Variante (DIZ Köln):
       <container hash="PIN_1671046872276_4802">
         <layout>
           <x>-651</x>
-          <y>-310</y>
+          <y>-305</y>
           <width>19</width>
           <height>19</height>
         </layout>
@@ -4198,7 +4185,7 @@ Variante (DIZ Köln):
       <container hash="IIN_1671046872303_4804">
         <layout>
           <x>-400</x>
-          <y>-351</y>
+          <y>-361</y>
           <width>19</width>
           <height>19</height>
         </layout>
@@ -4214,7 +4201,7 @@ Variante (DIZ Köln):
       <container hash="IIN_1671047185663_4852">
         <layout>
           <x>-703</x>
-          <y>-254</y>
+          <y>-251</y>
           <width>19</width>
           <height>19</height>
         </layout>
@@ -4222,7 +4209,7 @@ Variante (DIZ Köln):
       <container hash="IIN_1671047477643_4871">
         <layout>
           <x>-400</x>
-          <y>-376</y>
+          <y>-386</y>
           <width>19</width>
           <height>19</height>
         </layout>
@@ -4334,7 +4321,7 @@ Variante (DIZ Köln):
       <container hash="PIN_1671093405945_3867">
         <layout>
           <x>539</x>
-          <y>-270</y>
+          <y>-251</y>
           <width>19</width>
           <height>19</height>
         </layout>
@@ -4382,7 +4369,7 @@ Variante (DIZ Köln):
       <container hash="PIN_1671095643281_4026">
         <layout>
           <x>569</x>
-          <y>-351</y>
+          <y>-361</y>
           <width>19</width>
           <height>19</height>
         </layout>
@@ -4432,7 +4419,7 @@ Variante (DIZ Köln):
       </container>
       <container hash="PIN_1671096581394_17919">
         <layout>
-          <x>-626</x>
+          <x>-631</x>
           <y>-251</y>
           <width>19</width>
           <height>19</height>
@@ -4909,30 +4896,6 @@ Variante (DIZ Köln):
       <container hash="DLK_1675159602947_9347"></container>
       <container hash="DLK_1675159887492_9475"></container>
       <container hash="DLK_1675323663417_5743"></container>
-      <container hash="BEN_1671095411144_4023">
-        <layout>
-          <color name="bg_color">
-            <red>0</red>
-            <green>0</green>
-            <blue>0</blue>
-            <alpha>0</alpha>
-          </color>
-          <x>-750</x>
-          <y>-375</y>
-        </layout>
-      </container>
-      <container hash="BEN_1671092591367_3816">
-        <layout>
-          <color name="bg_color">
-            <red>0</red>
-            <green>0</green>
-            <blue>0</blue>
-            <alpha>0</alpha>
-          </color>
-          <x>1319</x>
-          <y>-176</y>
-        </layout>
-      </container>
       <container hash="BEN_1671047187901_4855">
         <layout>
           <color name="bg_color">
@@ -4945,42 +4908,6 @@ Variante (DIZ Köln):
           <y>-210</y>
         </layout>
       </container>
-      <container hash="BEN_1671092542367_3810">
-        <layout>
-          <color name="bg_color">
-            <red>0</red>
-            <green>0</green>
-            <blue>0</blue>
-            <alpha>0</alpha>
-          </color>
-          <x>1115</x>
-          <y>-175</y>
-        </layout>
-      </container>
-      <container hash="BEN_1675159149340_8601">
-        <layout>
-          <color name="bg_color">
-            <red>0</red>
-            <green>0</green>
-            <blue>0</blue>
-            <alpha>0</alpha>
-          </color>
-          <x>810</x>
-          <y>-305</y>
-        </layout>
-      </container>
-      <container hash="BEN_1671095281808_4001">
-        <layout>
-          <color name="bg_color">
-            <red>0</red>
-            <green>0</green>
-            <blue>0</blue>
-            <alpha>0</alpha>
-          </color>
-          <x>790</x>
-          <y>-125</y>
-        </layout>
-      </container>
       <container hash="BEN_1675157994698_6762">
         <layout>
           <color name="bg_color">
@@ -4991,18 +4918,6 @@ Variante (DIZ Köln):
           </color>
           <x>1450</x>
           <y>5</y>
-        </layout>
-      </container>
-      <container hash="BEN_1671093583216_3888">
-        <layout>
-          <color name="bg_color">
-            <red>0</red>
-            <green>0</green>
-            <blue>0</blue>
-            <alpha>0</alpha>
-          </color>
-          <x>-360</x>
-          <y>-235</y>
         </layout>
       </container>
       <container hash="BEN_1675158643646_7283">
@@ -5029,18 +4944,6 @@ Variante (DIZ Köln):
           <y>-565</y>
         </layout>
       </container>
-      <container hash="BEN_1675159146234_8566">
-        <layout>
-          <color name="bg_color">
-            <red>0</red>
-            <green>0</green>
-            <blue>0</blue>
-            <alpha>0</alpha>
-          </color>
-          <x>810</x>
-          <y>-380</y>
-        </layout>
-      </container>
       <container hash="BEN_1675159262021_8984">
         <layout>
           <color name="bg_color">
@@ -5051,30 +4954,6 @@ Variante (DIZ Köln):
           </color>
           <x>780</x>
           <y>-432</y>
-        </layout>
-      </container>
-      <container hash="BEN_1675158646840_7330">
-        <layout>
-          <color name="bg_color">
-            <red>0</red>
-            <green>0</green>
-            <blue>0</blue>
-            <alpha>0</alpha>
-          </color>
-          <x>1138</x>
-          <y>-400</y>
-        </layout>
-      </container>
-      <container hash="BEN_1671093419856_3872">
-        <layout>
-          <color name="bg_color">
-            <red>0</red>
-            <green>0</green>
-            <blue>0</blue>
-            <alpha>0</alpha>
-          </color>
-          <x>539</x>
-          <y>-205</y>
         </layout>
       </container>
       <container hash="BEN_1671095825000_4039">
@@ -5110,10 +4989,10 @@ Variante (DIZ Köln):
             <alpha>0</alpha>
           </color>
           <x>-650</x>
-          <y>-350</y>
+          <y>-360</y>
         </layout>
       </container>
-      <container hash="BEN_1675157872507_6239">
+      <container hash="BEN_1675325194025_7565">
         <layout>
           <color name="bg_color">
             <red>0</red>
@@ -5121,44 +5000,8 @@ Variante (DIZ Köln):
             <blue>0</blue>
             <alpha>0</alpha>
           </color>
-          <x>1379</x>
-          <y>144</y>
-        </layout>
-      </container>
-      <container hash="BEN_1671093597528_3889">
-        <layout>
-          <color name="bg_color">
-            <red>0</red>
-            <green>0</green>
-            <blue>0</blue>
-            <alpha>0</alpha>
-          </color>
-          <x>575</x>
-          <y>-205</y>
-        </layout>
-      </container>
-      <container hash="BEN_1675157985428_6597">
-        <layout>
-          <color name="bg_color">
-            <red>0</red>
-            <green>0</green>
-            <blue>0</blue>
-            <alpha>0</alpha>
-          </color>
-          <x>1450</x>
-          <y>-490</y>
-        </layout>
-      </container>
-      <container hash="BEN_1671095644584_4031">
-        <layout>
-          <color name="bg_color">
-            <red>0</red>
-            <green>0</green>
-            <blue>0</blue>
-            <alpha>0</alpha>
-          </color>
-          <x>800</x>
-          <y>-350</y>
+          <x>-1178</x>
+          <y>-375</y>
         </layout>
       </container>
       <container hash="BEN_1675157999753_6810">
@@ -5173,7 +5016,7 @@ Variante (DIZ Köln):
           <y>5</y>
         </layout>
       </container>
-      <container hash="BEN_1675158701869_7672">
+      <container hash="BEN_1675324706981_7165">
         <layout>
           <color name="bg_color">
             <red>0</red>
@@ -5181,11 +5024,11 @@ Variante (DIZ Köln):
             <blue>0</blue>
             <alpha>0</alpha>
           </color>
-          <x>715</x>
-          <y>-565</y>
+          <x>1310</x>
+          <y>-275</y>
         </layout>
       </container>
-      <container hash="BEN_1671095656752_4032">
+      <container hash="BEN_1675324693603_7143">
         <layout>
           <color name="bg_color">
             <red>0</red>
@@ -5193,8 +5036,8 @@ Variante (DIZ Köln):
             <blue>0</blue>
             <alpha>0</alpha>
           </color>
-          <x>800</x>
-          <y>-150</y>
+          <x>1310</x>
+          <y>-335</y>
         </layout>
       </container>
       <container hash="BEN_1675158626185_7187">
@@ -5221,7 +5064,7 @@ Variante (DIZ Köln):
           <y>-210</y>
         </layout>
       </container>
-      <container hash="BEN_1671093560536_3887">
+      <container hash="BEN_1675324575822_6844">
         <layout>
           <color name="bg_color">
             <red>0</red>
@@ -5229,8 +5072,8 @@ Variante (DIZ Köln):
             <blue>0</blue>
             <alpha>0</alpha>
           </color>
-          <x>495</x>
-          <y>-251</y>
+          <x>805</x>
+          <y>-533</y>
         </layout>
       </container>
       <container hash="BEN_1671095415176_4024">
@@ -5257,6 +5100,18 @@ Variante (DIZ Köln):
           <y>-245</y>
         </layout>
       </container>
+      <container hash="BEN_1675324601457_6938">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>720</x>
+          <y>-520</y>
+        </layout>
+      </container>
       <container hash="BEN_1671095279368_4000">
         <layout>
           <color name="bg_color">
@@ -5266,19 +5121,7 @@ Variante (DIZ Köln):
             <alpha>0</alpha>
           </color>
           <x>790</x>
-          <y>-269</y>
-        </layout>
-      </container>
-      <container hash="BEN_1671093532024_3885">
-        <layout>
-          <color name="bg_color">
-            <red>0</red>
-            <green>0</green>
-            <blue>0</blue>
-            <alpha>0</alpha>
-          </color>
-          <x>-264</x>
-          <y>-235</y>
+          <y>-251</y>
         </layout>
       </container>
       <container hash="BEN_1671095451464_4025">
@@ -5317,30 +5160,6 @@ Variante (DIZ Köln):
           <y>-555</y>
         </layout>
       </container>
-      <container hash="BEN_1675324575822_6844">
-        <layout>
-          <color name="bg_color">
-            <red>0</red>
-            <green>0</green>
-            <blue>0</blue>
-            <alpha>0</alpha>
-          </color>
-          <x>805</x>
-          <y>-533</y>
-        </layout>
-      </container>
-      <container hash="BEN_1675324601457_6938">
-        <layout>
-          <color name="bg_color">
-            <red>0</red>
-            <green>0</green>
-            <blue>0</blue>
-            <alpha>0</alpha>
-          </color>
-          <x>720</x>
-          <y>-520</y>
-        </layout>
-      </container>
       <container hash="BEN_1675324648932_7040">
         <layout>
           <color name="bg_color">
@@ -5353,7 +5172,7 @@ Variante (DIZ Köln):
           <y>-555</y>
         </layout>
       </container>
-      <container hash="BEN_1675324693603_7143">
+      <container hash="BEN_1671095411144_4023">
         <layout>
           <color name="bg_color">
             <red>0</red>
@@ -5361,56 +5180,8 @@ Variante (DIZ Köln):
             <blue>0</blue>
             <alpha>0</alpha>
           </color>
-          <x>1310</x>
-          <y>-335</y>
-        </layout>
-      </container>
-      <container hash="BEN_1675324706981_7165">
-        <layout>
-          <color name="bg_color">
-            <red>0</red>
-            <green>0</green>
-            <blue>0</blue>
-            <alpha>0</alpha>
-          </color>
-          <x>1310</x>
-          <y>-275</y>
-        </layout>
-      </container>
-      <container hash="BEN_1675325183893_7503">
-        <layout>
-          <color name="bg_color">
-            <red>0</red>
-            <green>0</green>
-            <blue>0</blue>
-            <alpha>0</alpha>
-          </color>
-          <x>-1090</x>
-          <y>-227</y>
-        </layout>
-      </container>
-      <container hash="BEN_1675325189443_7530">
-        <layout>
-          <color name="bg_color">
-            <red>0</red>
-            <green>0</green>
-            <blue>0</blue>
-            <alpha>0</alpha>
-          </color>
-          <x>-1032</x>
-          <y>-375</y>
-        </layout>
-      </container>
-      <container hash="BEN_1675325194025_7565">
-        <layout>
-          <color name="bg_color">
-            <red>0</red>
-            <green>0</green>
-            <blue>0</blue>
-            <alpha>0</alpha>
-          </color>
-          <x>-1178</x>
-          <y>-375</y>
+          <x>-750</x>
+          <y>-385</y>
         </layout>
       </container>
       <container hash="BEN_1675325202628_7612">
@@ -5425,6 +5196,186 @@ Variante (DIZ Köln):
           <y>-575</y>
         </layout>
       </container>
+      <container hash="BEN_1671092591367_3816">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>1319</x>
+          <y>-176</y>
+        </layout>
+      </container>
+      <container hash="BEN_1671092542367_3810">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>1115</x>
+          <y>-175</y>
+        </layout>
+      </container>
+      <container hash="BEN_1675159149340_8601">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>810</x>
+          <y>-305</y>
+        </layout>
+      </container>
+      <container hash="BEN_1671095281808_4001">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>790</x>
+          <y>-125</y>
+        </layout>
+      </container>
+      <container hash="BEN_1671093583216_3888">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>-360</x>
+          <y>-235</y>
+        </layout>
+      </container>
+      <container hash="BEN_1675159146234_8566">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>810</x>
+          <y>-380</y>
+        </layout>
+      </container>
+      <container hash="BEN_1675325183893_7503">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>-1090</x>
+          <y>-227</y>
+        </layout>
+      </container>
+      <container hash="BEN_1675158646840_7330">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>1138</x>
+          <y>-400</y>
+        </layout>
+      </container>
+      <container hash="BEN_1671093419856_3872">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>539</x>
+          <y>-205</y>
+        </layout>
+      </container>
+      <container hash="BEN_1675157872507_6239">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>1379</x>
+          <y>144</y>
+        </layout>
+      </container>
+      <container hash="BEN_1675325189443_7530">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>-1032</x>
+          <y>-375</y>
+        </layout>
+      </container>
+      <container hash="BEN_1671093597528_3889">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>575</x>
+          <y>-205</y>
+        </layout>
+      </container>
+      <container hash="BEN_1675157985428_6597">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>1450</x>
+          <y>-490</y>
+        </layout>
+      </container>
+      <container hash="BEN_1671095644584_4031">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>800</x>
+          <y>-360</y>
+        </layout>
+      </container>
+      <container hash="BEN_1675158701869_7672">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>715</x>
+          <y>-565</y>
+        </layout>
+      </container>
       <container hash="BEN_1675325223516_7680">
         <layout>
           <color name="bg_color">
@@ -5435,6 +5386,30 @@ Variante (DIZ Köln):
           </color>
           <x>-1165</x>
           <y>-390</y>
+        </layout>
+      </container>
+      <container hash="BEN_1671095656752_4032">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>800</x>
+          <y>-150</y>
+        </layout>
+      </container>
+      <container hash="BEN_1671093532024_3885">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>-264</x>
+          <y>-235</y>
         </layout>
       </container>
     </layer>
@@ -5668,18 +5643,6 @@ Variante (DIZ Köln):
       <container hash="DLK_1669884783383_32048"></container>
       <container hash="DLK_1669884783384_32049"></container>
       <container hash="DLK_1669898238211_5953"></container>
-      <container hash="BEN_1670270642375_14250">
-        <layout>
-          <color name="bg_color">
-            <red>0</red>
-            <green>0</green>
-            <blue>0</blue>
-            <alpha>0</alpha>
-          </color>
-          <x>-975</x>
-          <y>-235</y>
-        </layout>
-      </container>
       <container hash="BEN_1670270657517_14254">
         <layout>
           <color name="bg_color">
@@ -5690,6 +5653,18 @@ Variante (DIZ Köln):
           </color>
           <x>-760</x>
           <y>-355</y>
+        </layout>
+      </container>
+      <container hash="BEN_1670270642375_14250">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>-975</x>
+          <y>-235</y>
         </layout>
       </container>
       <container hash="BEN_1670270650996_14252">
@@ -5748,7 +5723,7 @@ Variante (DIZ Köln):
       <selected>false</selected>
       <x>0</x>
       <y>0</y>
-      <zoom>0.87</zoom>
+      <zoom>0.7</zoom>
       <degree>65</degree>
       <shift>200</shift>
       <pageSizeFactor>1.1901041666666667</pageSizeFactor>
@@ -6801,10 +6776,10 @@ Variante (DIZ Köln):
   <szenario hash="SZN_1671094710830_2" titel="02b MII Architecture - Feasibility DSF">
     <description></description>
     <view>
-      <selected>true</selected>
-      <x>703</x>
+      <selected>false</selected>
+      <x>554</x>
       <y>441</y>
-      <zoom>0.8</zoom>
+      <zoom>0.7</zoom>
       <degree>65</degree>
       <shift>200</shift>
       <pageSizeFactor>2.8125</pageSizeFactor>
@@ -7865,6 +7840,18 @@ Variante (DIZ Köln):
           <y>-154</y>
         </layout>
       </container>
+      <container hash="BEN_1675420897046_8506">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>135</x>
+          <y>-185</y>
+        </layout>
+      </container>
       <container hash="BEN_1671718714606_5241">
         <layout>
           <color name="bg_color">
@@ -8019,18 +8006,6 @@ Variante (DIZ Köln):
           </color>
           <x>200</x>
           <y>-93</y>
-        </layout>
-      </container>
-      <container hash="BEN_1675420897046_8506">
-        <layout>
-          <color name="bg_color">
-            <red>0</red>
-            <green>0</green>
-            <blue>0</blue>
-            <alpha>0</alpha>
-          </color>
-          <x>135</x>
-          <y>-185</y>
         </layout>
       </container>
     </layer>
@@ -8819,9 +8794,9 @@ Variante (DIZ Köln):
     <description></description>
     <view>
       <selected>false</selected>
-      <x>739</x>
-      <y>221</y>
-      <zoom>0.75</zoom>
+      <x>121</x>
+      <y>414</y>
+      <zoom>0.56</zoom>
       <degree>65</degree>
       <shift>200</shift>
       <pageSizeFactor>2.9505208333333335</pageSizeFactor>
@@ -9927,6 +9902,30 @@ Variante (DIZ Köln):
           <y>-210</y>
         </layout>
       </container>
+      <container hash="BEN_1675329572837_8339">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>-765</x>
+          <y>-155</y>
+        </layout>
+      </container>
+      <container hash="BEN_1675329568838_8338">
+        <layout>
+          <color name="bg_color">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+          </color>
+          <x>-765</x>
+          <y>68</y>
+        </layout>
+      </container>
       <container hash="BEN_1674738654795_6006">
         <layout>
           <color name="bg_color">
@@ -9949,30 +9948,6 @@ Variante (DIZ Köln):
           </color>
           <x>495</x>
           <y>-251</y>
-        </layout>
-      </container>
-      <container hash="BEN_1675329568838_8338">
-        <layout>
-          <color name="bg_color">
-            <red>0</red>
-            <green>0</green>
-            <blue>0</blue>
-            <alpha>0</alpha>
-          </color>
-          <x>-765</x>
-          <y>68</y>
-        </layout>
-      </container>
-      <container hash="BEN_1675329572837_8339">
-        <layout>
-          <color name="bg_color">
-            <red>0</red>
-            <green>0</green>
-            <blue>0</blue>
-            <alpha>0</alpha>
-          </color>
-          <x>-765</x>
-          <y>-155</y>
         </layout>
       </container>
     </layer>
@@ -10826,8 +10801,8 @@ Variante (DIZ Köln):
     <view>
       <selected>false</selected>
       <x>0</x>
-      <y>0</y>
-      <zoom>0.6</zoom>
+      <y>35</y>
+      <zoom>0.44</zoom>
       <degree>65</degree>
       <shift>200</shift>
       <pageSizeFactor>2.4609375</pageSizeFactor>
