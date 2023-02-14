@@ -4,7 +4,7 @@
   <header>
     <title>MII-Architektur.3lgm</title>
     <description></description>
-    <version>69_sippe_1675939829647</version>
+    <version>74_sippe_1676392062786</version>
   </header>
   <userFieldDefinitions>
     <userFieldFormat hash="FRM_1623450079169_2058">
@@ -34,20 +34,6 @@
     </userFieldDef>
     <userFieldDef hash="USERFIELD_1600172338298_21512">
       <userFieldName>Link im SharePoint</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>HYPERLINK</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="ServiceClass" hash="USERFIELD_1673511976891_10945">
-      <userFieldName>Benutzerdefinierte Eigenschaftsfelder</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>TAB</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="ServiceClass" hash="USERFIELD_1673511976891_10944">
-      <userFieldName>Homepage</userFieldName>
       <userFieldDescription></userFieldDescription>
       <userFieldStyle>HYPERLINK</userFieldStyle>
       <userFieldTreeVis>true</userFieldTreeVis>
@@ -431,6 +417,20 @@
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
     </userFieldDef>
+    <userFieldDef elementClass="ServiceClass" hash="USERFIELD_1673511976891_10945">
+      <userFieldName>Benutzerdefinierte Eigenschaftsfelder</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>TAB</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="ServiceClass" hash="USERFIELD_1673511976891_10944">
+      <userFieldName>Homepage</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>HYPERLINK</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
     <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884870745_32050">
       <userFieldName>MII KDS</userFieldName>
       <userFieldDescription></userFieldDescription>
@@ -471,6 +471,17 @@
     <element class="ObjectType" hash="OTY_1670939032420_19714">
       <field name="name">"ui-ontology-tree"</field>
     </element>
+    <element class="ObjectType" hash="OTY_1676371186074_5703">
+      <field name="name">Bloomfilter</field>
+    </element>
+    <element class="Function" hash="FUN_1676370413620_5666">
+      <field name="name">Clearing</field>
+      <field name="description">Die fTTP Clearing sieht für spezifische betroffene Datensätze eine Nachlieferung identifizierender Daten vor. Diese werden nur für den Zweck des Record Linkage temporär verarbeitet und nach Auflösung der Dublette in der fTTP gelöscht. Dieses Vorgehen entspricht den in der MII abgestimmten Prinzipien.
+
+Funktionen:
+(https://www.ths-greifswald.de/wp-content/uploads/tools/fhirgw/ig/ballot-fttp/ImplementationGuide-markdown-WorkflowBasierteVerwaltung-Operations.html)
+- providePatientData: https://www.ths-greifswald.de/wp-content/uploads/tools/fhirgw/ig/ballot-fttp/ImplementationGuide-markdown-WorkflowBasierteVerwaltung-Operations-providePatientData.html</field>
+    </element>
     <element class="ObjectType" hash="OTY_1669884639978_32025" subtype="USERFIELD_1669884870745_32050">
       <field name="name">Condition</field>
       <userField hash="USERFIELD_1669884915184_32052">https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Diagnose/IGMIIKDSModulDiagnose.html</userField>
@@ -488,6 +499,9 @@
     <element class="ObjectType" hash="OTY_1670487517879_4748">
       <field name="name">Data Use Project Proposal</field>
     </element>
+    <element class="OrganisationalUnit" hash="OUN_1676370653124_5677">
+      <field name="name">Datenmanagementstelle</field>
+    </element>
     <element class="ObjectType" hash="OTY_1669884599019_32022" subtype="USERFIELD_1669884870745_32050">
       <field name="name">Encounter</field>
       <userField hash="USERFIELD_1669884915184_32052">https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Fall/IGMIIKDSModulFall.html</userField>
@@ -500,6 +514,12 @@
     </element>
     <element class="ObjectType" hash="OTY_1671047084564_4842">
       <field name="name">fhir-mapping</field>
+    </element>
+    <element class="OrganisationalUnit" hash="OUN_1676370227439_5643">
+      <field name="name">föderierte Treuhandstelle</field>
+    </element>
+    <element class="ObjectType" hash="OTY_1676371176796_5702">
+      <field name="name">IDAT</field>
     </element>
     <element class="ObjectType" hash="OTY_1669884659771_32027" subtype="USERFIELD_1669884870745_32050">
       <field name="name">Medication Administration</field>
@@ -520,6 +540,12 @@
     <element class="Group" hash="GRO_1669898073958_5926">
       <field name="name">MII KDS</field>
     </element>
+    <element class="Use" hash="USE_1676370678737_5679">
+      <field name="name">Nutzung 1</field>
+    </element>
+    <element class="Use" hash="USE_1676370535598_5671">
+      <field name="name">Nutzung 1</field>
+    </element>
     <element class="Use" hash="USE_1671096364018_17892">
       <field name="name">Nutzung 1</field>
     </element>
@@ -532,6 +558,14 @@
       <userField hash="USERFIELD_1669884915184_32052">https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Person/IGMIIKDSModulPerson.html</userField>
       <userField hash="USERFIELD_1670937850267_6188">https://simplifier.net/medizininformatikinitiative-modulperson</userField>
     </element>
+    <element class="Function" hash="FUN_1676370396733_5654">
+      <field name="name">Privacy Preserving Record-Linkage</field>
+      <field name="description">Die fTTP Wahrscheinlichkeit ermöglicht die pseudonymisierte und verlässliche, konsistente und korrekte Zusammenführung medizinischer Daten eines und des- selben Pati enten in vernetzten Forschungsvorhaben. Damit steht eine Lösung bereit, welche den Zielen der MII und von NUM-RDP entspricht und zugleich allen datenschutzrechtlichen Regularien genügt.
+
+Funktionen:
+(https://www.ths-greifswald.de/wp-content/uploads/tools/fhirgw/ig/ballot-fttp/ImplementationGuide-markdown-WorkflowBasierteVerwaltung-Operations.html)
+- requestPsnFromBfWorkflow: https://www.ths-greifswald.de/wp-content/uploads/tools/fhirgw/ig/ballot-fttp/ImplementationGuide-markdown-WorkflowBasierteVerwaltung-Operations-requestPsnFromBfWorkflow.html</field>
+    </element>
     <element class="ObjectType" hash="OTY_1669884622952_32024" subtype="USERFIELD_1669884870745_32050">
       <field name="name">Procedures</field>
       <userField hash="USERFIELD_1669884915184_32052">https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Prozeduren/IGMIIKDSModulProzedur.html</userField>
@@ -542,6 +576,14 @@
     <element class="ObjectType" hash="OTY_1669884692021_32040" subtype="USERFIELD_1669884870745_32050">
       <field name="name">Specimen</field>
       <userField hash="USERFIELD_1669884915184_32052">https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Biobank/IGMIIKDSModulBiobank.html</userField>
+    </element>
+    <element class="ObjectType" hash="OTY_1676371200602_5704">
+      <field name="name">Standort-spezifisches Pseudonym</field>
+      <field name="description">DIZ bzw. Standort-spezifisches Pseudonym</field>
+    </element>
+    <element class="ObjectType" hash="OTY_1676372159520_5752">
+      <field name="name">Standort-übergreifendes Pseudonym</field>
+      <field name="description">z.B. für NUM und perspektivisch MII</field>
     </element>
     <element class="ObjectType" hash="OTY_1671046933845_4810">
       <field name="name">terminology-tree</field>
@@ -607,9 +649,9 @@
       <userField hash="USERFIELD_1620155964405_7195">https://ckm.openehr.org/ckm/archetypes/1013.1.3574</userField>
     </element>
     <element class="RepresentationForm" hash="RFO_1624435139776_2095" subtype="USERFIELD_1622801104013_1966">
-      <field name="name">2. FHIR Patient Ressource (IDAT)</field>
+      <field name="name">2. FHIR Patient Ressource (IDAT, MII)</field>
       <userField hash="USERFIELD_1620285553237_7875">Patient</userField>
-      <userField hash="USERFIELD_1620285612795_7876">https://simplifier.net/medizininformatikinitiative-modulperson/patientin</userField>
+      <userField hash="USERFIELD_1620285612795_7876">https://simplifier.net/medizininformatikinitiative-modulperson/sdmiipersonpatient</userField>
       <userField hash="USERFIELD_1623054261459_3913">http://hl7.org/fhir/patient.html</userField>
     </element>
     <element class="RepresentationForm" hash="RFO_1622801518777_1971" subtype="USERFIELD_1622801082285_1965">
@@ -868,6 +910,12 @@ ToDo:
     <element class="ProvidingInterface" hash="PIN_1671047185639_4850">
       <field name="name">FHIR Endpunkt</field>
     </element>
+    <element class="RepresentationForm" hash="RFO_1676371319710_5725" subtype="USERFIELD_1622801104013_1966">
+      <field name="name">FHIR Patient Ressource (IDAT, fTTP)</field>
+      <userField hash="USERFIELD_1620285553237_7875">Patient</userField>
+      <userField hash="USERFIELD_1620285612795_7876">https://simplifier.net/ths-greifswald/idat</userField>
+      <userField hash="USERFIELD_1623054261459_3913">http://hl7.org/fhir/patient.html</userField>
+    </element>
     <element class="InvokingInterface" hash="IIN_1671047185663_4852">
       <field name="name">FHIR Schnittstelle (aufrufend) 4</field>
     </element>
@@ -897,7 +945,7 @@ PUBLISH - DEPLOY MODEL</field>
       <field name="name">FLARE FHIR Query Translate</field>
     </element>
     <element class="Group" hash="GRO_1674739392565_6449">
-      <field name="name">Förderierte Treuhandstelle, fTTP</field>
+      <field name="name">Föderierte Treuhandstelle, fTTP</field>
     </element>
     <element class="Textfield" hash="TEX_1646132735719_32079">
       <field name="name">Frage: Benennung der Benutzerschnittstellen (GUI)?</field>
@@ -915,11 +963,28 @@ PUBLISH - DEPLOY MODEL</field>
 - Schnittstelle Gecco Transfer Hub - CODEX RDP?
 - Benutzerschnittstellen (GUI)?</field>
     </element>
+    <element class="ApplicationSystem" hash="ASY_1676370162562_5633">
+      <field name="name">fTTP</field>
+    </element>
+    <element class="RepresentationForm" hash="RFO_1676371916906_5735">
+      <field name="name">fTTP Bloomfilter</field>
+      <field name="description">Base64-String</field>
+    </element>
     <element class="ApplicationSystem" hash="ASY_1674739352509_6433">
       <field name="name">fTTP Clearing</field>
     </element>
+    <element class="RepresentationForm" hash="RFO_1676372001425_5737">
+      <field name="name">fTTP Pseudonym</field>
+      <field name="description">String</field>
+    </element>
+    <element class="Service" hash="SER_1676371588296_5731">
+      <field name="name">fTTP requestPsnFromBfWorkflow</field>
+    </element>
     <element class="ApplicationSystem" hash="ASY_1674739374844_6445">
       <field name="name">fTTP Wahrscheinlichkeit</field>
+    </element>
+    <element class="ServiceClass" hash="SCL_1676371573701_5730">
+      <field name="name">fTTP-Services</field>
     </element>
     <element class="Group" hash="GRO_1671702558808_5038">
       <field name="name">G</field>
@@ -1456,6 +1521,72 @@ Variante (DIZ Köln):
       <field name="name">Hat-Teil-Beziehung 17</field>
       <field name="start">GRO_1669898073958_5926</field>
       <field name="end">OTY_1669884573092_32020</field>
+    </element>
+    <element class="Function_Use_Edge" hash="DLK_1676370535599_5672">
+      <field name="name">Beziehung 2</field>
+      <field name="start">FUN_1676370396733_5654</field>
+      <field name="end">USE_1676370535598_5671</field>
+    </element>
+    <element class="OrganisationalUnit_Use_Edge" hash="DLK_1676370535615_5673">
+      <field name="name">Beziehung 2</field>
+      <field name="start">OUN_1676370227439_5643</field>
+      <field name="end">USE_1676370535598_5671</field>
+    </element>
+    <element class="ApplicationComponent_Use_Edge" hash="DLK_1676370550403_5674">
+      <field name="name">Beziehung 2</field>
+      <field name="start">ASY_1676370162562_5633</field>
+      <field name="end">USE_1676370535598_5671</field>
+    </element>
+    <element class="OrganisationalUnit_HasPartEdge" hash="DLK_1676370588945_5676">
+      <field name="name">Hat-Teil-Beziehung 1</field>
+      <field name="start">OUN_1671096358026_17891</field>
+      <field name="end">OUN_1676370227439_5643</field>
+    </element>
+    <element class="OrganisationalUnit_HasPartEdge" hash="DLK_1676370665979_5678">
+      <field name="name">Hat-Teil-Beziehung 2</field>
+      <field name="start">OUN_1671096358026_17891</field>
+      <field name="end">OUN_1676370653124_5677</field>
+    </element>
+    <element class="Function_Use_Edge" hash="DLK_1676370678738_5680">
+      <field name="name">Beziehung 3</field>
+      <field name="start">FUN_1676370413620_5666</field>
+      <field name="end">USE_1676370678737_5679</field>
+    </element>
+    <element class="OrganisationalUnit_Use_Edge" hash="DLK_1676370678752_5681">
+      <field name="name">Beziehung 3</field>
+      <field name="start">OUN_1676370227439_5643</field>
+      <field name="end">USE_1676370678737_5679</field>
+    </element>
+    <element class="ApplicationComponent_Use_Edge" hash="DLK_1676370715397_5682">
+      <field name="name">Beziehung 3</field>
+      <field name="start">ASY_1674739352509_6433</field>
+      <field name="end">USE_1676370678737_5679</field>
+    </element>
+    <element class="ObjectType_RepresentationForm_Edge" hash="DLK_1676371342025_5726">
+      <field name="name">Beziehung 9</field>
+      <field name="start">OTY_1676371176796_5702</field>
+      <field name="end">RFO_1676371319710_5725</field>
+    </element>
+    <element class="ObjectType_RepresentationForm_Edge" hash="DLK_1676371930199_5736">
+      <field name="name">Beziehung 10</field>
+      <field name="start">OTY_1676371186074_5703</field>
+      <field name="end">RFO_1676371916906_5735</field>
+    </element>
+    <element class="ObjectType_RepresentationForm_Edge" hash="DLK_1676372012806_5738">
+      <field name="name">Beziehung 11</field>
+      <field name="start">OTY_1676371200602_5704</field>
+      <field name="end">RFO_1676372001425_5737</field>
+    </element>
+    <element class="ObjectType_RepresentationForm_Edge" hash="DLK_1676372159520_5753">
+      <field name="name">Beziehung 11</field>
+      <field name="start">OTY_1676372159520_5752</field>
+      <field name="end">RFO_1676372001425_5737</field>
+    </element>
+    <element class="Function_ObjectType_Edge" hash="DLK_1676372266006_5758">
+      <field name="name">Beziehung 1</field>
+      <field name="start">FUN_1676370413620_5666</field>
+      <field name="end">OTY_1676371176796_5702</field>
+      <field name="state">BACKWARD</field>
     </element>
     <element class="ApplicationComponent_RepresentationForm_Edge" hash="DLK_1669885369437_32058">
       <field name="name">Speicherung 1</field>
@@ -2014,26 +2145,6 @@ Variante (DIZ Köln):
       <field name="start">SER_1675329621925_8340</field>
       <field name="end">PIN_1671047185639_4850</field>
     </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1675420396478_8411">
-      <field name="name">Beziehung 1</field>
-      <field name="start">SER_1671047337521_4864</field>
-      <field name="end">DLK_1671047185666_4853</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1675420396478_8412">
-      <field name="name">Beziehung 2</field>
-      <field name="start">SER_1671047510385_4875</field>
-      <field name="end">DLK_1671095390112_4018</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1675420396478_8413">
-      <field name="name">Beziehung 3</field>
-      <field name="start">SER_1671047510385_4875</field>
-      <field name="end">DLK_1671095408897_4021</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1675420396478_8414">
-      <field name="name">Beziehung 4</field>
-      <field name="start">SER_1675329621925_8340</field>
-      <field name="end">DLK_1675329563679_8337</field>
-    </element>
     <element class="Group_HasPartEdge" hash="DLK_1669883273637_17691">
       <field name="name">Hat-Teil-Beziehung 1</field>
       <field name="start">Gro_1669881097726_17647</field>
@@ -2319,16 +2430,6 @@ Variante (DIZ Köln):
       <field name="start">GRO_1674738864116_6144</field>
       <field name="end">GRO_1674739392565_6449</field>
     </element>
-    <element class="Group_HasPartEdge" hash="DLK_1674739516738_6451">
-      <field name="name">Hat-Teil-Beziehung 39</field>
-      <field name="start">GRO_1674739392565_6449</field>
-      <field name="end">ASY_1674739352509_6433</field>
-    </element>
-    <element class="Group_HasPartEdge" hash="DLK_1674739516742_6452">
-      <field name="name">Hat-Teil-Beziehung 40</field>
-      <field name="start">GRO_1674739392565_6449</field>
-      <field name="end">ASY_1674739374844_6445</field>
-    </element>
     <element class="Group_HasPartEdge" hash="DLK_1674739658791_6455">
       <field name="name">Hat-Teil-Beziehung 41</field>
       <field name="start">GRO_1674738864116_6144</field>
@@ -2418,6 +2519,46 @@ Variante (DIZ Köln):
       <field name="name">Has-Part-Relation 116</field>
       <field name="start">RAN_1646134016164_41896</field>
       <field name="end">RAN_1646134049773_42112</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1676370162562_5634">
+      <field name="name">Hat-Teil-Beziehung 39</field>
+      <field name="start">GRO_1674739392565_6449</field>
+      <field name="end">ASY_1676370162562_5633</field>
+    </element>
+    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1676370180941_5639">
+      <field name="name">Hat-Teil-Beziehung 10</field>
+      <field name="start">ASY_1676370162562_5633</field>
+      <field name="end">ASY_1674739352509_6433</field>
+    </element>
+    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1676370180950_5640">
+      <field name="name">Hat-Teil-Beziehung 11</field>
+      <field name="start">ASY_1676370162562_5633</field>
+      <field name="end">ASY_1674739374844_6445</field>
+    </element>
+    <element class="Service_ServiceClass_Edge" hash="DLK_1676371750817_5732">
+      <field name="name">Beziehung 4</field>
+      <field name="start">SER_1676371588296_5731</field>
+      <field name="end">SCL_1676371573701_5730</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1676372159520_5754">
+      <field name="name">Beziehung 1</field>
+      <field name="start">SER_1671047337521_4864</field>
+      <field name="end">DLK_1671047185666_4853</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1676372159520_5755">
+      <field name="name">Beziehung 2</field>
+      <field name="start">SER_1671047510385_4875</field>
+      <field name="end">DLK_1671095390112_4018</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1676372159520_5756">
+      <field name="name">Beziehung 3</field>
+      <field name="start">SER_1671047510385_4875</field>
+      <field name="end">DLK_1671095408897_4021</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1676372159520_5757">
+      <field name="name">Beziehung 4</field>
+      <field name="start">SER_1675329621925_8340</field>
+      <field name="end">DLK_1675329563679_8337</field>
     </element>
     <element class="Bendpoint" hash="BEN_1670270657517_14254">
       <field name="name">Knickpunkt 6</field>
@@ -3299,10 +3440,10 @@ Variante (DIZ Köln):
   <szenario hash="SZN_1669881258721_5" titel="01 MII Architecture - detailed-Overview">
     <description></description>
     <view>
-      <selected>true</selected>
-      <x>1692</x>
-      <y>581</y>
-      <zoom>1.04</zoom>
+      <selected>false</selected>
+      <x>76</x>
+      <y>57</y>
+      <zoom>0.54</zoom>
       <degree>65</degree>
       <shift>568</shift>
       <pageSizeFactor>2.9609375</pageSizeFactor>
@@ -6777,7 +6918,7 @@ Variante (DIZ Köln):
     <description></description>
     <view>
       <selected>false</selected>
-      <x>554</x>
+      <x>492</x>
       <y>441</y>
       <zoom>0.7</zoom>
       <degree>65</degree>
@@ -8794,11 +8935,11 @@ Variante (DIZ Köln):
     <description></description>
     <view>
       <selected>false</selected>
-      <x>121</x>
-      <y>414</y>
-      <zoom>0.56</zoom>
-      <degree>65</degree>
-      <shift>200</shift>
+      <x>270</x>
+      <y>930</y>
+      <zoom>0.8</zoom>
+      <degree>73</degree>
+      <shift>504</shift>
       <pageSizeFactor>2.9505208333333335</pageSizeFactor>
       <activeLayer>2</activeLayer>
       <multiView>false</multiView>
@@ -8901,8 +9042,8 @@ Variante (DIZ Köln):
       <layout class="Function">
         <color name="bg_color">
           <red>255</red>
-          <green>100</green>
-          <blue>100</blue>
+          <green>153</green>
+          <blue>153</blue>
         </color>
         <color name="fg_color">
           <red>0</red>
@@ -9015,8 +9156,8 @@ Variante (DIZ Köln):
       </layout>
       <layout class="ObjectType">
         <color name="bg_color">
-          <red>100</red>
-          <green>100</green>
+          <red>153</red>
+          <green>204</green>
           <blue>255</blue>
         </color>
         <color name="fg_color">
@@ -9558,16 +9699,16 @@ Variante (DIZ Köln):
       <container hash="GRO_1674738864116_6144">
         <layout>
           <x>77</x>
-          <y>-620</y>
+          <y>-600</y>
           <width>365</width>
-          <height>610</height>
+          <height>650</height>
           <valign>TOP</valign>
         </layout>
       </container>
       <container hash="ASY_1674738920825_6148">
         <layout>
           <x>70</x>
-          <y>-476</y>
+          <y>-431</y>
           <width>150</width>
           <height>50</height>
         </layout>
@@ -9592,26 +9733,10 @@ Variante (DIZ Köln):
       <container hash="GRO_1674739392565_6449">
         <layout>
           <x>70</x>
-          <y>-618</y>
+          <y>-598</y>
           <width>260</width>
-          <height>184</height>
+          <height>225</height>
           <valign>TOP</valign>
-        </layout>
-      </container>
-      <container hash="ASY_1674739352509_6433">
-        <layout>
-          <x>70</x>
-          <y>-641</y>
-          <width>150</width>
-          <height>50</height>
-        </layout>
-      </container>
-      <container hash="ASY_1674739374844_6445">
-        <layout>
-          <x>70</x>
-          <y>-581</y>
-          <width>150</width>
-          <height>50</height>
         </layout>
       </container>
       <container hash="ASY_1674739598062_6453">
@@ -9675,7 +9800,7 @@ Variante (DIZ Köln):
       <container hash="ASY_1675326724662_8132">
         <layout>
           <x>70</x>
-          <y>-385</y>
+          <y>-340</y>
           <width>150</width>
           <height>50</height>
         </layout>
@@ -9700,6 +9825,31 @@ Variante (DIZ Köln):
           <y>69</y>
           <width>19</width>
           <height>19</height>
+        </layout>
+      </container>
+      <container hash="ASY_1676370162562_5633">
+        <layout>
+          <x>67</x>
+          <y>-582</y>
+          <width>225</width>
+          <height>164</height>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="ASY_1674739352509_6433">
+        <layout>
+          <x>70</x>
+          <y>-540</y>
+          <width>150</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="ASY_1674739374844_6445">
+        <layout>
+          <x>70</x>
+          <y>-600</y>
+          <width>150</width>
+          <height>50</height>
         </layout>
       </container>
       <container hash="DLK_1670487377912_4727"></container>
@@ -9760,8 +9910,6 @@ Variante (DIZ Köln):
       <container hash="DLK_1674738931595_6149"></container>
       <container hash="DLK_1670490331463_6176"></container>
       <container hash="DLK_1674739427945_6450"></container>
-      <container hash="DLK_1674739516738_6451"></container>
-      <container hash="DLK_1674739516742_6452"></container>
       <container hash="DLK_1674739658791_6455"></container>
       <container hash="DLK_1674739684066_6456"></container>
       <container hash="DLK_1674739878679_6498"></container>
@@ -9770,6 +9918,9 @@ Variante (DIZ Köln):
       <container hash="DLK_1675327934545_8156"></container>
       <container hash="DLK_1675329557421_8336"></container>
       <container hash="DLK_1675329563679_8337"></container>
+      <container hash="DLK_1676370162562_5634"></container>
+      <container hash="DLK_1676370180941_5639"></container>
+      <container hash="DLK_1676370180950_5640"></container>
       <container hash="BEN_1674738383430_5958">
         <layout>
           <color name="bg_color">
@@ -9970,12 +10121,57 @@ Variante (DIZ Köln):
       </layout>
       <container hash="OTY_1674739991052_6502">
         <layout>
-          <x>-235</x>
-          <y>-390</y>
+          <x>-63</x>
+          <y>-225</y>
           <width>134</width>
           <height>50</height>
         </layout>
       </container>
+      <container hash="FUN_1676370396733_5654">
+        <layout>
+          <x>-595</x>
+          <y>-595</y>
+          <width>185</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="FUN_1676370413620_5666">
+        <layout>
+          <x>-593</x>
+          <y>-515</y>
+          <width>185</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="OTY_1676371176796_5702">
+        <layout>
+          <x>-336</x>
+          <y>-645</y>
+        </layout>
+      </container>
+      <container hash="OTY_1676371186074_5703">
+        <layout>
+          <x>-336</x>
+          <y>-580</y>
+        </layout>
+      </container>
+      <container hash="OTY_1676371200602_5704">
+        <layout>
+          <x>-336</x>
+          <y>-515</y>
+          <width>139</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="OTY_1676372159520_5752">
+        <layout>
+          <x>-336</x>
+          <y>-455</y>
+          <width>139</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="DLK_1676372266006_5758"></container>
     </layer>
   </szenario>
   <szenario hash="SZN_1669880931220_1" titel="MII Data Sharing (SMITH-Entwurf)">
@@ -10799,13 +10995,13 @@ Variante (DIZ Köln):
   <szenario hash="SZN_1674117697192_0" titel="NUM (Entwurf)">
     <description></description>
     <view>
-      <selected>false</selected>
+      <selected>true</selected>
       <x>0</x>
-      <y>35</y>
+      <y>0</y>
       <zoom>0.44</zoom>
       <degree>65</degree>
       <shift>200</shift>
-      <pageSizeFactor>2.4609375</pageSizeFactor>
+      <pageSizeFactor>2.5078125</pageSizeFactor>
       <activeLayer>2</activeLayer>
       <multiView>false</multiView>
     </view>
@@ -10907,8 +11103,8 @@ Variante (DIZ Köln):
       <layout class="Function">
         <color name="bg_color">
           <red>255</red>
-          <green>100</green>
-          <blue>100</blue>
+          <green>153</green>
+          <blue>153</blue>
         </color>
         <color name="fg_color">
           <red>0</red>
@@ -11021,8 +11217,8 @@ Variante (DIZ Köln):
       </layout>
       <layout class="ObjectType">
         <color name="bg_color">
-          <red>100</red>
-          <green>100</green>
+          <red>153</red>
+          <green>204</green>
           <blue>255</blue>
         </color>
         <color name="fg_color">
@@ -11140,8 +11336,8 @@ Variante (DIZ Köln):
       </layout>
       <container hash="TEX_1674117704789_5243">
         <layout>
-          <x>25</x>
-          <y>-144</y>
+          <x>40</x>
+          <y>-39</y>
           <width>790</width>
           <height>305</height>
           <icon>IMG_16741177160970.gif</icon>
@@ -11180,16 +11376,16 @@ Variante (DIZ Köln):
       <container hash="GRO_1674738864116_6144">
         <layout>
           <x>77</x>
-          <y>-661</y>
+          <y>-600</y>
           <width>365</width>
-          <height>529</height>
+          <height>650</height>
           <valign>TOP</valign>
         </layout>
       </container>
       <container hash="ASY_1674738920825_6148">
         <layout>
           <x>70</x>
-          <y>-476</y>
+          <y>-431</y>
           <width>150</width>
           <height>50</height>
         </layout>
@@ -11197,26 +11393,10 @@ Variante (DIZ Köln):
       <container hash="GRO_1674739392565_6449">
         <layout>
           <x>70</x>
-          <y>-618</y>
+          <y>-598</y>
           <width>260</width>
-          <height>184</height>
+          <height>225</height>
           <valign>TOP</valign>
-        </layout>
-      </container>
-      <container hash="ASY_1674739352509_6433">
-        <layout>
-          <x>70</x>
-          <y>-641</y>
-          <width>150</width>
-          <height>50</height>
-        </layout>
-      </container>
-      <container hash="ASY_1674739374844_6445">
-        <layout>
-          <x>70</x>
-          <y>-581</y>
-          <width>150</width>
-          <height>50</height>
         </layout>
       </container>
       <container hash="ASY_1674739598062_6453">
@@ -11235,12 +11415,71 @@ Variante (DIZ Köln):
           <height>50</height>
         </layout>
       </container>
+      <container hash="ASY_1675326724662_8132">
+        <layout>
+          <x>70</x>
+          <y>-340</y>
+          <width>150</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="ASY_1676370162562_5633">
+        <layout>
+          <x>67</x>
+          <y>-582</y>
+          <width>225</width>
+          <height>164</height>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="ASY_1674739352509_6433">
+        <layout>
+          <x>70</x>
+          <y>-540</y>
+          <width>150</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="ASY_1674739374844_6445">
+        <layout>
+          <x>70</x>
+          <y>-600</y>
+          <width>150</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="TEX_1674737943141_5864">
+        <layout>
+          <x>-872</x>
+          <y>571</y>
+          <width>824</width>
+          <height>494</height>
+          <icon>IMG_16747379985520.gif</icon>
+          <valign>BOTTOM</valign>
+        </layout>
+      </container>
+      <container hash="TEX_1675327270835_8150">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>204</blue>
+          </color>
+          <x>-428</x>
+          <y>632</y>
+          <width>255</width>
+          <height>135</height>
+          <htmlalign>LEFT</htmlalign>
+        </layout>
+      </container>
       <container hash="DLK_1674738931595_6149"></container>
       <container hash="DLK_1674739427945_6450"></container>
-      <container hash="DLK_1674739516738_6451"></container>
-      <container hash="DLK_1674739516742_6452"></container>
       <container hash="DLK_1674739658791_6455"></container>
       <container hash="DLK_1674739684066_6456"></container>
+      <container hash="DLK_1675326724663_8133"></container>
+      <container hash="DLK_1676370162562_5634"></container>
+      <container hash="DLK_1676370180941_5639"></container>
+      <container hash="DLK_1676370180950_5640"></container>
     </layer>
     <layer number="3">
       <layout>
@@ -11259,6 +11498,51 @@ Variante (DIZ Köln):
           <blue>255</blue>
         </color>
       </layout>
+      <container hash="FUN_1676370396733_5654">
+        <layout>
+          <x>-595</x>
+          <y>-595</y>
+          <width>185</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="FUN_1676370413620_5666">
+        <layout>
+          <x>-593</x>
+          <y>-515</y>
+          <width>185</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="OTY_1676371176796_5702">
+        <layout>
+          <x>-336</x>
+          <y>-645</y>
+        </layout>
+      </container>
+      <container hash="OTY_1676371186074_5703">
+        <layout>
+          <x>-336</x>
+          <y>-580</y>
+        </layout>
+      </container>
+      <container hash="OTY_1676371200602_5704">
+        <layout>
+          <x>-336</x>
+          <y>-515</y>
+          <width>139</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="OTY_1676372159520_5752">
+        <layout>
+          <x>-336</x>
+          <y>-455</y>
+          <width>139</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="DLK_1676372266006_5758"></container>
     </layer>
   </szenario>
   <images>
