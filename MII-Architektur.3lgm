@@ -4,7 +4,7 @@
   <header>
     <title>MII-Architektur.3lgm</title>
     <description></description>
-    <version>74_sippe_1676392062786</version>
+    <version>75_sippe_1676537096460</version>
   </header>
   <userFieldDefinitions>
     <userFieldFormat hash="FRM_1623450079169_2058">
@@ -38,6 +38,48 @@
       <userFieldStyle>HYPERLINK</userFieldStyle>
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="ServiceClass" hash="USERFIELD_1673511976891_10945">
+      <userFieldName>Benutzerdefinierte Eigenschaftsfelder</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>TAB</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="ServiceClass" hash="USERFIELD_1673511976891_10944">
+      <userFieldName>Homepage</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>HYPERLINK</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884870745_32050">
+      <userFieldName>MII KDS</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>SUBTYPE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884904331_32051">
+      <userFieldName>MII KDS</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>TAB</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884915184_32052">
+      <userFieldName>MII Dokumentation</userFieldName>
+      <userFieldDescription>Link zu weiterführenden Informationen</userFieldDescription>
+      <userFieldStyle>HYPERLINK</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1670937850267_6188">
+      <userFieldName>Simplifier Projekt</userFieldName>
+      <userFieldDescription>Link zum Simplifier Projekt</userFieldDescription>
+      <userFieldStyle>HYPERLINK</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
     </userFieldDef>
     <userFieldDef elementClass="RepresentationForm" hash="USERFIELD_1622801082285_1965">
       <userFieldName>XDS Metadaten</userFieldName>
@@ -417,48 +459,6 @@
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
     </userFieldDef>
-    <userFieldDef elementClass="ServiceClass" hash="USERFIELD_1673511976891_10945">
-      <userFieldName>Benutzerdefinierte Eigenschaftsfelder</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>TAB</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="ServiceClass" hash="USERFIELD_1673511976891_10944">
-      <userFieldName>Homepage</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>HYPERLINK</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884870745_32050">
-      <userFieldName>MII KDS</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>SUBTYPE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884904331_32051">
-      <userFieldName>MII KDS</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>TAB</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884915184_32052">
-      <userFieldName>MII Dokumentation</userFieldName>
-      <userFieldDescription>Link zu weiterführenden Informationen</userFieldDescription>
-      <userFieldStyle>HYPERLINK</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1670937850267_6188">
-      <userFieldName>Simplifier Projekt</userFieldName>
-      <userFieldDescription>Link zum Simplifier Projekt</userFieldDescription>
-      <userFieldStyle>HYPERLINK</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
-    </userFieldDef>
   </userFieldDefinitions>
   <objects>
     <model></model>
@@ -540,10 +540,10 @@ Funktionen:
     <element class="Group" hash="GRO_1669898073958_5926">
       <field name="name">MII KDS</field>
     </element>
-    <element class="Use" hash="USE_1676370678737_5679">
+    <element class="Use" hash="USE_1676370535598_5671">
       <field name="name">Nutzung 1</field>
     </element>
-    <element class="Use" hash="USE_1676370535598_5671">
+    <element class="Use" hash="USE_1676370678737_5679">
       <field name="name">Nutzung 1</field>
     </element>
     <element class="Use" hash="USE_1671096364018_17892">
@@ -1147,6 +1147,11 @@ https://it-vergabe.eu/uploads/vergabe/vorgaben/49ee00ba9f0477be40503cef97a675c7/
     <element class="SoftwareProduct" hash="SPR_1670490336075_6177">
       <field name="name">Ontoserver</field>
     </element>
+    <element class="Textfield" hash="TEX_1676535440018_4257">
+      <field name="name">Papier Record-Linkage MII in Arbeit durch AG Datenschutz:
+- Fokus auf Anforderungen
+- Anschließend: ggf. Umsetzung</field>
+    </element>
     <element class="ApplicationSystem" hash="ASY_1669883257529_17690">
       <field name="name">Personal Health Train</field>
     </element>
@@ -1336,6 +1341,15 @@ https://it-vergabe.eu/uploads/vergabe/vorgaben/49ee00ba9f0477be40503cef97a675c7/
       <field name="name">ToDo: Details zur Anbindung</field>
       <field name="description">- Klaus-Uwe Quast anfragen</field>
     </element>
+    <element class="Textfield" hash="TEX_1676535698846_4275">
+      <field name="name">ToDo: Digitale Fortschrittshubs 
+- DISTANCE: (M. Klötgen)
+- usw.
+
+Fragen:
+- Anbindung MII vs. Anbindung einzelne DIZ?
+- Anbindung via Datenmanagementstelle?</field>
+    </element>
     <element class="Textfield" hash="TEX_1670489080737_4937">
       <field name="name">ToDo: Julian Gründner</field>
     </element>
@@ -1517,11 +1531,6 @@ Variante (DIZ Köln):
       <field name="start">OTY_1670487517879_4748</field>
       <field name="end">RFO_1675323966744_6225</field>
     </element>
-    <element class="Group_HasPartEdge" hash="DLK_1669898238211_5953">
-      <field name="name">Hat-Teil-Beziehung 17</field>
-      <field name="start">GRO_1669898073958_5926</field>
-      <field name="end">OTY_1669884573092_32020</field>
-    </element>
     <element class="Function_Use_Edge" hash="DLK_1676370535599_5672">
       <field name="name">Beziehung 2</field>
       <field name="start">FUN_1676370396733_5654</field>
@@ -1587,6 +1596,11 @@ Variante (DIZ Köln):
       <field name="start">FUN_1676370413620_5666</field>
       <field name="end">OTY_1676371176796_5702</field>
       <field name="state">BACKWARD</field>
+    </element>
+    <element class="Group_HasPartEdge" hash="DLK_1669898238211_5953">
+      <field name="name">Hat-Teil-Beziehung 17</field>
+      <field name="start">GRO_1669898073958_5926</field>
+      <field name="end">OTY_1669884573092_32020</field>
     </element>
     <element class="ApplicationComponent_RepresentationForm_Edge" hash="DLK_1669885369437_32058">
       <field name="name">Speicherung 1</field>
@@ -2145,6 +2159,31 @@ Variante (DIZ Köln):
       <field name="start">SER_1675329621925_8340</field>
       <field name="end">PIN_1671047185639_4850</field>
     </element>
+    <element class="Service_ServiceClass_Edge" hash="DLK_1676371750817_5732">
+      <field name="name">Beziehung 4</field>
+      <field name="start">SER_1676371588296_5731</field>
+      <field name="end">SCL_1676371573701_5730</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1676372159520_5754">
+      <field name="name">Beziehung 1</field>
+      <field name="start">SER_1671047337521_4864</field>
+      <field name="end">DLK_1671047185666_4853</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1676372159520_5755">
+      <field name="name">Beziehung 2</field>
+      <field name="start">SER_1671047510385_4875</field>
+      <field name="end">DLK_1671095390112_4018</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1676372159520_5756">
+      <field name="name">Beziehung 3</field>
+      <field name="start">SER_1671047510385_4875</field>
+      <field name="end">DLK_1671095408897_4021</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1676372159520_5757">
+      <field name="name">Beziehung 4</field>
+      <field name="start">SER_1675329621925_8340</field>
+      <field name="end">DLK_1675329563679_8337</field>
+    </element>
     <element class="Group_HasPartEdge" hash="DLK_1669883273637_17691">
       <field name="name">Hat-Teil-Beziehung 1</field>
       <field name="start">Gro_1669881097726_17647</field>
@@ -2460,6 +2499,21 @@ Variante (DIZ Köln):
       <field name="start">GRO_1669881119643_17671</field>
       <field name="end">TEX_1674740298396_6524</field>
     </element>
+    <element class="Group_HasPartEdge" hash="DLK_1676370162562_5634">
+      <field name="name">Hat-Teil-Beziehung 39</field>
+      <field name="start">GRO_1674739392565_6449</field>
+      <field name="end">ASY_1676370162562_5633</field>
+    </element>
+    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1676370180941_5639">
+      <field name="name">Hat-Teil-Beziehung 10</field>
+      <field name="start">ASY_1676370162562_5633</field>
+      <field name="end">ASY_1674739352509_6433</field>
+    </element>
+    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1676370180950_5640">
+      <field name="name">Hat-Teil-Beziehung 11</field>
+      <field name="start">ASY_1676370162562_5633</field>
+      <field name="end">ASY_1674739374844_6445</field>
+    </element>
     <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1646130186902_20082">
       <field name="name">Has-Part-Relation 113</field>
       <field name="start">RAN_1646129914395_18224</field>
@@ -2519,46 +2573,6 @@ Variante (DIZ Köln):
       <field name="name">Has-Part-Relation 116</field>
       <field name="start">RAN_1646134016164_41896</field>
       <field name="end">RAN_1646134049773_42112</field>
-    </element>
-    <element class="Group_HasPartEdge" hash="DLK_1676370162562_5634">
-      <field name="name">Hat-Teil-Beziehung 39</field>
-      <field name="start">GRO_1674739392565_6449</field>
-      <field name="end">ASY_1676370162562_5633</field>
-    </element>
-    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1676370180941_5639">
-      <field name="name">Hat-Teil-Beziehung 10</field>
-      <field name="start">ASY_1676370162562_5633</field>
-      <field name="end">ASY_1674739352509_6433</field>
-    </element>
-    <element class="PartableApplicationComponent_HasPartEdge" hash="DLK_1676370180950_5640">
-      <field name="name">Hat-Teil-Beziehung 11</field>
-      <field name="start">ASY_1676370162562_5633</field>
-      <field name="end">ASY_1674739374844_6445</field>
-    </element>
-    <element class="Service_ServiceClass_Edge" hash="DLK_1676371750817_5732">
-      <field name="name">Beziehung 4</field>
-      <field name="start">SER_1676371588296_5731</field>
-      <field name="end">SCL_1676371573701_5730</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1676372159520_5754">
-      <field name="name">Beziehung 1</field>
-      <field name="start">SER_1671047337521_4864</field>
-      <field name="end">DLK_1671047185666_4853</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1676372159520_5755">
-      <field name="name">Beziehung 2</field>
-      <field name="start">SER_1671047510385_4875</field>
-      <field name="end">DLK_1671095390112_4018</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1676372159520_5756">
-      <field name="name">Beziehung 3</field>
-      <field name="start">SER_1671047510385_4875</field>
-      <field name="end">DLK_1671095408897_4021</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1676372159520_5757">
-      <field name="name">Beziehung 4</field>
-      <field name="start">SER_1675329621925_8340</field>
-      <field name="end">DLK_1675329563679_8337</field>
     </element>
     <element class="Bendpoint" hash="BEN_1670270657517_14254">
       <field name="name">Knickpunkt 6</field>
@@ -3024,7 +3038,7 @@ Variante (DIZ Köln):
   <szenario hash="SZN_1669881014836_2" titel="00 MII Architecture - Overview">
     <description></description>
     <view>
-      <selected>false</selected>
+      <selected>true</selected>
       <x>168</x>
       <y>3</y>
       <zoom>0.7</zoom>
@@ -3415,6 +3429,20 @@ Variante (DIZ Köln):
           <y>-628</y>
           <width>227</width>
           <height>75</height>
+        </layout>
+      </container>
+      <container hash="TEX_1676535698846_4275">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>204</blue>
+          </color>
+          <x>-926</x>
+          <y>-298</y>
+          <width>309</width>
+          <height>145</height>
+          <htmlalign>LEFT</htmlalign>
         </layout>
       </container>
     </layer>
@@ -8935,9 +8963,9 @@ Variante (DIZ Köln):
     <description></description>
     <view>
       <selected>false</selected>
-      <x>270</x>
-      <y>930</y>
-      <zoom>0.8</zoom>
+      <x>568</x>
+      <y>299</y>
+      <zoom>0.64</zoom>
       <degree>73</degree>
       <shift>504</shift>
       <pageSizeFactor>2.9505208333333335</pageSizeFactor>
@@ -9514,6 +9542,8 @@ Variante (DIZ Köln):
         <layout>
           <x>-390</x>
           <y>-535</y>
+          <width>92</width>
+          <height>50</height>
         </layout>
       </container>
       <container hash="IIN_1674738647401_6003">
@@ -10995,13 +11025,13 @@ Variante (DIZ Köln):
   <szenario hash="SZN_1674117697192_0" titel="NUM (Entwurf)">
     <description></description>
     <view>
-      <selected>true</selected>
-      <x>0</x>
-      <y>0</y>
-      <zoom>0.44</zoom>
-      <degree>65</degree>
-      <shift>200</shift>
-      <pageSizeFactor>2.5078125</pageSizeFactor>
+      <selected>false</selected>
+      <x>939</x>
+      <y>89</y>
+      <zoom>1.06</zoom>
+      <degree>64</degree>
+      <shift>641</shift>
+      <pageSizeFactor>2.640625</pageSizeFactor>
       <activeLayer>2</activeLayer>
       <multiView>false</multiView>
     </view>
@@ -11450,10 +11480,10 @@ Variante (DIZ Köln):
       </container>
       <container hash="TEX_1674737943141_5864">
         <layout>
-          <x>-872</x>
-          <y>571</y>
-          <width>824</width>
-          <height>494</height>
+          <x>-835</x>
+          <y>592</y>
+          <width>899</width>
+          <height>536</height>
           <icon>IMG_16747379985520.gif</icon>
           <valign>BOTTOM</valign>
         </layout>
@@ -11465,10 +11495,24 @@ Variante (DIZ Köln):
             <green>255</green>
             <blue>204</blue>
           </color>
-          <x>-428</x>
-          <y>632</y>
+          <x>-323</x>
+          <y>652</y>
           <width>255</width>
           <height>135</height>
+          <htmlalign>LEFT</htmlalign>
+        </layout>
+      </container>
+      <container hash="TEX_1676535440018_4257">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>204</blue>
+          </color>
+          <x>417</x>
+          <y>-648</y>
+          <width>285</width>
+          <height>125</height>
           <htmlalign>LEFT</htmlalign>
         </layout>
       </container>
@@ -11500,7 +11544,7 @@ Variante (DIZ Köln):
       </layout>
       <container hash="FUN_1676370396733_5654">
         <layout>
-          <x>-595</x>
+          <x>-593</x>
           <y>-595</y>
           <width>185</width>
           <height>50</height>
