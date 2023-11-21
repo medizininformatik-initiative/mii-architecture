@@ -4,7 +4,7 @@
   <header>
     <title>MII-Architektur.3lgm</title>
     <description></description>
-    <version>217_sippe_1700166209268</version>
+    <version>218_sippe_1700559927592</version>
   </header>
   <userFieldDefinitions>
     <userFieldFormat hash="FRM_1623450079169_2058">
@@ -39,33 +39,33 @@
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
     </userFieldDef>
-    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884870745_32050">
-      <userFieldName>MII KDS</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>SUBTYPE</userFieldStyle>
+    <userFieldDef elementClass="Service" hash="USERFIELD_1677139693470_7200">
+      <userFieldName>Doku</userFieldName>
+      <userFieldDescription>Weiterführende Informationen zum Service.</userFieldDescription>
+      <userFieldStyle>TAB</userFieldStyle>
       <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
     </userFieldDef>
-    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884904331_32051">
-      <userFieldName>MII KDS</userFieldName>
+    <userFieldDef elementClass="Service" hash="USERFIELD_1677139693470_7199">
+      <userFieldName>Doku-Link</userFieldName>
+      <userFieldDescription>URL, z.B. zur Spezifikation, Dokumenten, Beschreibungen.</userFieldDescription>
+      <userFieldStyle>HYPERLINK</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="ServiceClass" hash="USERFIELD_1673511976891_10945">
+      <userFieldName>Benutzerdefinierte Eigenschaftsfelder</userFieldName>
       <userFieldDescription></userFieldDescription>
       <userFieldStyle>TAB</userFieldStyle>
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
     </userFieldDef>
-    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884915184_32052">
-      <userFieldName>MII Dokumentation</userFieldName>
-      <userFieldDescription>Link zu weiterführenden Informationen</userFieldDescription>
+    <userFieldDef elementClass="ServiceClass" hash="USERFIELD_1673511976891_10944">
+      <userFieldName>Homepage</userFieldName>
+      <userFieldDescription></userFieldDescription>
       <userFieldStyle>HYPERLINK</userFieldStyle>
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1670937850267_6188">
-      <userFieldName>Simplifier Projekt</userFieldName>
-      <userFieldDescription>Link zum Simplifier Projekt</userFieldDescription>
-      <userFieldStyle>HYPERLINK</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
     </userFieldDef>
     <userFieldDef elementClass="ApplicationSystem" hash="USERFIELD_1689234358789_7897">
       <userFieldName>MII</userFieldName>
@@ -461,33 +461,33 @@
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
     </userFieldDef>
-    <userFieldDef elementClass="Service" hash="USERFIELD_1677139693470_7200">
-      <userFieldName>Doku</userFieldName>
-      <userFieldDescription>Weiterführende Informationen zum Service.</userFieldDescription>
-      <userFieldStyle>TAB</userFieldStyle>
+    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884870745_32050">
+      <userFieldName>MII KDS</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>SUBTYPE</userFieldStyle>
       <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
     </userFieldDef>
-    <userFieldDef elementClass="Service" hash="USERFIELD_1677139693470_7199">
-      <userFieldName>Doku-Link</userFieldName>
-      <userFieldDescription>URL, z.B. zur Spezifikation, Dokumenten, Beschreibungen.</userFieldDescription>
-      <userFieldStyle>HYPERLINK</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="ServiceClass" hash="USERFIELD_1673511976891_10945">
-      <userFieldName>Benutzerdefinierte Eigenschaftsfelder</userFieldName>
+    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884904331_32051">
+      <userFieldName>MII KDS</userFieldName>
       <userFieldDescription></userFieldDescription>
       <userFieldStyle>TAB</userFieldStyle>
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
     </userFieldDef>
-    <userFieldDef elementClass="ServiceClass" hash="USERFIELD_1673511976891_10944">
-      <userFieldName>Homepage</userFieldName>
-      <userFieldDescription></userFieldDescription>
+    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884915184_32052">
+      <userFieldName>MII Dokumentation</userFieldName>
+      <userFieldDescription>Link zu weiterführenden Informationen</userFieldDescription>
       <userFieldStyle>HYPERLINK</userFieldStyle>
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1670937850267_6188">
+      <userFieldName>Simplifier Projekt</userFieldName>
+      <userFieldDescription>Link zum Simplifier Projekt</userFieldDescription>
+      <userFieldStyle>HYPERLINK</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
     </userFieldDef>
     <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1689238028833_8218">
       <userFieldName>Hetzner CX11</userFieldName>
@@ -720,9 +720,6 @@ Funktionen:
     <element class="Function" hash="FUN_1697095103432_8268">
       <field name="name">Federated analysis (Portal)</field>
     </element>
-    <element class="Function" hash="FUN_1697096193448_8492">
-      <field name="name">Federated Trust Third Party</field>
-    </element>
     <element class="Group" hash="GRO_1676974299717_5587">
       <field name="name">Federated Trust Third Party</field>
       <field name="description">fTTP</field>
@@ -860,6 +857,10 @@ Funktionen:
       <field name="description">(ehem. "Data request")
 "Antragstellung: Standardisierter Prozess zur Beantragung und ​
 Genehmigung von Daten und Biomaterialproben (Antragsverwaltung)​"</field>
+    </element>
+    <element class="Function" hash="FUN_1697096193448_8492">
+      <field name="name">Provide Federated Trust Third Party Tasks</field>
+      <field name="assoc_szen">SZN_1674117697192_0</field>
     </element>
     <element class="Function" hash="FUN_1696527649974_7308">
       <field name="name">Provide FHIR Endpoint</field>
@@ -3947,6 +3948,26 @@ https://fdpg.test.forschen-fuer-gesundheit.de/api ? -&gt; Backend?</field>
       <field name="name">Has-Part-Relation 114</field>
       <field name="start">GRO_1697094897563_8209</field>
       <field name="end">FUN_1676974671796_5641</field>
+    </element>
+    <element class="Function_HasPartEdge" hash="DLK_1700559606104_13263">
+      <field name="name">Has-Part-Relation 2</field>
+      <field name="start">FUN_1697096193448_8492</field>
+      <field name="end">FUN_1676370396733_5654</field>
+    </element>
+    <element class="Function_HasPartEdge" hash="DLK_1700559606111_13264">
+      <field name="name">Has-Part-Relation 3</field>
+      <field name="start">FUN_1697096193448_8492</field>
+      <field name="end">FUN_1676370413620_5666</field>
+    </element>
+    <element class="Function_HasPartEdge" hash="DLK_1700559606116_13265">
+      <field name="name">Has-Part-Relation 4</field>
+      <field name="start">FUN_1697096193448_8492</field>
+      <field name="end">FUN_1676975025260_5669</field>
+    </element>
+    <element class="Function_HasPartEdge" hash="DLK_1700559606121_13266">
+      <field name="name">Has-Part-Relation 5</field>
+      <field name="start">FUN_1697096193448_8492</field>
+      <field name="end">FUN_1676975194127_5704</field>
     </element>
     <element class="ApplicationComponent_RepresentationForm_Edge" hash="DLK_1669885369437_32058">
       <field name="name">Speicherung 1</field>
@@ -9437,9 +9458,9 @@ https://fdpg.test.forschen-fuer-gesundheit.de/api ? -&gt; Backend?</field>
     <description></description>
     <view>
       <selected>true</selected>
-      <x>570</x>
-      <y>516</y>
-      <zoom>0.81</zoom>
+      <x>201</x>
+      <y>230</y>
+      <zoom>0.66</zoom>
       <degree>69</degree>
       <shift>645</shift>
       <pageSizeFactor>2.7604166666666665</pageSizeFactor>
@@ -11115,8 +11136,8 @@ https://fdpg.test.forschen-fuer-gesundheit.de/api ? -&gt; Backend?</field>
     <view>
       <selected>false</selected>
       <x>0</x>
-      <y>30</y>
-      <zoom>0.44</zoom>
+      <y>171</y>
+      <zoom>0.45</zoom>
       <degree>65</degree>
       <shift>732</shift>
       <pageSizeFactor>2.9609375</pageSizeFactor>
@@ -32688,9 +32709,9 @@ https://fdpg.test.forschen-fuer-gesundheit.de/api ? -&gt; Backend?</field>
       <container hash="GRO_1676974299717_5587">
         <layout>
           <x>255</x>
-          <y>-668</y>
+          <y>-675</y>
           <width>590</width>
-          <height>475</height>
+          <height>489</height>
           <valign>TOP</valign>
         </layout>
       </container>
@@ -32722,22 +32743,6 @@ https://fdpg.test.forschen-fuer-gesundheit.de/api ? -&gt; Backend?</field>
           <height>50</height>
         </layout>
       </container>
-      <container hash="FUN_1676370413620_5666">
-        <layout>
-          <x>402</x>
-          <y>-740</y>
-          <width>185</width>
-          <height>50</height>
-        </layout>
-      </container>
-      <container hash="FUN_1676370396733_5654">
-        <layout>
-          <x>402</x>
-          <y>-811</y>
-          <width>185</width>
-          <height>50</height>
-        </layout>
-      </container>
       <container hash="FUN_1676974671796_5641">
         <layout>
           <color name="bg_color">
@@ -32748,22 +32753,6 @@ https://fdpg.test.forschen-fuer-gesundheit.de/api ? -&gt; Backend?</field>
           <x>-742</x>
           <y>-305</y>
           <width>155</width>
-          <height>50</height>
-        </layout>
-      </container>
-      <container hash="FUN_1676975025260_5669">
-        <layout>
-          <x>402</x>
-          <y>-650</y>
-          <width>185</width>
-          <height>50</height>
-        </layout>
-      </container>
-      <container hash="FUN_1676975194127_5704">
-        <layout>
-          <x>402</x>
-          <y>-585</y>
-          <width>185</width>
           <height>50</height>
         </layout>
       </container>
@@ -32939,6 +32928,52 @@ https://fdpg.test.forschen-fuer-gesundheit.de/api ? -&gt; Backend?</field>
           <htmlalign>LEFT</htmlalign>
         </layout>
       </container>
+      <container hash="FUN_1697096193448_8492">
+        <layout>
+          <color name="bg_color">
+            <red>164</red>
+            <green>204</green>
+            <blue>244</blue>
+          </color>
+          <x>400</x>
+          <y>-708</y>
+          <width>240</width>
+          <height>354</height>
+          <valign>TOP</valign>
+        </layout>
+      </container>
+      <container hash="FUN_1676370413620_5666">
+        <layout>
+          <x>402</x>
+          <y>-740</y>
+          <width>185</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="FUN_1676975194127_5704">
+        <layout>
+          <x>402</x>
+          <y>-585</y>
+          <width>185</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="FUN_1676370396733_5654">
+        <layout>
+          <x>402</x>
+          <y>-811</y>
+          <width>185</width>
+          <height>50</height>
+        </layout>
+      </container>
+      <container hash="FUN_1676975025260_5669">
+        <layout>
+          <x>402</x>
+          <y>-650</y>
+          <width>185</width>
+          <height>50</height>
+        </layout>
+      </container>
       <container hash="DLK_1676372266006_5758"></container>
       <container hash="DLK_1676974238404_5586"></container>
       <container hash="DLK_1676974314492_5588"></container>
@@ -32968,6 +33003,11 @@ https://fdpg.test.forschen-fuer-gesundheit.de/api ? -&gt; Backend?</field>
       <container hash="DLK_1699288934810_114336"></container>
       <container hash="DLK_1699288980220_115912"></container>
       <container hash="DLK_1699289054553_116367"></container>
+      <container hash="DLK_1697096308561_8505"></container>
+      <container hash="DLK_1700559606104_13263"></container>
+      <container hash="DLK_1700559606111_13264"></container>
+      <container hash="DLK_1700559606116_13265"></container>
+      <container hash="DLK_1700559606121_13266"></container>
       <container hash="BEN_1700149370410_7238">
         <layout>
           <color name="bg_color">
