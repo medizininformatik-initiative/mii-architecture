@@ -4,7 +4,7 @@
   <header>
     <title>MII-Architektur.3lgm</title>
     <description></description>
-    <version>480_sippe_1734366562594</version>
+    <version>482_sippe_1741184639743</version>
   </header>
   <userFieldDefinitions>
     <userFieldFormat hash="FRM_1623450079169_2058">
@@ -39,6 +39,195 @@
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
     </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1689238028833_8218">
+      <userFieldName>Hetzner CX11</userFieldName>
+      <userFieldDescription>- &lt;Eigenschaften&gt;</userFieldDescription>
+      <userFieldStyle>SUBTYPE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1689238064160_8219">
+      <userFieldName>Hetzner CX41</userFieldName>
+      <userFieldDescription>- &lt;Eigenschaften&gt;</userFieldDescription>
+      <userFieldStyle>SUBTYPE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1689238332279_8221">
+      <userFieldName>Hetzner CPX31</userFieldName>
+      <userFieldDescription>- &lt;Eigenschaften CPX31&gt;</userFieldDescription>
+      <userFieldStyle>SUBTYPE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1689238472255_8224">
+      <userFieldName>Hetzner CCX41</userFieldName>
+      <userFieldDescription>- &lt;Eigenschaften CCX41&gt;</userFieldDescription>
+      <userFieldStyle>SUBTYPE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1689238540416_8225">
+      <userFieldName>Hetzner CAX21</userFieldName>
+      <userFieldDescription>- &lt;Eigenschaften CAX21&gt;</userFieldDescription>
+      <userFieldStyle>SUBTYPE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1689252237689_8541">
+      <userFieldName>Hetzner Volume</userFieldName>
+      <userFieldDescription>- &lt;Eigenschaften Volume&gt;</userFieldDescription>
+      <userFieldStyle>SUBTYPE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080293518_5897">
+      <userFieldName>Virtual Maschine</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>SUBTYPE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080600594_6226">
+      <userFieldName>Metadata</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>TAB</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080751662_6232">
+      <userFieldName>Ressources</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>GROUP</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080646449_6227">
+      <userFieldName>Operating system</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>SINGLE_LINE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080646449_6230">
+      <userFieldName>Processor</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>SINGLE_LINE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080646449_6229">
+      <userFieldName>RAM</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>NUMBER</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+      <userFieldFormatHash>USERFIELD_1497434089887_15</userFieldFormatHash>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080646449_6228">
+      <userFieldName>Hard disc size</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>NUMBER</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+      <userFieldFormatHash>USERFIELD_1497434059112_14</userFieldFormatHash>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080585602_6225">
+      <userFieldName>Dedicated Server</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>SUBTYPE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1618563118425_1775">
+      <userFieldName>Metadata</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>TAB</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080667510_6231">
+      <userFieldName>Ressources</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>GROUP</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497433961756_10">
+      <userFieldName>Operating system</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>SINGLE_LINE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497434106454_17">
+      <userFieldName>Processor</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>SINGLE_LINE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497434038201_13">
+      <userFieldName>RAM</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>NUMBER</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+      <userFieldFormatHash>USERFIELD_1497434089887_15</userFieldFormatHash>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497434147788_18">
+      <userFieldName>Hard disc size</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>NUMBER</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+      <userFieldFormatHash>USERFIELD_1497434059112_14</userFieldFormatHash>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080825876_6234">
+      <userFieldName>Reliability</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>GROUP</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497433330855_0">
+      <userFieldName>Downtime</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>NUMBER</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+      <userFieldFormatHash>USERFIELD_1497434962331_19</userFieldFormatHash>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497433756485_9">
+      <userFieldName>Availability</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>FORMULA</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+      <userFieldFormula>100 - ( 100 / 365 / 24 ) * USERFIELD_1497433330855_0 </userFieldFormula>
+      <userFieldFormatHash>USERFIELD_1497433330877_1</userFieldFormatHash>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080768830_6233">
+      <userFieldName>Inventory</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>GROUP</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497433989459_11">
+      <userFieldName>Serial number</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>SINGLE_LINE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497434000226_12">
+      <userFieldName>Inventory number</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>SINGLE_LINE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
     <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884870745_32050">
       <userFieldName>MII KDS</userFieldName>
       <userFieldDescription></userFieldDescription>
@@ -66,48 +255,6 @@
       <userFieldStyle>HYPERLINK</userFieldStyle>
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="Service" hash="USERFIELD_1677139693470_7200">
-      <userFieldName>Doku</userFieldName>
-      <userFieldDescription>Weiterführende Informationen zum Service.</userFieldDescription>
-      <userFieldStyle>TAB</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="Service" hash="USERFIELD_1677139693470_7199">
-      <userFieldName>Doku-Link</userFieldName>
-      <userFieldDescription>URL, z.B. zur Spezifikation, Dokumenten, Beschreibungen.</userFieldDescription>
-      <userFieldStyle>HYPERLINK</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="Textfield" hash="USERFIELD_1734352108107_11285">
-      <userFieldName>MII</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>TAB</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="Textfield" hash="USERFIELD_1734352108107_11284">
-      <userFieldName>MII-SharePoint URL</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>HYPERLINK</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="ServiceClass" hash="USERFIELD_1673511976891_10945">
-      <userFieldName>Benutzerdefinierte Eigenschaftsfelder</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>TAB</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="ServiceClass" hash="USERFIELD_1673511976891_10944">
-      <userFieldName>Homepage</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>HYPERLINK</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
     </userFieldDef>
     <userFieldDef elementClass="RepresentationForm" hash="USERFIELD_1622801082285_1965">
       <userFieldName>XDS Metadaten</userFieldName>
@@ -503,194 +650,33 @@
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
     </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1689238028833_8218">
-      <userFieldName>Hetzner CX11</userFieldName>
-      <userFieldDescription>- &lt;Eigenschaften&gt;</userFieldDescription>
-      <userFieldStyle>SUBTYPE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1689238064160_8219">
-      <userFieldName>Hetzner CX41</userFieldName>
-      <userFieldDescription>- &lt;Eigenschaften&gt;</userFieldDescription>
-      <userFieldStyle>SUBTYPE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1689238332279_8221">
-      <userFieldName>Hetzner CPX31</userFieldName>
-      <userFieldDescription>- &lt;Eigenschaften CPX31&gt;</userFieldDescription>
-      <userFieldStyle>SUBTYPE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1689238472255_8224">
-      <userFieldName>Hetzner CCX41</userFieldName>
-      <userFieldDescription>- &lt;Eigenschaften CCX41&gt;</userFieldDescription>
-      <userFieldStyle>SUBTYPE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1689238540416_8225">
-      <userFieldName>Hetzner CAX21</userFieldName>
-      <userFieldDescription>- &lt;Eigenschaften CAX21&gt;</userFieldDescription>
-      <userFieldStyle>SUBTYPE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1689252237689_8541">
-      <userFieldName>Hetzner Volume</userFieldName>
-      <userFieldDescription>- &lt;Eigenschaften Volume&gt;</userFieldDescription>
-      <userFieldStyle>SUBTYPE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080293518_5897">
-      <userFieldName>Virtual Maschine</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>SUBTYPE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080600594_6226">
-      <userFieldName>Metadata</userFieldName>
+    <userFieldDef elementClass="ServiceClass" hash="USERFIELD_1673511976891_10945">
+      <userFieldName>Benutzerdefinierte Eigenschaftsfelder</userFieldName>
       <userFieldDescription></userFieldDescription>
       <userFieldStyle>TAB</userFieldStyle>
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
     </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080751662_6232">
-      <userFieldName>Ressources</userFieldName>
+    <userFieldDef elementClass="ServiceClass" hash="USERFIELD_1673511976891_10944">
+      <userFieldName>Homepage</userFieldName>
       <userFieldDescription></userFieldDescription>
-      <userFieldStyle>GROUP</userFieldStyle>
+      <userFieldStyle>HYPERLINK</userFieldStyle>
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
     </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080646449_6227">
-      <userFieldName>Operating system</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>SINGLE_LINE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080646449_6230">
-      <userFieldName>Processor</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>SINGLE_LINE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080646449_6229">
-      <userFieldName>RAM</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>NUMBER</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-      <userFieldFormatHash>USERFIELD_1497434089887_15</userFieldFormatHash>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080646449_6228">
-      <userFieldName>Hard disc size</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>NUMBER</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-      <userFieldFormatHash>USERFIELD_1497434059112_14</userFieldFormatHash>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080585602_6225">
-      <userFieldName>Dedicated Server</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>SUBTYPE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1618563118425_1775">
-      <userFieldName>Metadata</userFieldName>
-      <userFieldDescription></userFieldDescription>
+    <userFieldDef elementClass="Service" hash="USERFIELD_1677139693470_7200">
+      <userFieldName>Doku</userFieldName>
+      <userFieldDescription>Weiterführende Informationen zum Service.</userFieldDescription>
       <userFieldStyle>TAB</userFieldStyle>
       <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
     </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080667510_6231">
-      <userFieldName>Ressources</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>GROUP</userFieldStyle>
+    <userFieldDef elementClass="Service" hash="USERFIELD_1677139693470_7199">
+      <userFieldName>Doku-Link</userFieldName>
+      <userFieldDescription>URL, z.B. zur Spezifikation, Dokumenten, Beschreibungen.</userFieldDescription>
+      <userFieldStyle>HYPERLINK</userFieldStyle>
       <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497433961756_10">
-      <userFieldName>Operating system</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>SINGLE_LINE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497434106454_17">
-      <userFieldName>Processor</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>SINGLE_LINE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497434038201_13">
-      <userFieldName>RAM</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>NUMBER</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-      <userFieldFormatHash>USERFIELD_1497434089887_15</userFieldFormatHash>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497434147788_18">
-      <userFieldName>Hard disc size</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>NUMBER</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-      <userFieldFormatHash>USERFIELD_1497434059112_14</userFieldFormatHash>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080825876_6234">
-      <userFieldName>Reliability</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>GROUP</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497433330855_0">
-      <userFieldName>Downtime</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>NUMBER</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-      <userFieldFormatHash>USERFIELD_1497434962331_19</userFieldFormatHash>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497433756485_9">
-      <userFieldName>Availability</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>FORMULA</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-      <userFieldFormula>100 - ( 100 / 365 / 24 ) * USERFIELD_1497433330855_0 </userFieldFormula>
-      <userFieldFormatHash>USERFIELD_1497433330877_1</userFieldFormatHash>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080768830_6233">
-      <userFieldName>Inventory</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>GROUP</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497433989459_11">
-      <userFieldName>Serial number</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>SINGLE_LINE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497434000226_12">
-      <userFieldName>Inventory number</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>SINGLE_LINE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
     </userFieldDef>
     <userFieldDef elementClass="Group" hash="USERFIELD_1669994634381_38782">
       <userFieldName>Netzwerkzone</userFieldName>
@@ -751,6 +737,20 @@
       <userFieldStyle>SUBTYPE</userFieldStyle>
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="Textfield" hash="USERFIELD_1734352108107_11285">
+      <userFieldName>MII</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>TAB</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="Textfield" hash="USERFIELD_1734352108107_11284">
+      <userFieldName>MII-SharePoint URL</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>HYPERLINK</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
     </userFieldDef>
   </userFieldDefinitions>
   <objects>
@@ -2070,9 +2070,6 @@ Schnittstelle (bereitstellend) 8</field>
       <field name="name">(v2) ToDo: Aufgaben mit Anwendungssystemen verknüpfen.</field>
     </element>
     <element class="Textfield" hash="TEX_1700146195787_171404">
-      <field name="name">(v2) ToDo: Aufgaben mit Anwendungssystemen verknüpfen.</field>
-    </element>
-    <element class="Textfield" hash="TEX_1700146865365_180580">
       <field name="name">(v2) ToDo: Aufgaben mit Anwendungssystemen verknüpfen.</field>
     </element>
     <element class="Textfield" hash="TEX_1670487405699_4744">
@@ -18012,36 +18009,6 @@ Ansprechpartner: SU-Termserv (MII Mod. 2b Projekt), J.Wiedekopf</field>
       <field name="kantenHash">DLK_1669884783383_32048</field>
       <field name="index">0</field>
     </element>
-    <element class="Bendpoint" hash="BEN_1734355509138_32959">
-      <field name="name">Knickpunkt 3</field>
-      <field name="kantenHash">DLK_1669884783383_32048</field>
-      <field name="index">0</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1734355509069_32956">
-      <field name="name">Knickpunkt 6</field>
-      <field name="kantenHash">DLK_1669884783381_32046</field>
-      <field name="index">0</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1734355509069_32955">
-      <field name="name">Knickpunkt 2</field>
-      <field name="kantenHash">DLK_1669884783380_32045</field>
-      <field name="index">0</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1734355509069_32957">
-      <field name="name">Knickpunkt 5</field>
-      <field name="kantenHash">DLK_1669884783384_32049</field>
-      <field name="index">0</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1734355509069_32954">
-      <field name="name">Knickpunkt 1</field>
-      <field name="kantenHash">DLK_1669884783375_32043</field>
-      <field name="index">0</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1734355509096_32958">
-      <field name="name">Knickpunkt 4</field>
-      <field name="kantenHash">DLK_1669884783371_32042</field>
-      <field name="index">0</field>
-    </element>
     <element class="Bendpoint" hash="BEN_1734356381955_41312">
       <field name="name">Bending point 268</field>
       <field name="kantenHash">DLK_1707141812923_179200</field>
@@ -18630,6 +18597,36 @@ Ansprechpartner: SU-Termserv (MII Mod. 2b Projekt), J.Wiedekopf</field>
     <element class="Bendpoint" hash="BEN_1676975310203_5720">
       <field name="name">Knickpunkt 90</field>
       <field name="kantenHash">DLK_1676975306597_5718</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1734355509138_32959">
+      <field name="name">Knickpunkt 3</field>
+      <field name="kantenHash">DLK_1669884783383_32048</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1734355509069_32956">
+      <field name="name">Knickpunkt 6</field>
+      <field name="kantenHash">DLK_1669884783381_32046</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1734355509069_32955">
+      <field name="name">Knickpunkt 2</field>
+      <field name="kantenHash">DLK_1669884783380_32045</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1734355509069_32957">
+      <field name="name">Knickpunkt 5</field>
+      <field name="kantenHash">DLK_1669884783384_32049</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1734355509069_32954">
+      <field name="name">Knickpunkt 1</field>
+      <field name="kantenHash">DLK_1669884783375_32043</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1734355509096_32958">
+      <field name="name">Knickpunkt 4</field>
+      <field name="kantenHash">DLK_1669884783371_32042</field>
       <field name="index">0</field>
     </element>
     <element class="Bendpoint" hash="BEN_1732007100193_90629">
@@ -19625,111 +19622,6 @@ Ansprechpartner: SU-Termserv (MII Mod. 2b Projekt), J.Wiedekopf</field>
     <element class="Bendpoint" hash="BEN_1734356031013_36217">
       <field name="name">Bending point 165</field>
       <field name="kantenHash">DLK_1671086231178_4856</field>
-      <field name="index">1</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1708347438319_10352">
-      <field name="name">Knickpunkt 18</field>
-      <field name="kantenHash">DLK_1671093525447_3883</field>
-      <field name="index">1</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1708347438319_10353">
-      <field name="name">Knickpunkt 150</field>
-      <field name="kantenHash">DLK_1671093525447_3883</field>
-      <field name="index">2</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1708347438319_10354">
-      <field name="name">Knickpunkt 140</field>
-      <field name="kantenHash">DLK_1671047185666_4853</field>
-      <field name="index">0</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1708347438319_10355">
-      <field name="name">Knickpunkt 8</field>
-      <field name="kantenHash">DLK_1671047185666_4853</field>
-      <field name="index">1</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1708347438319_10356">
-      <field name="name">Knickpunkt 23</field>
-      <field name="kantenHash">DLK_1671095390112_4018</field>
-      <field name="index">0</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1708347438319_10357">
-      <field name="name">Knickpunkt 22</field>
-      <field name="kantenHash">DLK_1671095390112_4018</field>
-      <field name="index">1</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1708347438319_10358">
-      <field name="name">Knickpunkt 48</field>
-      <field name="kantenHash">DLK_1671095390112_4018</field>
-      <field name="index">2</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1708347438319_10359">
-      <field name="name">Knickpunkt 9</field>
-      <field name="kantenHash">DLK_1671095408897_4021</field>
-      <field name="index">0</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1708347438319_10350">
-      <field name="name">Knickpunkt 7</field>
-      <field name="kantenHash">DLK_1671046872307_4805</field>
-      <field name="index">0</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1708347438319_10351">
-      <field name="name">Knickpunkt 20</field>
-      <field name="kantenHash">DLK_1671093525447_3883</field>
-      <field name="index">0</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1708347438320_10366">
-      <field name="name">Knickpunkt 126</field>
-      <field name="kantenHash">DLK_1677831755070_6409</field>
-      <field name="index">0</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1708347438320_10368">
-      <field name="name">Knickpunkt 123</field>
-      <field name="kantenHash">DLK_1677831755070_6409</field>
-      <field name="index">2</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1708347438320_10367">
-      <field name="name">Knickpunkt 122</field>
-      <field name="kantenHash">DLK_1677831755070_6409</field>
-      <field name="index">1</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1708347438320_10369">
-      <field name="name">Knickpunkt 127</field>
-      <field name="kantenHash">DLK_1678108747117_19342</field>
-      <field name="index">0</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1708347438319_10363">
-      <field name="name">Knickpunkt 125</field>
-      <field name="kantenHash">DLK_1677831751177_6398</field>
-      <field name="index">0</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1708347438319_10364">
-      <field name="name">Knickpunkt 124</field>
-      <field name="kantenHash">DLK_1677831751177_6398</field>
-      <field name="index">1</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1708347438319_10365">
-      <field name="name">Knickpunkt 133</field>
-      <field name="kantenHash">DLK_1677831751177_6398</field>
-      <field name="index">2</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1708347438320_10371">
-      <field name="name">Bending point 119</field>
-      <field name="kantenHash">DLK_1700141749018_96170</field>
-      <field name="index">0</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1708347438320_10370">
-      <field name="name">Knickpunkt 128</field>
-      <field name="kantenHash">DLK_1678108747117_19342</field>
-      <field name="index">1</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1708347438319_10360">
-      <field name="name">Knickpunkt 10</field>
-      <field name="kantenHash">DLK_1671095408897_4021</field>
-      <field name="index">1</field>
-    </element>
-    <element class="Bendpoint" hash="BEN_1708347438320_10372">
-      <field name="name">Bending point 109</field>
-      <field name="kantenHash">DLK_1700141749018_96170</field>
       <field name="index">1</field>
     </element>
     <element class="Bendpoint" hash="BEN_1712057201352_6044">
@@ -21867,6 +21759,111 @@ Ansprechpartner: SU-Termserv (MII Mod. 2b Projekt), J.Wiedekopf</field>
       <field name="kantenHash">DLK_1689254471673_9160</field>
       <field name="index">2</field>
     </element>
+    <element class="Bendpoint" hash="BEN_1708347438319_10352">
+      <field name="name">Knickpunkt 18</field>
+      <field name="kantenHash">DLK_1671093525447_3883</field>
+      <field name="index">1</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1708347438319_10353">
+      <field name="name">Knickpunkt 150</field>
+      <field name="kantenHash">DLK_1671093525447_3883</field>
+      <field name="index">2</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1708347438319_10354">
+      <field name="name">Knickpunkt 140</field>
+      <field name="kantenHash">DLK_1671047185666_4853</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1708347438319_10355">
+      <field name="name">Knickpunkt 8</field>
+      <field name="kantenHash">DLK_1671047185666_4853</field>
+      <field name="index">1</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1708347438319_10356">
+      <field name="name">Knickpunkt 23</field>
+      <field name="kantenHash">DLK_1671095390112_4018</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1708347438319_10357">
+      <field name="name">Knickpunkt 22</field>
+      <field name="kantenHash">DLK_1671095390112_4018</field>
+      <field name="index">1</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1708347438319_10358">
+      <field name="name">Knickpunkt 48</field>
+      <field name="kantenHash">DLK_1671095390112_4018</field>
+      <field name="index">2</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1708347438319_10359">
+      <field name="name">Knickpunkt 9</field>
+      <field name="kantenHash">DLK_1671095408897_4021</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1708347438319_10350">
+      <field name="name">Knickpunkt 7</field>
+      <field name="kantenHash">DLK_1671046872307_4805</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1708347438319_10351">
+      <field name="name">Knickpunkt 20</field>
+      <field name="kantenHash">DLK_1671093525447_3883</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1708347438320_10366">
+      <field name="name">Knickpunkt 126</field>
+      <field name="kantenHash">DLK_1677831755070_6409</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1708347438320_10368">
+      <field name="name">Knickpunkt 123</field>
+      <field name="kantenHash">DLK_1677831755070_6409</field>
+      <field name="index">2</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1708347438320_10367">
+      <field name="name">Knickpunkt 122</field>
+      <field name="kantenHash">DLK_1677831755070_6409</field>
+      <field name="index">1</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1708347438320_10369">
+      <field name="name">Knickpunkt 127</field>
+      <field name="kantenHash">DLK_1678108747117_19342</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1708347438319_10363">
+      <field name="name">Knickpunkt 125</field>
+      <field name="kantenHash">DLK_1677831751177_6398</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1708347438319_10364">
+      <field name="name">Knickpunkt 124</field>
+      <field name="kantenHash">DLK_1677831751177_6398</field>
+      <field name="index">1</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1708347438319_10365">
+      <field name="name">Knickpunkt 133</field>
+      <field name="kantenHash">DLK_1677831751177_6398</field>
+      <field name="index">2</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1708347438320_10371">
+      <field name="name">Bending point 119</field>
+      <field name="kantenHash">DLK_1700141749018_96170</field>
+      <field name="index">0</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1708347438320_10370">
+      <field name="name">Knickpunkt 128</field>
+      <field name="kantenHash">DLK_1678108747117_19342</field>
+      <field name="index">1</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1708347438319_10360">
+      <field name="name">Knickpunkt 10</field>
+      <field name="kantenHash">DLK_1671095408897_4021</field>
+      <field name="index">1</field>
+    </element>
+    <element class="Bendpoint" hash="BEN_1708347438320_10372">
+      <field name="name">Bending point 109</field>
+      <field name="kantenHash">DLK_1700141749018_96170</field>
+      <field name="index">1</field>
+    </element>
     <element class="Bendpoint" hash="BEN_1671698858749_4989">
       <field name="name">Knickpunkt 7</field>
       <field name="kantenHash">DLK_1671046872307_4805</field>
@@ -22181,14 +22178,14 @@ Ansprechpartner: SU-Termserv (MII Mod. 2b Projekt), J.Wiedekopf</field>
   <szenario hash="SZN_1669881014836_2" titel="00.1 Overview">
     <description></description>
     <view>
-      <selected>true</selected>
+      <selected>false</selected>
       <x>0</x>
       <y>60</y>
       <zoom>0.64</zoom>
       <degree>69</degree>
       <shift>645</shift>
       <pageSizeFactor>2.0625</pageSizeFactor>
-      <activeLayer>4</activeLayer>
+      <activeLayer>2</activeLayer>
       <multiView>false</multiView>
     </view>
     <mapping>
@@ -23952,7 +23949,7 @@ NUM:
       <degree>65</degree>
       <shift>676</shift>
       <pageSizeFactor>3.1002604166666665</pageSizeFactor>
-      <activeLayer>4</activeLayer>
+      <activeLayer>2</activeLayer>
       <multiView>false</multiView>
     </view>
     <mapping>
@@ -31030,7 +31027,7 @@ NUM:
       <degree>73</degree>
       <shift>504</shift>
       <pageSizeFactor>3.03125</pageSizeFactor>
-      <activeLayer>4</activeLayer>
+      <activeLayer>2</activeLayer>
       <multiView>false</multiView>
     </view>
     <mapping>
@@ -33746,7 +33743,7 @@ NUM:
       <degree>67</degree>
       <shift>588</shift>
       <pageSizeFactor>3.1002604166666665</pageSizeFactor>
-      <activeLayer>4</activeLayer>
+      <activeLayer>2</activeLayer>
       <multiView>false</multiView>
     </view>
     <mapping>
@@ -36285,7 +36282,7 @@ NUM:
       <degree>67</degree>
       <shift>588</shift>
       <pageSizeFactor>3.1002604166666665</pageSizeFactor>
-      <activeLayer>4</activeLayer>
+      <activeLayer>2</activeLayer>
       <multiView>false</multiView>
     </view>
     <mapping>
@@ -44480,14 +44477,14 @@ NUM:
   <szenario hash="SZN_1695885464842_1" titel="02.1 FDPG">
     <description></description>
     <view>
-      <selected>false</selected>
-      <x>542</x>
-      <y>10</y>
-      <zoom>0.66</zoom>
+      <selected>true</selected>
+      <x>1324</x>
+      <y>720</y>
+      <zoom>0.91</zoom>
       <degree>66</degree>
       <shift>431</shift>
-      <pageSizeFactor>2.9609375</pageSizeFactor>
-      <activeLayer>4</activeLayer>
+      <pageSizeFactor>3.0</pageSizeFactor>
+      <activeLayer>2</activeLayer>
       <multiView>false</multiView>
     </view>
     <mapping>
@@ -44963,8 +44960,8 @@ NUM:
       </container>
       <container hash="IIN_1671095814753_4035">
         <layout>
-          <x>1094</x>
-          <y>-91</y>
+          <x>1096</x>
+          <y>-96</y>
           <width>19</width>
           <height>19</height>
         </layout>
@@ -45089,9 +45086,9 @@ NUM:
             <blue>118</blue>
           </color>
           <x>1217</x>
-          <y>-405</y>
+          <y>-424</y>
           <width>115</width>
-          <height>34</height>
+          <height>72</height>
           <valign>TOP</valign>
         </layout>
       </container>
@@ -45399,9 +45396,9 @@ NUM:
             <green>179</green>
             <blue>118</blue>
           </color>
-          <x>910</x>
+          <x>930</x>
           <y>-581</y>
-          <width>150</width>
+          <width>190</width>
           <height>99</height>
           <valign>TOP</valign>
         </layout>
@@ -45421,9 +45418,9 @@ NUM:
             <green>179</green>
             <blue>118</blue>
           </color>
-          <x>910</x>
+          <x>930</x>
           <y>-588</y>
-          <width>120</width>
+          <width>160</width>
           <height>24</height>
         </layout>
       </container>
@@ -45434,9 +45431,9 @@ NUM:
             <green>179</green>
             <blue>118</blue>
           </color>
-          <x>912</x>
+          <x>930</x>
           <y>-553</y>
-          <width>125</width>
+          <width>160</width>
           <height>24</height>
         </layout>
       </container>
@@ -46207,7 +46204,7 @@ NUM:
       </container>
       <container hash="IIN_1733150358547_180503">
         <layout>
-          <x>970</x>
+          <x>1010</x>
           <y>-587</y>
           <width>19</width>
           <height>19</height>
@@ -46229,8 +46226,8 @@ NUM:
       </container>
       <container hash="IIN_1675158686809_7505">
         <layout>
-          <x>727</x>
-          <y>-646</y>
+          <x>704</x>
+          <y>-667</y>
           <width>19</width>
           <height>19</height>
         </layout>
@@ -46593,8 +46590,8 @@ NUM:
             <blue>0</blue>
             <alpha>0</alpha>
           </color>
-          <x>1332</x>
-          <y>-91</y>
+          <x>1334</x>
+          <y>-96</y>
         </layout>
       </container>
       <container hash="BEN_1733150888735_198886">
@@ -46630,7 +46627,7 @@ NUM:
             <alpha>0</alpha>
           </color>
           <x>401</x>
-          <y>-95</y>
+          <y>-94</y>
         </layout>
       </container>
       <container hash="BEN_1733150895306_199312">
@@ -46738,7 +46735,7 @@ NUM:
             <alpha>0</alpha>
           </color>
           <x>382</x>
-          <y>-33</y>
+          <y>-31</y>
         </layout>
       </container>
       <container hash="BEN_1700145513984_169374">
@@ -46761,7 +46758,7 @@ NUM:
             <blue>0</blue>
             <alpha>0</alpha>
           </color>
-          <x>553</x>
+          <x>555</x>
           <y>-682</y>
         </layout>
       </container>
@@ -46822,7 +46819,7 @@ NUM:
             <alpha>0</alpha>
           </color>
           <x>739</x>
-          <y>-674</y>
+          <y>-675</y>
         </layout>
       </container>
       <container hash="BEN_1733150939896_200589">
@@ -46833,7 +46830,7 @@ NUM:
             <blue>0</blue>
             <alpha>0</alpha>
           </color>
-          <x>1335</x>
+          <x>1334</x>
           <y>-675</y>
         </layout>
       </container>
@@ -46893,7 +46890,7 @@ NUM:
             <blue>0</blue>
             <alpha>0</alpha>
           </color>
-          <x>1326</x>
+          <x>1325</x>
           <y>-665</y>
         </layout>
       </container>
@@ -46917,7 +46914,7 @@ NUM:
             <blue>0</blue>
             <alpha>0</alpha>
           </color>
-          <x>780</x>
+          <x>781</x>
           <y>-397</y>
         </layout>
       </container>
@@ -47164,6 +47161,8 @@ NUM:
           </color>
           <x>439</x>
           <y>-320</y>
+          <width>90</width>
+          <height>54</height>
         </layout>
       </container>
       <container hash="GRO_1698937851334_6919">
@@ -47302,6 +47301,8 @@ NUM:
           </color>
           <x>439</x>
           <y>-510</y>
+          <width>90</width>
+          <height>54</height>
         </layout>
       </container>
       <container hash="FUN_1698946542126_9415">
@@ -47313,6 +47314,8 @@ NUM:
           </color>
           <x>549</x>
           <y>-510</y>
+          <width>90</width>
+          <height>54</height>
         </layout>
       </container>
       <container hash="FUN_1698946582081_9431">
@@ -47324,6 +47327,8 @@ NUM:
           </color>
           <x>549</x>
           <y>-440</y>
+          <width>90</width>
+          <height>54</height>
         </layout>
       </container>
       <container hash="FUN_1698946665626_9447">
@@ -47346,6 +47351,8 @@ NUM:
           </color>
           <x>439</x>
           <y>-440</y>
+          <width>90</width>
+          <height>54</height>
         </layout>
       </container>
       <container hash="OTY_1699288732401_112902">
@@ -47507,7 +47514,7 @@ NUM:
       <degree>65</degree>
       <shift>428</shift>
       <pageSizeFactor>2.7734375</pageSizeFactor>
-      <activeLayer>4</activeLayer>
+      <activeLayer>2</activeLayer>
       <multiView>false</multiView>
     </view>
     <mapping>
@@ -50164,7 +50171,7 @@ NUM:
       <degree>65</degree>
       <shift>200</shift>
       <pageSizeFactor>2.63671875</pageSizeFactor>
-      <activeLayer>4</activeLayer>
+      <activeLayer>2</activeLayer>
       <multiView>false</multiView>
     </view>
     <mapping>
@@ -50645,7 +50652,7 @@ NUM:
       <degree>65</degree>
       <shift>200</shift>
       <pageSizeFactor>2.63671875</pageSizeFactor>
-      <activeLayer>4</activeLayer>
+      <activeLayer>2</activeLayer>
       <multiView>false</multiView>
     </view>
     <mapping>
@@ -51126,7 +51133,7 @@ NUM:
       <degree>65</degree>
       <shift>200</shift>
       <pageSizeFactor>2.9609375</pageSizeFactor>
-      <activeLayer>4</activeLayer>
+      <activeLayer>2</activeLayer>
       <multiView>false</multiView>
     </view>
     <mapping>
@@ -53645,7 +53652,7 @@ NUM:
       <degree>73</degree>
       <shift>504</shift>
       <pageSizeFactor>3.2161458333333335</pageSizeFactor>
-      <activeLayer>4</activeLayer>
+      <activeLayer>2</activeLayer>
       <multiView>false</multiView>
     </view>
     <mapping>
@@ -56822,7 +56829,7 @@ NUM:
       <degree>64</degree>
       <shift>641</shift>
       <pageSizeFactor>2.7604166666666665</pageSizeFactor>
-      <activeLayer>4</activeLayer>
+      <activeLayer>2</activeLayer>
       <multiView>false</multiView>
     </view>
     <mapping>
@@ -59090,7 +59097,7 @@ NUM:
       <degree>65</degree>
       <shift>200</shift>
       <pageSizeFactor>2.63671875</pageSizeFactor>
-      <activeLayer>4</activeLayer>
+      <activeLayer>2</activeLayer>
       <multiView>false</multiView>
     </view>
     <mapping>
@@ -61525,7 +61532,7 @@ NUM:
       <degree>67</degree>
       <shift>533</shift>
       <pageSizeFactor>2.6119791666666665</pageSizeFactor>
-      <activeLayer>4</activeLayer>
+      <activeLayer>2</activeLayer>
       <multiView>true</multiView>
     </view>
     <mapping>
@@ -65013,7 +65020,7 @@ NUM:
       <degree>65</degree>
       <shift>200</shift>
       <pageSizeFactor>1.78125</pageSizeFactor>
-      <activeLayer>4</activeLayer>
+      <activeLayer>2</activeLayer>
       <multiView>false</multiView>
     </view>
     <mapping>
@@ -65508,7 +65515,7 @@ NUM:
       <degree>65</degree>
       <shift>200</shift>
       <pageSizeFactor>2.7109375</pageSizeFactor>
-      <activeLayer>4</activeLayer>
+      <activeLayer>2</activeLayer>
       <multiView>false</multiView>
     </view>
     <mapping>
@@ -66807,7 +66814,7 @@ NUM:
       <degree>67</degree>
       <shift>588</shift>
       <pageSizeFactor>2.9505208333333335</pageSizeFactor>
-      <activeLayer>4</activeLayer>
+      <activeLayer>2</activeLayer>
       <multiView>false</multiView>
     </view>
     <mapping>
@@ -69544,7 +69551,7 @@ NUM:
       <degree>65</degree>
       <shift>428</shift>
       <pageSizeFactor>2.7734375</pageSizeFactor>
-      <activeLayer>4</activeLayer>
+      <activeLayer>2</activeLayer>
       <multiView>false</multiView>
     </view>
     <mapping>
@@ -71896,7 +71903,7 @@ NUM:
       <degree>65</degree>
       <shift>644</shift>
       <pageSizeFactor>2.9505208333333335</pageSizeFactor>
-      <activeLayer>4</activeLayer>
+      <activeLayer>2</activeLayer>
       <multiView>false</multiView>
     </view>
     <mapping>
