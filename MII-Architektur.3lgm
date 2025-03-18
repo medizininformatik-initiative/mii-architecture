@@ -4,7 +4,7 @@
   <header>
     <title>MII-Architektur.3lgm</title>
     <description></description>
-    <version>482_sippe_1741184639743</version>
+    <version>484_sippe_1742291002555</version>
   </header>
   <userFieldDefinitions>
     <userFieldFormat hash="FRM_1623450079169_2058">
@@ -39,219 +39,16 @@
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
     </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1689238028833_8218">
-      <userFieldName>Hetzner CX11</userFieldName>
-      <userFieldDescription>- &lt;Eigenschaften&gt;</userFieldDescription>
-      <userFieldStyle>SUBTYPE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1689238064160_8219">
-      <userFieldName>Hetzner CX41</userFieldName>
-      <userFieldDescription>- &lt;Eigenschaften&gt;</userFieldDescription>
-      <userFieldStyle>SUBTYPE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1689238332279_8221">
-      <userFieldName>Hetzner CPX31</userFieldName>
-      <userFieldDescription>- &lt;Eigenschaften CPX31&gt;</userFieldDescription>
-      <userFieldStyle>SUBTYPE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1689238472255_8224">
-      <userFieldName>Hetzner CCX41</userFieldName>
-      <userFieldDescription>- &lt;Eigenschaften CCX41&gt;</userFieldDescription>
-      <userFieldStyle>SUBTYPE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1689238540416_8225">
-      <userFieldName>Hetzner CAX21</userFieldName>
-      <userFieldDescription>- &lt;Eigenschaften CAX21&gt;</userFieldDescription>
-      <userFieldStyle>SUBTYPE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1689252237689_8541">
-      <userFieldName>Hetzner Volume</userFieldName>
-      <userFieldDescription>- &lt;Eigenschaften Volume&gt;</userFieldDescription>
-      <userFieldStyle>SUBTYPE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080293518_5897">
-      <userFieldName>Virtual Maschine</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>SUBTYPE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080600594_6226">
-      <userFieldName>Metadata</userFieldName>
-      <userFieldDescription></userFieldDescription>
+    <userFieldDef elementClass="Service" hash="USERFIELD_1677139693470_7200">
+      <userFieldName>Doku</userFieldName>
+      <userFieldDescription>Weiterführende Informationen zum Service.</userFieldDescription>
       <userFieldStyle>TAB</userFieldStyle>
       <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
     </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080751662_6232">
-      <userFieldName>Ressources</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>GROUP</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080646449_6227">
-      <userFieldName>Operating system</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>SINGLE_LINE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080646449_6230">
-      <userFieldName>Processor</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>SINGLE_LINE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080646449_6229">
-      <userFieldName>RAM</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>NUMBER</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-      <userFieldFormatHash>USERFIELD_1497434089887_15</userFieldFormatHash>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080646449_6228">
-      <userFieldName>Hard disc size</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>NUMBER</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-      <userFieldFormatHash>USERFIELD_1497434059112_14</userFieldFormatHash>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080585602_6225">
-      <userFieldName>Dedicated Server</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>SUBTYPE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1618563118425_1775">
-      <userFieldName>Metadata</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>TAB</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080667510_6231">
-      <userFieldName>Ressources</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>GROUP</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497433961756_10">
-      <userFieldName>Operating system</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>SINGLE_LINE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497434106454_17">
-      <userFieldName>Processor</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>SINGLE_LINE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497434038201_13">
-      <userFieldName>RAM</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>NUMBER</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-      <userFieldFormatHash>USERFIELD_1497434089887_15</userFieldFormatHash>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497434147788_18">
-      <userFieldName>Hard disc size</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>NUMBER</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-      <userFieldFormatHash>USERFIELD_1497434059112_14</userFieldFormatHash>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080825876_6234">
-      <userFieldName>Reliability</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>GROUP</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497433330855_0">
-      <userFieldName>Downtime</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>NUMBER</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-      <userFieldFormatHash>USERFIELD_1497434962331_19</userFieldFormatHash>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497433756485_9">
-      <userFieldName>Availability</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>FORMULA</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-      <userFieldFormula>100 - ( 100 / 365 / 24 ) * USERFIELD_1497433330855_0 </userFieldFormula>
-      <userFieldFormatHash>USERFIELD_1497433330877_1</userFieldFormatHash>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080768830_6233">
-      <userFieldName>Inventory</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>GROUP</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497433989459_11">
-      <userFieldName>Serial number</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>SINGLE_LINE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497434000226_12">
-      <userFieldName>Inventory number</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>SINGLE_LINE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884870745_32050">
-      <userFieldName>MII KDS</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>SUBTYPE</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884904331_32051">
-      <userFieldName>MII KDS</userFieldName>
-      <userFieldDescription></userFieldDescription>
-      <userFieldStyle>TAB</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884915184_32052">
-      <userFieldName>MII Dokumentation</userFieldName>
-      <userFieldDescription>Link zu weiterführenden Informationen</userFieldDescription>
-      <userFieldStyle>HYPERLINK</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1670937850267_6188">
-      <userFieldName>Simplifier Projekt</userFieldName>
-      <userFieldDescription>Link zum Simplifier Projekt</userFieldDescription>
+    <userFieldDef elementClass="Service" hash="USERFIELD_1677139693470_7199">
+      <userFieldName>Doku-Link</userFieldName>
+      <userFieldDescription>URL, z.B. zur Spezifikation, Dokumenten, Beschreibungen.</userFieldDescription>
       <userFieldStyle>HYPERLINK</userFieldStyle>
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
@@ -636,6 +433,195 @@
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
     </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1689238028833_8218">
+      <userFieldName>Hetzner CX11</userFieldName>
+      <userFieldDescription>- &lt;Eigenschaften&gt;</userFieldDescription>
+      <userFieldStyle>SUBTYPE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1689238064160_8219">
+      <userFieldName>Hetzner CX41</userFieldName>
+      <userFieldDescription>- &lt;Eigenschaften&gt;</userFieldDescription>
+      <userFieldStyle>SUBTYPE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1689238332279_8221">
+      <userFieldName>Hetzner CPX31</userFieldName>
+      <userFieldDescription>- &lt;Eigenschaften CPX31&gt;</userFieldDescription>
+      <userFieldStyle>SUBTYPE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1689238472255_8224">
+      <userFieldName>Hetzner CCX41</userFieldName>
+      <userFieldDescription>- &lt;Eigenschaften CCX41&gt;</userFieldDescription>
+      <userFieldStyle>SUBTYPE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1689238540416_8225">
+      <userFieldName>Hetzner CAX21</userFieldName>
+      <userFieldDescription>- &lt;Eigenschaften CAX21&gt;</userFieldDescription>
+      <userFieldStyle>SUBTYPE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1689252237689_8541">
+      <userFieldName>Hetzner Volume</userFieldName>
+      <userFieldDescription>- &lt;Eigenschaften Volume&gt;</userFieldDescription>
+      <userFieldStyle>SUBTYPE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080293518_5897">
+      <userFieldName>Virtual Maschine</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>SUBTYPE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080600594_6226">
+      <userFieldName>Metadata</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>TAB</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080751662_6232">
+      <userFieldName>Ressources</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>GROUP</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080646449_6227">
+      <userFieldName>Operating system</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>SINGLE_LINE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080646449_6230">
+      <userFieldName>Processor</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>SINGLE_LINE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080646449_6229">
+      <userFieldName>RAM</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>NUMBER</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+      <userFieldFormatHash>USERFIELD_1497434089887_15</userFieldFormatHash>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080646449_6228">
+      <userFieldName>Hard disc size</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>NUMBER</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+      <userFieldFormatHash>USERFIELD_1497434059112_14</userFieldFormatHash>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080585602_6225">
+      <userFieldName>Dedicated Server</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>SUBTYPE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1618563118425_1775">
+      <userFieldName>Metadata</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>TAB</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080667510_6231">
+      <userFieldName>Ressources</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>GROUP</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497433961756_10">
+      <userFieldName>Operating system</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>SINGLE_LINE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497434106454_17">
+      <userFieldName>Processor</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>SINGLE_LINE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497434038201_13">
+      <userFieldName>RAM</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>NUMBER</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+      <userFieldFormatHash>USERFIELD_1497434089887_15</userFieldFormatHash>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497434147788_18">
+      <userFieldName>Hard disc size</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>NUMBER</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+      <userFieldFormatHash>USERFIELD_1497434059112_14</userFieldFormatHash>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080825876_6234">
+      <userFieldName>Reliability</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>GROUP</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497433330855_0">
+      <userFieldName>Downtime</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>NUMBER</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+      <userFieldFormatHash>USERFIELD_1497434962331_19</userFieldFormatHash>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497433756485_9">
+      <userFieldName>Availability</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>FORMULA</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+      <userFieldFormula>100 - ( 100 / 365 / 24 ) * USERFIELD_1497433330855_0 </userFieldFormula>
+      <userFieldFormatHash>USERFIELD_1497433330877_1</userFieldFormatHash>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1670080768830_6233">
+      <userFieldName>Inventory</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>GROUP</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497433989459_11">
+      <userFieldName>Serial number</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>SINGLE_LINE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="PhysicalDataProcessingComponent" hash="USERFIELD_1497434000226_12">
+      <userFieldName>Inventory number</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>SINGLE_LINE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
     <userFieldDef elementClass="ApplicationSystem" hash="USERFIELD_1689234358789_7897">
       <userFieldName>MII</userFieldName>
       <userFieldDescription>MII related attributes</userFieldDescription>
@@ -650,30 +636,30 @@
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
     </userFieldDef>
-    <userFieldDef elementClass="ServiceClass" hash="USERFIELD_1673511976891_10945">
-      <userFieldName>Benutzerdefinierte Eigenschaftsfelder</userFieldName>
+    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884870745_32050">
+      <userFieldName>MII KDS</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>SUBTYPE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884904331_32051">
+      <userFieldName>MII KDS</userFieldName>
       <userFieldDescription></userFieldDescription>
       <userFieldStyle>TAB</userFieldStyle>
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
     </userFieldDef>
-    <userFieldDef elementClass="ServiceClass" hash="USERFIELD_1673511976891_10944">
-      <userFieldName>Homepage</userFieldName>
-      <userFieldDescription></userFieldDescription>
+    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884915184_32052">
+      <userFieldName>MII Dokumentation</userFieldName>
+      <userFieldDescription>Link zu weiterführenden Informationen</userFieldDescription>
       <userFieldStyle>HYPERLINK</userFieldStyle>
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
     </userFieldDef>
-    <userFieldDef elementClass="Service" hash="USERFIELD_1677139693470_7200">
-      <userFieldName>Doku</userFieldName>
-      <userFieldDescription>Weiterführende Informationen zum Service.</userFieldDescription>
-      <userFieldStyle>TAB</userFieldStyle>
-      <userFieldTreeVis>true</userFieldTreeVis>
-      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
-    </userFieldDef>
-    <userFieldDef elementClass="Service" hash="USERFIELD_1677139693470_7199">
-      <userFieldName>Doku-Link</userFieldName>
-      <userFieldDescription>URL, z.B. zur Spezifikation, Dokumenten, Beschreibungen.</userFieldDescription>
+    <userFieldDef elementClass="ObjectType" hash="USERFIELD_1670937850267_6188">
+      <userFieldName>Simplifier Projekt</userFieldName>
+      <userFieldDescription>Link zum Simplifier Projekt</userFieldDescription>
       <userFieldStyle>HYPERLINK</userFieldStyle>
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
@@ -737,6 +723,20 @@
       <userFieldStyle>SUBTYPE</userFieldStyle>
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="ServiceClass" hash="USERFIELD_1673511976891_10945">
+      <userFieldName>Benutzerdefinierte Eigenschaftsfelder</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>TAB</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="ServiceClass" hash="USERFIELD_1673511976891_10944">
+      <userFieldName>Homepage</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>HYPERLINK</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
     </userFieldDef>
     <userFieldDef elementClass="Textfield" hash="USERFIELD_1734352108107_11285">
       <userFieldName>MII</userFieldName>
@@ -7400,6 +7400,16 @@ Der Leitfaden spezifiziert und beschreibt, wie die nötigen fachlichen Operation
 - phys. data processing components have a Device Class, e.g. Virtual Machine
 - phys. data processing components have a Location, e.g. Hetzner Computing Center
 - phys. data processing components can have Hetzner Types which define what type of machine it is, e.g. CX11</field>
+    </element>
+    <element class="Textfield" hash="TEX_1742290598788_20475">
+      <field name="name">Description from 04.2025 (Test) resp. 05.2025 (Prod):
+- Hetzner -&gt; IONOS Cloud (Kubernetes)
+- DIZ-Inbound (DIZ DSF FHIR Server -&gt; DMZ):
+-- 85.215.46.201
+-- 85.215.75.32
+-- 185.132.45.161
+- DIZ-Outbound (DIZ DSF BPE und DSF FHIR SERVER -&gt; FDGP DSF FHIR Server)
+-- 212.227.173.3</field>
     </element>
     <element class="Group" hash="GRO_1689234993848_7922">
       <field name="name">DIZ - DMZ</field>
@@ -16039,196 +16049,6 @@ Ansprechpartner: SU-Termserv (MII Mod. 2b Projekt), J.Wiedekopf</field>
       <field name="start">ASY_1734359185929_89518</field>
       <field name="end">PIN_1734359185929_89520</field>
     </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185935_89556">
-      <field name="name">Connection 1</field>
-      <field name="start">SER_1689254471668_9095</field>
-      <field name="end">DLK_1671046872307_4805</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185935_89557">
-      <field name="name">Connection 2</field>
-      <field name="start">SER_1676371588296_5731</field>
-      <field name="end">DLK_1676976404512_5798</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185935_89558">
-      <field name="name">Connection 3</field>
-      <field name="start">SER_1676977413788_7119</field>
-      <field name="end">DLK_1676977543723_7125</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185935_89559">
-      <field name="name">Connection 4</field>
-      <field name="start">SER_1676977833886_7134</field>
-      <field name="end">DLK_1676977969984_7153</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185935_89560">
-      <field name="name">Connection 5</field>
-      <field name="start">SER_1670251969423_50750</field>
-      <field name="end">DLK_1699287085647_100124</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185935_89561">
-      <field name="name">Connection 6</field>
-      <field name="start">SER_1670252418101_53704</field>
-      <field name="end">DLK_1670253807096_60548</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185935_89562">
-      <field name="name">Connection 7</field>
-      <field name="start">SER_1670252302921_52856</field>
-      <field name="end">DLK_1670253807122_60549</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185935_89563">
-      <field name="name">Connection 8</field>
-      <field name="start">SER_1709123231897_427772</field>
-      <field name="end">DLK_1709123231899_427787</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185935_89564">
-      <field name="name">Connection 9</field>
-      <field name="start">Ser_1621406866595_2385</field>
-      <field name="end">DLK_1617266059890_4445</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185935_89565">
-      <field name="name">Connection 10</field>
-      <field name="start">Ser_1621406866595_2385</field>
-      <field name="end">DLK_1617266059856_4443</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185935_89566">
-      <field name="name">Connection 11</field>
-      <field name="start">Ser_1621406866595_2385</field>
-      <field name="end">DLK_1617266059906_4446</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185936_89567">
-      <field name="name">Connection 12</field>
-      <field name="start">SER_1670075010883_8366</field>
-      <field name="end">DLK_1617264597913_4384</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185936_89568">
-      <field name="name">Connection 13</field>
-      <field name="start">Ser_1621406866595_2385</field>
-      <field name="end">DLK_1617266059879_4444</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185936_89569">
-      <field name="name">Connection 14</field>
-      <field name="start">Ser_1621406866595_2385</field>
-      <field name="end">DLK_1617264574868_4381</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185936_89570">
-      <field name="name">Connection 15</field>
-      <field name="start">SER_1670252177581_52187</field>
-      <field name="end">DLK_1669725443203_90085</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185936_89571">
-      <field name="name">Connection 16</field>
-      <field name="start">SER_1708350854670_12431</field>
-      <field name="end">DLK_1708350854671_12444</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185936_89572">
-      <field name="name">Connection 17</field>
-      <field name="start">SER_1670251078880_47440</field>
-      <field name="end">DLK_1617263063581_4317</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185936_89573">
-      <field name="name">Connection 18</field>
-      <field name="start">SER_1670252302921_52856</field>
-      <field name="end">DLK_1669712024517_6671</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185936_89574">
-      <field name="name">Connection 19</field>
-      <field name="start">SER_1670252418101_53704</field>
-      <field name="end">DLK_1669712024517_6671</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185936_89575">
-      <field name="name">Connection 20</field>
-      <field name="start">SER_1709123231897_427772</field>
-      <field name="end">DLK_1669712024517_6671</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185936_89576">
-      <field name="name">Connection 21</field>
-      <field name="start">SER_1670075445498_10326</field>
-      <field name="end">DLK_1617267087730_4466</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185936_89577">
-      <field name="name">Connection 22</field>
-      <field name="start">SER_1670075010883_8366</field>
-      <field name="end">DLK_1617263549805_4352</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185936_89578">
-      <field name="name">Connection 23</field>
-      <field name="start">Ser_1621406866595_2385</field>
-      <field name="end">DLK_1617263549805_4352</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185936_89579">
-      <field name="name">Connection 24</field>
-      <field name="start">Ser_1621406866595_2385</field>
-      <field name="end">DLK_1708350158214_12200</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185936_89580">
-      <field name="name">Connection 25</field>
-      <field name="start">SER_1670075010883_8366</field>
-      <field name="end">DLK_1708350158249_12203</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185936_89581">
-      <field name="name">Connection 26</field>
-      <field name="start">SER_1670251459010_48762</field>
-      <field name="end">DLK_1631260955015_19686</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185937_89582">
-      <field name="name">Connection 27</field>
-      <field name="start">SER_1670251548231_49370</field>
-      <field name="end">DLK_1669726359247_109580</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185937_89583">
-      <field name="name">Connection 28</field>
-      <field name="start">SER_1670252177581_52187</field>
-      <field name="end">DLK_1669725443175_90084</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185937_89584">
-      <field name="name">Connection 29</field>
-      <field name="start">SER_1670251234367_47865</field>
-      <field name="end">DLK_1621349774243_2278</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185937_89585">
-      <field name="name">Connection 30</field>
-      <field name="start">SER_1670252566310_54372</field>
-      <field name="end">DLK_1669812389484_30888</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185937_89586">
-      <field name="name">Connection 31</field>
-      <field name="start">SER_1670254016790_63731</field>
-      <field name="end">DLK_1669726129623_100566</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185937_89587">
-      <field name="name">Connection 32</field>
-      <field name="start">SER_1670251892075_50343</field>
-      <field name="end">DLK_1669726129623_100566</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185937_89588">
-      <field name="name">Connection 33</field>
-      <field name="start">SER_1708348368908_10923</field>
-      <field name="end">DLK_1669726129623_100566</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185937_89589">
-      <field name="name">Connection 34</field>
-      <field name="start">SER_1670252723752_55088</field>
-      <field name="end">DLK_1669726129623_100566</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185937_89590">
-      <field name="name">Connection 35</field>
-      <field name="start">SER_1708348368908_10927</field>
-      <field name="end">DLK_1669726129623_100566</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185937_89591">
-      <field name="name">Connection 36</field>
-      <field name="start">SER_1709123231897_427772</field>
-      <field name="end">DLK_1669724778711_71300</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185937_89592">
-      <field name="name">Connection 37</field>
-      <field name="start">SER_1670252418101_53704</field>
-      <field name="end">DLK_1669724778711_71300</field>
-    </element>
-    <element class="Service_CommunicationLink_Edge" hash="DLK_1734359185937_89593">
-      <field name="name">Connection 38</field>
-      <field name="start">SER_1670252302921_52856</field>
-      <field name="end">DLK_1669724778711_71300</field>
-    </element>
     <element class="PartableApplicationComponent_CommunicationInterface_Edge" hash="DLK_1734359185934_89549">
       <field name="name">Subordination relation 6</field>
       <field name="start">ASY_1734359185925_89508</field>
@@ -17323,6 +17143,196 @@ Ansprechpartner: SU-Termserv (MII Mod. 2b Projekt), J.Wiedekopf</field>
       <field name="name">Has-Part-Relation 103</field>
       <field name="start">GRO_1678110344107_26240</field>
       <field name="end">TEX_1679907214280_7225</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598794_20476">
+      <field name="name">Connection 1</field>
+      <field name="start">SER_1689254471668_9095</field>
+      <field name="end">DLK_1671046872307_4805</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598795_20477">
+      <field name="name">Connection 2</field>
+      <field name="start">SER_1676371588296_5731</field>
+      <field name="end">DLK_1676976404512_5798</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598795_20478">
+      <field name="name">Connection 3</field>
+      <field name="start">SER_1676977413788_7119</field>
+      <field name="end">DLK_1676977543723_7125</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598795_20479">
+      <field name="name">Connection 4</field>
+      <field name="start">SER_1676977833886_7134</field>
+      <field name="end">DLK_1676977969984_7153</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598796_20480">
+      <field name="name">Connection 5</field>
+      <field name="start">SER_1670251969423_50750</field>
+      <field name="end">DLK_1699287085647_100124</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598796_20481">
+      <field name="name">Connection 6</field>
+      <field name="start">SER_1670252418101_53704</field>
+      <field name="end">DLK_1670253807096_60548</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598796_20482">
+      <field name="name">Connection 7</field>
+      <field name="start">SER_1670252302921_52856</field>
+      <field name="end">DLK_1670253807122_60549</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598796_20483">
+      <field name="name">Connection 8</field>
+      <field name="start">SER_1709123231897_427772</field>
+      <field name="end">DLK_1709123231899_427787</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598796_20484">
+      <field name="name">Connection 9</field>
+      <field name="start">Ser_1621406866595_2385</field>
+      <field name="end">DLK_1617266059890_4445</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598797_20485">
+      <field name="name">Connection 10</field>
+      <field name="start">Ser_1621406866595_2385</field>
+      <field name="end">DLK_1617266059856_4443</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598797_20486">
+      <field name="name">Connection 11</field>
+      <field name="start">Ser_1621406866595_2385</field>
+      <field name="end">DLK_1617266059906_4446</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598797_20487">
+      <field name="name">Connection 12</field>
+      <field name="start">SER_1670075010883_8366</field>
+      <field name="end">DLK_1617264597913_4384</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598797_20488">
+      <field name="name">Connection 13</field>
+      <field name="start">Ser_1621406866595_2385</field>
+      <field name="end">DLK_1617266059879_4444</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598797_20489">
+      <field name="name">Connection 14</field>
+      <field name="start">Ser_1621406866595_2385</field>
+      <field name="end">DLK_1617264574868_4381</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598797_20490">
+      <field name="name">Connection 15</field>
+      <field name="start">SER_1670252177581_52187</field>
+      <field name="end">DLK_1669725443203_90085</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598798_20491">
+      <field name="name">Connection 16</field>
+      <field name="start">SER_1708350854670_12431</field>
+      <field name="end">DLK_1708350854671_12444</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598798_20492">
+      <field name="name">Connection 17</field>
+      <field name="start">SER_1670251078880_47440</field>
+      <field name="end">DLK_1617263063581_4317</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598798_20493">
+      <field name="name">Connection 18</field>
+      <field name="start">SER_1670252302921_52856</field>
+      <field name="end">DLK_1669712024517_6671</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598798_20494">
+      <field name="name">Connection 19</field>
+      <field name="start">SER_1670252418101_53704</field>
+      <field name="end">DLK_1669712024517_6671</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598798_20495">
+      <field name="name">Connection 20</field>
+      <field name="start">SER_1709123231897_427772</field>
+      <field name="end">DLK_1669712024517_6671</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598798_20496">
+      <field name="name">Connection 21</field>
+      <field name="start">SER_1670075445498_10326</field>
+      <field name="end">DLK_1617267087730_4466</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598798_20497">
+      <field name="name">Connection 22</field>
+      <field name="start">SER_1670075010883_8366</field>
+      <field name="end">DLK_1617263549805_4352</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598798_20498">
+      <field name="name">Connection 23</field>
+      <field name="start">Ser_1621406866595_2385</field>
+      <field name="end">DLK_1617263549805_4352</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598799_20499">
+      <field name="name">Connection 24</field>
+      <field name="start">Ser_1621406866595_2385</field>
+      <field name="end">DLK_1708350158214_12200</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598799_20500">
+      <field name="name">Connection 25</field>
+      <field name="start">SER_1670075010883_8366</field>
+      <field name="end">DLK_1708350158249_12203</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598799_20501">
+      <field name="name">Connection 26</field>
+      <field name="start">SER_1670251459010_48762</field>
+      <field name="end">DLK_1631260955015_19686</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598799_20502">
+      <field name="name">Connection 27</field>
+      <field name="start">SER_1670251548231_49370</field>
+      <field name="end">DLK_1669726359247_109580</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598799_20503">
+      <field name="name">Connection 28</field>
+      <field name="start">SER_1670252177581_52187</field>
+      <field name="end">DLK_1669725443175_90084</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598799_20504">
+      <field name="name">Connection 29</field>
+      <field name="start">SER_1670251234367_47865</field>
+      <field name="end">DLK_1621349774243_2278</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598800_20505">
+      <field name="name">Connection 30</field>
+      <field name="start">SER_1670252566310_54372</field>
+      <field name="end">DLK_1669812389484_30888</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598800_20506">
+      <field name="name">Connection 31</field>
+      <field name="start">SER_1670254016790_63731</field>
+      <field name="end">DLK_1669726129623_100566</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598800_20507">
+      <field name="name">Connection 32</field>
+      <field name="start">SER_1670251892075_50343</field>
+      <field name="end">DLK_1669726129623_100566</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598800_20508">
+      <field name="name">Connection 33</field>
+      <field name="start">SER_1708348368908_10923</field>
+      <field name="end">DLK_1669726129623_100566</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598800_20509">
+      <field name="name">Connection 34</field>
+      <field name="start">SER_1670252723752_55088</field>
+      <field name="end">DLK_1669726129623_100566</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598800_20510">
+      <field name="name">Connection 35</field>
+      <field name="start">SER_1708348368908_10927</field>
+      <field name="end">DLK_1669726129623_100566</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598800_20511">
+      <field name="name">Connection 36</field>
+      <field name="start">SER_1709123231897_427772</field>
+      <field name="end">DLK_1669724778711_71300</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598800_20512">
+      <field name="name">Connection 37</field>
+      <field name="start">SER_1670252418101_53704</field>
+      <field name="end">DLK_1669724778711_71300</field>
+    </element>
+    <element class="Service_CommunicationLink_Edge" hash="DLK_1742290598801_20513">
+      <field name="name">Connection 38</field>
+      <field name="start">SER_1670252302921_52856</field>
+      <field name="end">DLK_1669724778711_71300</field>
     </element>
     <element class="PhysicalDataProcessingComponent_Location_Edge" hash="DLK_1689233886815_7577">
       <field name="name">Connection 1</field>
@@ -44478,9 +44488,9 @@ NUM:
     <description></description>
     <view>
       <selected>true</selected>
-      <x>1324</x>
-      <y>720</y>
-      <zoom>0.91</zoom>
+      <x>1230</x>
+      <y>367</y>
+      <zoom>0.89</zoom>
       <degree>66</degree>
       <shift>431</shift>
       <pageSizeFactor>3.0</pageSizeFactor>
@@ -44800,12 +44810,26 @@ NUM:
       </layout>
       <container hash="TEX_1675324291546_6453">
         <layout>
-          <x>500</x>
-          <y>-318</y>
+          <x>981</x>
+          <y>-272</y>
           <width>709</width>
           <height>504</height>
           <icon>IMG_16753243271241.gif</icon>
           <valign>BOTTOM</valign>
+        </layout>
+      </container>
+      <container hash="TEX_1742290598788_20475">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </color>
+          <x>326</x>
+          <y>-341</y>
+          <width>502</width>
+          <height>150</height>
+          <htmlalign>LEFT</htmlalign>
         </layout>
       </container>
     </layer>
@@ -47509,13 +47533,13 @@ NUM:
     <view>
       <selected>false</selected>
       <x>355</x>
-      <y>536</y>
+      <y>338</y>
       <zoom>0.74</zoom>
       <degree>65</degree>
       <shift>428</shift>
       <pageSizeFactor>2.7734375</pageSizeFactor>
       <activeLayer>2</activeLayer>
-      <multiView>false</multiView>
+      <multiView>true</multiView>
     </view>
     <mapping>
       <layout class="Bendpoint">
@@ -50172,7 +50196,7 @@ NUM:
       <shift>200</shift>
       <pageSizeFactor>2.63671875</pageSizeFactor>
       <activeLayer>2</activeLayer>
-      <multiView>false</multiView>
+      <multiView>true</multiView>
     </view>
     <mapping>
       <layout class="Bendpoint">
@@ -50653,7 +50677,7 @@ NUM:
       <shift>200</shift>
       <pageSizeFactor>2.63671875</pageSizeFactor>
       <activeLayer>2</activeLayer>
-      <multiView>false</multiView>
+      <multiView>true</multiView>
     </view>
     <mapping>
       <layout class="Bendpoint">
@@ -51127,14 +51151,14 @@ NUM:
     <description></description>
     <view>
       <selected>false</selected>
-      <x>328</x>
-      <y>267</y>
+      <x>313</x>
+      <y>0</y>
       <zoom>0.59</zoom>
       <degree>65</degree>
       <shift>200</shift>
       <pageSizeFactor>2.9609375</pageSizeFactor>
       <activeLayer>2</activeLayer>
-      <multiView>false</multiView>
+      <multiView>true</multiView>
     </view>
     <mapping>
       <layout class="Bendpoint">
@@ -61527,13 +61551,13 @@ NUM:
     <view>
       <selected>false</selected>
       <x>198</x>
-      <y>144</y>
+      <y>294</y>
       <zoom>0.66</zoom>
       <degree>67</degree>
       <shift>533</shift>
       <pageSizeFactor>2.6119791666666665</pageSizeFactor>
       <activeLayer>2</activeLayer>
-      <multiView>true</multiView>
+      <multiView>false</multiView>
     </view>
     <mapping>
       <layout class="Bendpoint">
@@ -61970,6 +61994,20 @@ NUM:
           <y>296</y>
           <width>116</width>
           <height>62</height>
+        </layout>
+      </container>
+      <container hash="TEX_1742290598788_20475">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </color>
+          <x>326</x>
+          <y>-341</y>
+          <width>502</width>
+          <height>150</height>
+          <htmlalign>LEFT</htmlalign>
         </layout>
       </container>
       <container hash="DLK_1689233960021_7583"></container>
