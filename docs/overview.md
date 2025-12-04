@@ -1,7 +1,5 @@
 # MII Gesamtarchitektur
 
-[![GitHub[+] Release](https://img.shields.io/github/v/release/medizininformatik-initiative/mii-architecture?sort=date&display_name=tag&style=flat&logo=github&label=current)]() [![Docs](https://img.shields.io/badge/Docs-green.svg)](https://medizininformatik-initiative.github.io/mii-architecture/)
-
 Dieses Repository enthält ein Modell der Data Sharing Architektur der MII in mehreren Teilmodellen und unterschiedlichen Detailstufen.
 
 An der Modellierung haben die Akteure beigetragen, die für die Teile der Gesamtarchitektur zuständig sind.
