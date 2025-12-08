@@ -64,6 +64,16 @@ export default withMermaid({
                             {text: 'Vereinfacht', link: '01_diz/basic.md'},
                             {text: 'Detailiert', link: '01_diz/detailed.md'},
                         ]
+                },
+                {
+                    text: 'FDPG',
+                    link: '02_fdpg/index.md',
+                    items:
+                        [
+                            {text: 'Detailiert', link: '02_fdpg/detailed.md'},
+                            {text: 'Feasibility', link: '02_fdpg/feasibility.md'},
+                            {text: 'KDS Report', link: '02_fdpg/kds-report.md'},
+                        ]
                 }
             ]
         }
