@@ -35,17 +35,28 @@ export default withMermaid({
             { text: 'Home', link: '/' }
         ],
 
-        sidebar: [
-            {
-                text: 'Home',
-                link: '/index.md',
-                activeMatch: '^/$'
-            },
-            {
-                text: 'Overview',
-                link: '/overview.md',
-                activeMatch: '^/$'
-            }
-        ]
+        sidebar: {
+            '/': [
+                {
+                    text: 'MII-Architektur',
+                    link: '/index.md',
+                    activeMatch: '^/$'
+                },
+                {
+                    text: 'Einleitung',
+                    link: '/introduction.md',
+                    activeMatch: '^/$'
+                },
+                {
+                    text: 'Überblick',
+                    link: '00_overview/index.md',
+                    items:
+                        [
+                            {text: 'Vereinfacht', link: '00_overview/basic.md'},
+                            {text: 'Detailiert', link: '00_overview/detailed.md'},
+                        ]
+                }
+            ]
+        }
     }
 })
