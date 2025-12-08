@@ -7,8 +7,8 @@ hero:
   tagline: Dieses Repository enthält ein Modell der Data Sharing Architektur der MII in mehreren Teilmodellen und unterschiedlichen Detailstufen.
   actions:
     - theme: brand
-      text: Overview
-      link: /overview
+      text: Einführung
+      link: /introduction
     - theme: alt
       text: View on GitHub
       link: https://github.com/medizininformatik-initiative/mii-architecture
@@ -18,7 +18,7 @@ features:
   - title: MII-Architektur
     icon: 🖥️
     details: MII-Architektur - Gesamtüberblick
-    link: /overview
+#    link: /introduction
 #  - title: Data Node
 #    icon: 🏥
 #    details: Collection of software and services needed to execute data use projects as part of a data portal

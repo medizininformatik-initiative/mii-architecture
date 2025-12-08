@@ -55,6 +55,15 @@ export default withMermaid({
                             {text: 'Vereinfacht', link: '00_overview/basic.md'},
                             {text: 'Detailiert', link: '00_overview/detailed.md'},
                         ]
+                },
+                {
+                    text: 'DIZ',
+                    link: '01_diz/index.md',
+                    items:
+                        [
+                            {text: 'Vereinfacht', link: '01_diz/basic.md'},
+                            {text: 'Detailiert', link: '01_diz/detailed.md'},
+                        ]
                 }
             ]
         }
