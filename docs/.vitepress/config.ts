@@ -1,5 +1,7 @@
 import { withMermaid } from "vitepress-plugin-mermaid";
 
+const currentYear = new Date().getFullYear();
+
 export default withMermaid({
     title: 'MII Gesamtarchitektur',
     description: 'Dieses Repository enthält ein Modell der Data Sharing Architektur der MII in mehreren Teilmodellen und unterschiedlichen Detailstufen.',
@@ -8,7 +10,7 @@ export default withMermaid({
     appearance: true,
     lastUpdated: true,
     themeConfig: {
-        siteTitle: false,
+        siteTitle: true,
 
         editLink: {
             pattern: 'https://github.com/medizininformatik-initiative/mii-architecture/edit/main/docs/:path',
@@ -73,6 +75,13 @@ export default withMermaid({
                         ]
                 }
             ]
+        },
+        footer: {
+            message: 'Released under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a>',
+            copyright: `Copyright © 2024 - ${currentYear}`,
+        },
+        search: {
+            provider: 'local'
         }
     }
 })
