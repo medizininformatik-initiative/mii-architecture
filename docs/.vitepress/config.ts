@@ -48,8 +48,7 @@ export default withMermaid({
                     activeMatch: '^/$'
                 },
                 {
-                    text: 'Überblick',
-                    link: '00_overview/index.md',
+                    text: 'Überblick',link: '00_overview/index.md', collapsed: true,
                     items:
                         [
                             {text: 'Vereinfacht', link: '00_overview/basic.md'},
@@ -57,8 +56,7 @@ export default withMermaid({
                         ]
                 },
                 {
-                    text: 'DIZ',
-                    link: '01_diz/index.md',
+                    text: 'DIZ', link: '01_diz/index.md', collapsed: true, 
                     items:
                         [
                             {text: 'Vereinfacht', link: '01_diz/basic.md'},
@@ -66,8 +64,7 @@ export default withMermaid({
                         ]
                 },
                 {
-                    text: 'FDPG',
-                    link: '02_fdpg/index.md',
+                    text: 'FDPG', link: '02_fdpg/index.md', collapsed: true,
                     items:
                         [
                             {text: 'Detailiert', link: '02_fdpg/detailed.md'},
