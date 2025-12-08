@@ -10,7 +10,7 @@ export default withMermaid({
     appearance: true,
     lastUpdated: true,
     themeConfig: {
-        siteTitle: true,
+        // siteTitle: false,
 
         editLink: {
             pattern: 'https://github.com/medizininformatik-initiative/mii-architecture/edit/main/docs/:path',
@@ -72,6 +72,34 @@ export default withMermaid({
                             {text: 'Detailiert', link: '02_fdpg/detailed.md'},
                             {text: 'Feasibility', link: '02_fdpg/feasibility.md'},
                             {text: 'KDS Report', link: '02_fdpg/kds-report.md'},
+                        ]
+                },
+                {
+                    text: 'Datenmanagementstelle', link: '03_datenmanagementstelle/index.md', collapsed: true,
+                    items:
+                        [
+                            {text: 'Detailiert', link: '03_datenmanagementstelle/detailed.md'},
+                        ]
+                },
+                {
+                    text: 'fTTP', link: '04_fTTP/index.md', collapsed: true,
+                    items:
+                        [
+                            {text: 'Detailiert', link: '04_fTTP/detailed.md'},
+                        ]
+                },
+                {
+                    text: 'Middleware', link: '05_middleware/index.md', collapsed: true,
+                    items:
+                        [
+                            {text: 'Detailiert', link: '05_middleware/detailed.md'},
+                        ]
+                },
+                {
+                    text: 'Test Infrastruktur', link: '06_test-infrastructure/index.md', collapsed: true,
+                    items:
+                        [
+                            {text: 'Detailiert', link: '06_test-infrastructure/detailed.md'},
                         ]
                 }
             ]
