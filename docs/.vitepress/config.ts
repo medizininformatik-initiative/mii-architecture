@@ -40,11 +40,6 @@ export default withMermaid({
         sidebar: {
             '/': [
                 {
-                    text: 'MII-Architektur',
-                    link: '/index.md',
-                    activeMatch: '^/$'
-                },
-                {
                     text: 'Einleitung',
                     link: '/introduction.md',
                     activeMatch: '^/$'
