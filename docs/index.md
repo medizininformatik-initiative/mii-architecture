@@ -16,11 +16,11 @@ hero:
 # Hier werden die Kacheln auf der Startseite definiert.
 features:
   - title: MII-Architektur
-    icon: 🖥️
+    icon: 🗺️
     details: MII-Architektur - Gesamtüberblick
 #    link: /introduction
   - title: Überblick
-    icon: 🚁
+    icon: 🔭
 #    details: Collection of software and services needed to execute data use projects as part of a data portal
 #    link: /data-node/overview
   - title: Datenintegrationszentrum (DIZ)
@@ -28,11 +28,11 @@ features:
   - title: Forschungsdatenportal für Gesundheit (FDPG)
     icon: 🌐
   - title: Datenmanagementstelle
-    icon: 🏤
+    icon: 🗃️
   - title: Föderierte Treuhandstelle (fTTP)
-    icon: 🏛️
+    icon: 🛡️
   - title: Middleware
     icon: 🔀
   - title: Test Infrastruktur
-    icon: 🚧
+    icon: 🏗️
 ---
