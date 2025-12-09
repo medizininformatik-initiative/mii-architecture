@@ -20,13 +20,19 @@ features:
     details: MII-Architektur - Gesamtüberblick
 #    link: /introduction
   - title: Überblick
-    icon: 🏥
+    icon: 🚁
 #    details: Collection of software and services needed to execute data use projects as part of a data portal
 #    link: /data-node/overview
-  - title: Datenintegrationscentrum (DIZ)
+  - title: Datenintegrationszentrum (DIZ)
+    icon: 🏥
   - title: Forschungsdatenportal für Gesundheit (FDPG)
+    icon: 🌐
   - title: Datenmanagementstelle
+    icon: 🏤
   - title: Föderierte Treuhandstelle (fTTP)
+    icon: 🏛️
   - title: Middleware
+    icon: 🔀
   - title: Test Infrastruktur
+    icon: 🚧
 ---
