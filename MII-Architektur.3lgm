@@ -39,6 +39,34 @@
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
     </userFieldDef>
+    <userFieldDef elementClass="ServiceClass" hash="USERFIELD_1673511976891_10945">
+      <userFieldName>Benutzerdefinierte Eigenschaftsfelder</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>TAB</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="ServiceClass" hash="USERFIELD_1673511976891_10944">
+      <userFieldName>Homepage</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>HYPERLINK</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="Service" hash="USERFIELD_1677139693470_7200">
+      <userFieldName>Doku</userFieldName>
+      <userFieldDescription>Weiterführende Informationen zum Service.</userFieldDescription>
+      <userFieldStyle>TAB</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="Service" hash="USERFIELD_1677139693470_7199">
+      <userFieldName>Doku-Link</userFieldName>
+      <userFieldDescription>URL, z.B. zur Spezifikation, Dokumenten, Beschreibungen.</userFieldDescription>
+      <userFieldStyle>HYPERLINK</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
     <userFieldDef elementClass="RepresentationForm" hash="USERFIELD_1622801082285_1965">
       <userFieldName>XDS Metadaten</userFieldName>
       <userFieldDescription></userFieldDescription>
@@ -766,6 +794,34 @@
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
     </userFieldDef>
+    <userFieldDef elementClass="Textfield" hash="USERFIELD_1734352108107_11285">
+      <userFieldName>MII</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>TAB</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="Textfield" hash="USERFIELD_1734352108107_11284">
+      <userFieldName>MII-SharePoint URL</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>HYPERLINK</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>false</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="ApplicationSystem" hash="USERFIELD_1689234358789_7897">
+      <userFieldName>MII</userFieldName>
+      <userFieldDescription>MII related attributes</userFieldDescription>
+      <userFieldStyle>TAB</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="ApplicationSystem" hash="USERFIELD_1689234395434_7898">
+      <userFieldName>URL</userFieldName>
+      <userFieldDescription>URL to access web-application</userFieldDescription>
+      <userFieldStyle>HYPERLINK</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
     <userFieldDef elementClass="ObjectType" hash="USERFIELD_1669884870745_32050">
       <userFieldName>MII KDS</userFieldName>
       <userFieldDescription></userFieldDescription>
@@ -791,6 +847,66 @@
       <userFieldName>Simplifier Projekt</userFieldName>
       <userFieldDescription>Link zum Simplifier Projekt</userFieldDescription>
       <userFieldStyle>HYPERLINK</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="Group" hash="USERFIELD_1669994634381_38782">
+      <userFieldName>Netzwerkzone</userFieldName>
+      <userFieldDescription>In einer Netzwerkzone können physische Datenverarbeitungsbausteine gruppiert werden.</userFieldDescription>
+      <userFieldStyle>TAB</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="Group" hash="USERFIELD_1669996287108_38999">
+      <userFieldName>Network Name</userFieldName>
+      <userFieldDescription></userFieldDescription>
+      <userFieldStyle>COMBO_BOX</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+      <userFieldStandardValue>Clinic Prd</userFieldStandardValue>
+      <userFieldStandardValue>DIC Clinic Prd</userFieldStandardValue>
+      <userFieldStandardValue>DIC Clinic Dev</userFieldStandardValue>
+      <userFieldStandardValue>DIC Research Prd</userFieldStandardValue>
+      <userFieldStandardValue>DIC Research Dev</userFieldStandardValue>
+      <userFieldStandardValue>DIC DataSharing Prd</userFieldStandardValue>
+      <userFieldStandardValue>MII Data Sharing</userFieldStandardValue>
+      <userFieldStandardValue>Clinic Dev</userFieldStandardValue>
+      <userFieldStandardValue>Research Prd</userFieldStandardValue>
+      <userFieldStandardValue>Research Dev</userFieldStandardValue>
+      <userFieldStandardValue>DataSharing Prd</userFieldStandardValue>
+    </userFieldDef>
+    <userFieldDef elementClass="Group" hash="USERFIELD_1669997137955_39002">
+      <userFieldName>IPv4 Settings</userFieldName>
+      <userFieldDescription>see https://www.site24x7.com/de/tools/ipv4-subnet-zrechner.html</userFieldDescription>
+      <userFieldStyle>GROUP</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="Group" hash="USERFIELD_1669996237291_38998">
+      <userFieldName>Subnet IPv4</userFieldName>
+      <userFieldDescription>e.g. 10.10.0.0/16</userFieldDescription>
+      <userFieldStyle>SINGLE_LINE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="Group" hash="USERFIELD_1669996648528_39000">
+      <userFieldName>Subnet Mask IPv4</userFieldName>
+      <userFieldDescription>e.g. 255.255.254.0/23</userFieldDescription>
+      <userFieldStyle>SINGLE_LINE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="Group" hash="USERFIELD_1669996827587_39001">
+      <userFieldName>Host Address Range IPv4</userFieldName>
+      <userFieldDescription>e.g. 10.10.0.1 - 10.10.1.254</userFieldDescription>
+      <userFieldStyle>SINGLE_LINE</userFieldStyle>
+      <userFieldTreeVis>true</userFieldTreeVis>
+      <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
+    </userFieldDef>
+    <userFieldDef elementClass="Group" hash="USERFIELD_1669994178892_38775">
+      <userFieldName>Netzwerkzone</userFieldName>
+      <userFieldDescription>In einer Netzwerkzone können physische Datenverarbeitungsbausteine gruppiert werden.</userFieldDescription>
+      <userFieldStyle>SUBTYPE</userFieldStyle>
       <userFieldTreeVis>true</userFieldTreeVis>
       <userFieldShowDescriptionInDialog>true</userFieldShowDescriptionInDialog>
     </userFieldDef>
@@ -3453,6 +3569,9 @@ Siehe https://github.com/medizininformatik-initiative/mii-fhir-site-report-aktin
     </element>
     <element class="ProvidingInterface" hash="PIN_1678111027689_30621">
       <field name="name">Backend Proposal Schnittstelle (bereitstellend) 1</field>
+    </element>
+    <element class="Textfield" hash="TEX_1762351147010_6285">
+      <field name="name">besserer Begriff: "FHIR DB"</field>
     </element>
     <element class="SoftwareProduct" hash="SPR_1674118841449_5404">
       <field name="name">Blaze</field>
@@ -7257,6 +7376,9 @@ Nutzt diese für (Build, Deploy):
     <element class="Textfield" hash="TEX_1700148869086_7136">
       <field name="name">This submodel is part of version 3 (or later) of this model.</field>
     </element>
+    <element class="Textfield" hash="TEX_1762351186271_6335">
+      <field name="name">TM für Leitung, Öffentlichkeit</field>
+    </element>
     <element class="Textfield" hash="TEX_1675324199588_6354">
       <field name="name">TMF FDPG:
 - NestJS Verbindungen?</field>
@@ -7401,6 +7523,9 @@ Der Leitfaden spezifiziert und beschreibt, wie die nötigen fachlichen Operation
     </element>
     <element class="SoftwareProduct" hash="SPR_1786602995695_19160">
       <field name="name">vpfs</field>
+    </element>
+    <element class="Textfield" hash="TEX_1762350993817_6265">
+      <field name="name">vergöbern</field>
     </element>
     <element class="ServiceClass" hash="SCL_1677832578501_7148">
       <field name="name">Web Socket Services</field>
@@ -35495,19 +35620,56 @@ NUM:
             <green>204</green>
             <blue>102</blue>
           </color>
-          <x>-497</x>
-          <y>-152</y>
-          <width>90</width>
-          <height>62</height>
+          <x>-489</x>
+          <y>-134</y>
+          <width>107</width>
+          <height>98</height>
           <valign>TOP</valign>
         </layout>
       </container>
       <container hash="PIN_1671047185639_4850">
         <layout>
-          <x>-451</x>
-          <y>-155</y>
+          <x>-435</x>
+          <y>-138</y>
           <width>19</width>
           <height>19</height>
+        </layout>
+      </container>
+      <container hash="TEX_1762350993817_6265">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>204</blue>
+          </color>
+          <x>-1200</x>
+          <y>-520</y>
+        </layout>
+      </container>
+      <container hash="TEX_1762351147010_6285">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>204</blue>
+          </color>
+          <x>-685</x>
+          <y>-270</y>
+          <width>90</width>
+          <height>68</height>
+        </layout>
+      </container>
+      <container hash="TEX_1762351186271_6335">
+        <layout>
+          <color name="bg_color">
+            <red>255</red>
+            <green>255</green>
+            <blue>204</blue>
+          </color>
+          <x>-720</x>
+          <y>-471</y>
+          <width>90</width>
+          <height>68</height>
         </layout>
       </container>
       <container hash="DLK_1669885563965_32098"></container>
@@ -59720,7 +59882,7 @@ NUM:
     <view>
       <selected>false</selected>
       <x>71</x>
-      <y>94</y>
+      <y>64</y>
       <zoom>0.76</zoom>
       <degree>64</degree>
       <shift>641</shift>
